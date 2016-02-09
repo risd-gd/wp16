@@ -1,2 +1,2 @@
 # wp16
-Web Programming Workshop
+Web Programming Workshop, indeed
