@@ -36,11 +36,11 @@ Although written with HTML/CSS, the assignments are inspired by the contemporary
 * Assignment 5: Movement and interaction
 * Assignment 6: Responsive animation
 
-### Week Four: Final Project
+### Week Four
 * Review assignment 6
 * Lecture: From sketch to code
 * In-class activity: Putting it all together
-* Future assignments
+* Possible future assignments
 
 ## Software needed
 * Textwrangler or other HTML editor
