@@ -1,7 +1,7 @@
 # Syllabus
 
 * WKSHP: WEB PROGRAMMING; RISD GRAPH-3188 (20882)
-* Spring 2016, 1:10–6:10pm, Fridays
+* Spring 2016, 1:10–6:10pm, Fridays. Room 404
 * 1 credit
 * wp16.risd.gd
 * Instructor: Asst Prof John Caserta, jcaserta@risd.edu; DC105, Mondays 10:30am–1:30pm
@@ -13,11 +13,15 @@ Although written with HTML/CSS, the assignments are inspired by the contemporary
 
 ## Course objectives
 * Be introduced to HTML and CSS syntax to help conceptualize future projects
-* Encourage use of the browser for experimentation
+* Encourage use of the browser as a place for experimentation
 * Introduce both analytical and playful working methods
-* Be introduced to instructions-based making — HTML being one of many coding methods.
-* Be comfortable editing existing themes or websites.
+* Be introduced to instructions-based making — HTML being one of many coding methods
+* Be comfortable editing existing themes or websites
+* To learn how to find answers online to coding problems
 * Learn to work collaboratively in an open-source model
+
+## Learning outcomes
+* A series of drawing structural using code
 
 ## Schedule
 ### Week One: Concrete Forms
@@ -33,13 +37,15 @@ Week Two: Abstract Forms
 * Review assignment 6
 * Lecture: From sketch to code
 * In-class activity: Putting it all together
+* Future assignments
+
+## Software needed
+* Textwrangler or other HTML editor
+* Safari or Chrome browser
 
 
-Software needed
-Textwrangler or other HTML editor
-Safari or Chrome browser
-Grading
-40% attendance, 40% completion of all assignments
-20% risk-taking/quality of end forms: you are expected to experiment, iterate and form innovate designs with the coding that you’ve been shown. Because work from previous sessions is available, you are able to appropriate code, but in service of your own ideas and forms.
-Missing one class without permission fails the course
-Although we are “wired” throughout the workshop, avoid being plugged into Facebook, email, etc.
+## Grading
+* 40% attendance, 40% completion of all assignments
+* 20% risk-taking/quality of end forms: you are expected to experiment, iterate and form innovate designs with the coding that you’ve been shown. Because work from previous sessions is available, you are able to appropriate code, but in service of your own ideas and forms.
+* Missing one class without permission fails the course
+* Although we are “wired” throughout the workshop, avoid being plugged into Facebook, email, etc.
