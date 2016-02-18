@@ -27,12 +27,15 @@ Although written with HTML/CSS, the assignments are inspired by the contemporary
 ### Week One: Concrete Forms
 * Assignment 1: Drawing exercise
 * Assignment 2: Found object drawings
-Week Two: Abstract Forms
+
+### Week Two: Abstract Forms
 * Assignment 3: Abstract compositions
 * Assignment 4: Patterns
+
 ### Week Three: Active Forms
 * Assignment 5: Movement and interaction
 * Assignment 6: Responsive animation
+
 ### Week Four: Final Project
 * Review assignment 6
 * Lecture: From sketch to code
