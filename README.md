@@ -1,10 +1,9 @@
-Syllabus
-=========
+# Syllabus
 
-*RISD GRAPH-3188-03 (20882) WKSHP: WEB PROGRAMMING
-*Spring 2015, 1:10–6:10pm, Fridays
-*1 credit
-*wp16.risd.gd
+* RISD GRAPH-3188 (20882) WKSHP: WEB PROGRAMMING
+* Spring 2015, 1:10–6:10pm, Fridays
+* 1 credit
+* wp16.risd.gd
 
 ## John Caserta, instructor; jcaserta@risd.edu; DC105, Mondays 10:30am–1:30pm
 ## Brian Hicks, teaching assistant
@@ -13,11 +12,11 @@ This three-session workshop combines the tactical skills needed to structure web
 
 Although written with HTML/CSS, the assignments are inspired by the contemporary and historical print works of Bradbury Thomspon, Karel Martens and Paul Elliman. Paramount is that students become attuned to the vocabulary and possibilities of graphic form in the digital age. The digital age, similar to the era before in its capacity to precisely arrange or playfully experiment.
 
-Course objectives
-Be introduced to HTML and CSS syntax to help conceptualize future projects
+## Course objectives
+* Be introduced to HTML and CSS syntax to help conceptualize future projects
 Encourage use of the browser for experimentation
 Introduce both analytical and playful working methods
-Be introduced to instructions-based making — HTML being one of many coding methods.
+* Be introduced to instructions-based making — HTML being one of many coding methods.
 Be comfortable editing existing themes or websites.
 Learn to work collaboratively in an open-source model
 Week One: Concrete Forms
