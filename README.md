@@ -1,15 +1,15 @@
 Syllabus
 =========
 
-# RISD GRAPH-3188-03 (20882) WKSHP: WEB PROGRAMMING
-# Spring 2015, 1:10–6:10pm, Fridays
-# 1 credit
-# wp15.risd.gd
+*RISD GRAPH-3188-03 (20882) WKSHP: WEB PROGRAMMING
+*Spring 2015, 1:10–6:10pm, Fridays
+*1 credit
+*wp16.risd.gd
 
-# John Caserta, instructor; jcaserta@risd.edu; DC105, Mondays 10:30am–1:30pm
-# Brian Hicks, teaching assistant
+## John Caserta, instructor; jcaserta@risd.edu; DC105, Mondays 10:30am–1:30pm
+## Brian Hicks, teaching assistant
 
-# This three-session workshop combines the tactical skills needed to structure web pages with a looser more playful compositional mindset. Students are introduced to the structural elements and properties of HTML and CSS through hands-on demos, in-class exercises and take-home assignments. Tight technical HTML drawings in week one give way to full-screen abstract compositions in week two. Week three incorporates interaction, introducing CSS3 transform, animation, and other user-controlled properties. The final assignment for week four will allow you to combine what you learned in the first three weeks.
+This three-session workshop combines the tactical skills needed to structure web pages with a looser more playful compositional mindset. Students are introduced to the structural elements and properties of HTML and CSS through hands-on demos, in-class exercises and take-home assignments. Tight technical HTML drawings in week one give way to full-screen abstract compositions in week two. Week three incorporates interaction, introducing CSS3 transform, animation, and other user-controlled properties. The final assignment for week four will allow you to combine what you learned in the first three weeks.
 
 Although written with HTML/CSS, the assignments are inspired by the contemporary and historical print works of Bradbury Thomspon, Karel Martens and Paul Elliman. Paramount is that students become attuned to the vocabulary and possibilities of graphic form in the digital age. The digital age, similar to the era before in its capacity to precisely arrange or playfully experiment.
 
