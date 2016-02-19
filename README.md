@@ -20,9 +20,6 @@ Although written with HTML/CSS, the assignments are inspired by the contemporary
 * To learn how to find answers online to coding problems
 * Learn to work collaboratively in an open-source model
 
-## Learning outcomes
-* A series of drawing structural using code
-
 ## Schedule
 ### Week One: Concrete Forms
 * Assignment 1: Drawing exercise
