@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>Chessboard</title>
+		<style>
+
+				.special {background: black;
+				width: 5%; height: 5%; 
+
+				}
+				.special2 {background-color: red;
+				width: 5%; height: 5%;
+				}
+		</style>
+	</head>
+		<body>	
+			<div class= "special"></div>
+			</div>
+			<div>
+							<div class= "special"></div>
+</div>
+		</body>
+		<div class= "special2"></div>
+</html>
