@@ -44,6 +44,8 @@ Although written with HTML/CSS, the assignments are inspired by the contemporary
 
 ## Software needed
 * [Textwrangler](http://www.barebones.com/products/textwrangler/) or other HTML editor
+* Join GitHub and let's add you to the team!
+* [Download GitHub Mac client](https://desktop.github.com/) and clone class repo
 * Safari or Chrome browser
 
 
