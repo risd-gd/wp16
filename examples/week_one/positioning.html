@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>Positioning</title>
+		<style>
+			div { 
+				width: 400px;
+				height: 100px;
+				background: grey;
+				margin: 10px; 
+				z-index: 20;
+			}
+			.logo { 
+			background: red;
+			position: absolute;
+			bottom: 0; left: 0;
+			z-index: 10;
+			   }
+			.navbar { 
+			background: blue;
+			position: fixed;
+			bottom: 0; right: 0;
+			z-index: -1;
+			 }
+		</style>
+	</head>  
+	<body>
+		<!-- different -->
+		<div class="navbar"></div>
+		<div class="logo"></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</body>
+</html>
