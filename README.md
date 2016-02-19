@@ -43,7 +43,7 @@ Although written with HTML/CSS, the assignments are inspired by the contemporary
 * Possible future assignments
 
 ## Software needed
-* Textwrangler or other HTML editor
+* [Textwrangler](http://www.barebones.com/products/textwrangler/) or other HTML editor
 * Safari or Chrome browser
 
 
