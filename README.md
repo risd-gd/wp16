@@ -22,17 +22,17 @@ Although written with HTML/CSS, the assignments are inspired by the contemporary
 
 ## Schedule
 ### Week One: Concrete Forms
-Week one emphasizes the strategic and deliberate construction of space on a web page. There is a certain mindset and process in making what you've sketched/imagined.
+>Week one emphasizes the strategic and deliberate construction of space on a web page. There is a certain mindset and process in making what you've sketched/imagined.
 * Assignment 1: Drawing a flag
 * Assignment 2: Draw found objects
 
 ### Week Two: Abstract Forms
-Week two encourages a different mindset. How can you work with the code and the browser to discover designs as you make.  
+>Week two encourages a different mindset. How can you work with the code and the browser to discover designs as you make.  
 * Assignment 3: Abstract compositions
 * Assignment 4: Patterns
 
 ### Week Three: Active Forms
-Motion is an incredibly important part of a site. Here you learn CSS properites for movement and how to activate events using jQuery.
+>Motion is an incredibly important part of a site. Here you learn CSS properites for movement and how to activate events using jQuery.
 * Assignment 5: Movement and interaction
 * Assignment 6: Responsive animation
 
