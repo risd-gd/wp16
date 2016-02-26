@@ -2,23 +2,45 @@
 	<head>
 		<title>Overflow</title>
 		<style>
-			div, p {  }
+			div, .brick {  /* declarations */ }
+			/* all divs AND brick classes */
+			
+			div .brick {  /* declarations */ }
+			/* all divs nested WITHIN brick classes */
+			
+			div>.brick {  /* declarations */ }
+			/* divs whose children are brick classes */
+			
+			div.brick {  /* declarations */ }
+			/* div elements that have class of brick */
+			
+			div.brick {  /* declarations */ }
+			/* div elements that have class of brick */
+
+			div+brick {  /* declarations */ }
+			/* if brick class comes after div */
+
+			div~brick {  /* declarations */ }
+			/* if brick class comes before div  */
+
 			.johncaserta { 
-				background: rgba(255,0,0,.1);
+				background: none;
 				width: 25vh; height: 25vh;
-				overflow: hidden; }
+				 overflow: hidden;  }
 
 			.johncaserta div { 
 				 transform: rotate(10deg);
-				 border: 100px solid blue;
+				 border: 80px solid blue;
+				 margin: -20px;
+				 width: 25vh; height: 25vh;
 				 border-radius: 50%;
-				 border-right: 0;
+				 border-right: 80px solid transparent;
 				  }
 		</style>
 	</head>
 	<body>
 		<div class="johncaserta">
-			<div></div>
+			<div><div></div></div></div>
 		</div>
 	</body>
 </html>
