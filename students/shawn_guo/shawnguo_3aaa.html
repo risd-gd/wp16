@@ -6,7 +6,6 @@
 						height: 25vh;
 						width: 25vh; 
 						background: white; 
-						overflow: hidden; 				 
 			}
 			
 			.shawnshape div {
@@ -18,6 +17,132 @@
 							transform: rotate(35deg)
 			}
 			
+			.imordini { 
+					 background:white;
+					 width: 25px; height: 25px;
+					 position: relative;
+					 top: 50px;
+					 left: 300px;
+			} 
+					 
+					 .imordini div {
+					 		height: 15vh; width: 15vh;
+					 		background: black;
+					 		border: 1px solid white;
+					 		border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+			}
+			
+			 .imordiniTwo div {
+					 		height: 10vh; width: 10vh;
+					 		background: white;
+					 		border: 1px solid black;
+							border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+					 
+			}
+			
+			.hopper {
+					background: black;
+					transform: rotate (20deg);
+					border-radius: 20%;
+					border-left: 50%;
+					z-index: 1;
+			
+			}
+				
+			.hockney, .hopper {
+							width: 25vh;
+							height: 25vh;
+							
+		 	}
+
+			.hockney {
+					background:white;
+					transform: rotate(40deg);
+			}			
+			
+		div, .special {/*declarations*/}
+		/*all divs AND "special" classes*/
+
+		div .special{ /*declarations*/}
+		/* all divs WITHIN "special" classes*/
+
+
+		div>.special{ /*declarations*/}
+		/* the first "special" class within divs*/
+
+		.mos{
+			background: none;
+			width: 500px; height: 100vh;
+			margin: 10px;
+			position: absolute; 
+			top: 20px; 
+			left: 100px;
+		}
+
+		.mos div{
+			transform: perspective(600px) rotateX(20deg) rotateY(30deg);
+			border: 80px solid black;
+			margin: 60px;
+			width: 500px; height: 50vh;
+			border-radius: 30px;
+			border-right: 80px solid transparent;
+		}
+
+		.mos2{
+			transform: perspective(100px) rotateX(-20deg) rotateY(-30deg);
+		}
+		.mos3{
+			transform: perspective(100px) rotateX(70deg) rotateY(-30deg);
+			transform: rotate(80deg);
+			
+		div {
+			background: orange;
+			width: 25vh; height: 25vh;
+			
+			
+			}
+			
+			.ravista {
+					  background: white;
+					  width: 15px; height: 75px;
+					  transform: rotate(20deg);
+					  border: 40px dashed blue;
+					  border-radius: 5%;
+					  border-right: 40px solid transparent;
+					  
+					  }
+			
+			.ravista2 { background: white;
+						width: 30px; height: 80px;
+						transform: rotate(-30deg);
+						border: 20px solid orange;
+						border-radius: 30%;
+						border left: 70px solid transparent;
+						margin: -20px;
+						}
+		
+			.ravista3 { 
+						background: orange;
+						width: 60px; height: 120px;
+						transform: rotate(25deg);
+						border: 50px solid white;
+						border-radius: 30%;
+						border left: 70px solid transparent;
+						margin: -20px;
+						position: relative;
+						top: -200px;
+						left: 145px;
+						
+						}
+			
+			.annarosechi { 
+				background: rgba(255,255,255,1);
+				width: 25vh; height: 25vh;
+			}
+			
+
+				 	
+			
 
 			
 		</style>
@@ -25,7 +150,45 @@
 		
 		<body>
 			<div class="shawnshape">
-			<div><div><div></div></div></div>
+				<div><div><div></div></div></div>
+			
+			<div class="imordini">
+				<div><div><div><div><div><div></div></div></div></div></div></div>
+			
+			<div class="imordiniTwo">
+				<div><div><div><div><div><div></div></div></div></div></div></div>
+			
+			<div class = "hopper">
+			<div class = "hockney">
+				<div class = "hockney">
+					</div>
+				</div>
+	 		</div>
+	 		
+	 		
+			<div class="mos">
+				<div class="mos2">
+					<div>
+						<div class= "mos3">
+							<div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div>
+				<div class="ravista">
+					<div class="ravista2"></div>
+				</div>
+				<div class="ravista2"></div>
+				<div class="ravista3ß"></div>		
+			</div>
+			
+			
+			
+			
+	 		
+		</body>
 
 		</body>
 </html>
