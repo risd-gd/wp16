@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<style>
+		.paper01{
+			width: 200px;
+			height: 100px;
+			transform: perspective(600px);
+			
+		}
+
+		</style>
+	</head>
+	<body>
+		<div class="wallpaper">
+			<div class="frame01">
+			</div>
+			<div class="ribbons">
+			</div>
+
+		</div>
+	</body>
+</html>
