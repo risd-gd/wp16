@@ -23,17 +23,22 @@
 			div~brick {  /* declarations */ }
 			/* if brick class comes before div  */
 
-			
+			.layer1, .layer2 {
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
 			body { margin: 0; }
 			
-			.johncaserta { 
+			.layer1, .layer2 { 
 				background: yellow;
 				width: 100vw; height: 100vh;
 				overflow: hidden; 
 				 
 				  }
+			.layer2 div { background: red; }
 
-			.johncaserta div { 
+			.layer1 div, .layer2 div { 
 				 transform: rotate(10deg);
 				 border: 80px solid green;
 				 margin: -40px; float: left;
@@ -42,13 +47,23 @@
 				 border-radius: 50%;
 				  }
 				  
-			.johncaserta div:nth-child(2n) {  border-color: red; }
+			.layer2 div:nth-child(even) {  border-color: red; }
 			/* if brick class comes before div  */
 
 		</style>
 	</head>
 	<body>
-		<div class="johncaserta">
+
+	
+		<div class="layer1">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
 			<div></div>
 			<div></div>
 			<div></div>
@@ -58,5 +73,28 @@
 			<div></div>
 			<div></div>
 		</div>
+		
+	
+		<div class="layer2">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		
+		
+		
 	</body>
 </html>
