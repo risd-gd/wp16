@@ -1,0 +1,42 @@
+<html>
+	<head>
+		<style>
+		.paper01{
+			width: 200px;
+			height: 100px;
+  			transform: perspective( 600px ) rotateY( 45deg );
+  			background-color: black;
+
+		}
+
+		.paper02{
+			width: 200px;
+			height: 100px;
+			background-color: white;
+			transform: perspective(700px) rotateY(45deg);
+
+	-webkit-animation-name: example;
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+		}
+
+		@-webkit-keyframes example{
+			0% {left: 60px;top:10px;}
+			25% {left: 40px;top: 10px;}
+			50% {left: :20px; top:10px;}
+			100% {left: 40px; top:10px;}
+		}
+		@keyframes example {
+		    0%   { left:60px; top:10px;}
+		    25% {left: 40px;top: 10px;}
+		    50%  { left:20px; top:10px;}
+		    100%  { left:40px; top:10px;}
+		</style>
+	</head>
+	<body>
+		<div class="paper01">
+			<div class="paper02"></div>
+		</div>
+	</body>
+</html>
