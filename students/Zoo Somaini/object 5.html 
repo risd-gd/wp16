@@ -1,0 +1,33 @@
+
+
+<html>
+
+<head>
+		
+		<style>
+		
+		div {
+		
+		float: left;
+		
+		}
+		
+		.Zoo {background: black; position : absolute; top: 500; left: 150;
+		     width: 40px; height: 28px;  border-radius: 50%;
+		     
+		     }
+		     
+</style>
+		
+	
+</head>
+
+<body>
+
+	<div class=Zoo>
+	
+</div>
+
+</body>
+
+
