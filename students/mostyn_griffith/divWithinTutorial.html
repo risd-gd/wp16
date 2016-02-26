@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>div Within Tutorial</title>
+	</head>
+	<style>
+		div, .special {/*declarations*/}
+		/*all divs AND "special" classes*/
+
+		div .special{ /*declarations*/}
+		/* all divs WITHIN "special" classes*/
+
+
+		div>.special{ /*declarations*/}
+		/* the first "special" class within divs*/
+
+		.johncaserta{
+			background: none;
+			width: 50vh; height: 50vh;
+			overflow: hidden;
+		}
+
+		.johncaserta div{
+			transform: rotate(10deg);
+			border: 80px solid blue;
+			margin: -20px;
+			width: 25vw; height: 25vh;
+			border-radius: 50%;
+			border-right: 80px solid transparent;
+		}
+
+	</style>
+
+	<body>
+
+		<div class="johncaserta">
+			<div><div></div></div>
+		</div>
+
+	</body>
+
+</html>	
