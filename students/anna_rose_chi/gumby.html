@@ -1,0 +1,246 @@
+<html>
+	<head>
+		<title>gumby by anna rose</title>
+		<style>
+			div
+			{ width: 710px;
+			height: 710px;
+			background: lemonchiffon;
+			position: absolute;
+			top: 0;
+			left: 0; }
+			.head
+			{ height: 325px;
+			width: 50px;
+			background: lightseagreen;
+			position: absolute;
+			top: 50px;
+			left: 210px;
+			border-radius: 40px; 
+			-webkit-transform: rotate(-8deg); }
+			.head2
+			{ height: 350px;
+			width: 50px;
+			background: lightseagreen;
+			position: absolute;
+			top: 30px;
+			left: 295px;
+			border-radius: 40px; 
+			-webkit-transform: rotate(8deg); }
+			.head3
+			{ height: 50px;
+			width: 175px;
+			background: lightseagreen;
+			position: absolute;
+			top: 35px;
+			left: 190px;
+			border-radius: 40px;
+			-webkit-transform: rotate(-10deg); }
+			.torso
+			{ height: 330px;
+			width: 80px;
+			background: lightseagreen;
+			position: absolute;
+			top: 60px;
+			left: 240px;
+			border-radius: 40px; }
+			.leg1
+			{ height: 350px;
+			width: 50px;
+			background: lightseagreen;
+			position: absolute;
+			top: 330px;
+			left: 200px;
+			border-radius: 50px;
+			-webkit-transform: rotate(12deg); }
+			.leg2
+			{ height: 350px;
+			width: 50px;
+			background: lightseagreen;
+			position: absolute;
+			top: 330px;
+			left: 300px;
+			border-radius: 50px;
+			-webkit-transform: rotate(-12deg); }
+			.outerleg1
+			{ height: 350px;
+			width: 50px;
+			background: lightseagreen;
+			position: absolute;
+			top: 330px;
+			left: 175px;
+			border-radius: 50px;
+			-webkit-transform: rotate(20deg); }
+			.outerleg2
+			{ height: 350px;
+			width: 50px;
+			background: lightseagreen;
+			position: absolute;
+			top: 330px;
+			left: 330px;
+			border-radius: 50px;
+			-webkit-transform: rotate(-20deg); }
+			.foot1
+			{ height: 50px;
+			width: 98px;
+			background: lightseagreen;
+			position: absolute;
+			top: 630px;
+			left: 120px;
+			border-radius: 50px; }
+			.foot2
+			{ height: 50px;
+			width: 98px;
+			background: lightseagreen;
+			position: absolute;
+			top: 630px;
+			left: 335px;
+			border-radius: 50px; }
+			.arms
+			{ height: 50px;
+			width: 550px;
+			background: lightseagreen;
+			position: absolute;
+			top: 210px;
+			left: 110px;
+			border-radius: 50px; }
+			.bend
+			{ height: 150px;
+			width: 50px;
+			background: transparent;
+			position: absolute;
+			top: 110px;
+			left: 80px;
+			border-radius: 50px / 50px;
+			-webkit-border-radius: 50px / 50px;
+			border-left: 50px solid lightseagreen; 
+			-webkit-transform: rotate(-12deg); }
+			.hand
+			{ height: 150px;
+			width: 50px;
+			background: lightseagreen;
+			position: absolute;
+			top: 40px;
+			left: 65px;
+			border-radius: 50px;
+			-webkit-transform: rotate(-12deg); }
+			.thumb1
+			{ height: 50px;
+			width: 25px;
+			background: lightseagreen;
+			position: absolute;
+			top: 60px;
+			left: 95px;
+			border-radius: 25px;
+			-webkit-transform: rotate(15deg); }
+			.thumb2
+			{ height: 50px;
+			width: 25px;
+			background: lightseagreen;
+			position: absolute;
+			top: 190px;
+			left: 600px;
+			border-radius: 25px;
+			-webkit-transform: rotate(45deg); }
+			.mouth
+			{ height: 30px;
+			width: 30px;
+			background: transparent;
+			position: absolute;
+			top: 160px;
+			left: 260px;
+			border-radius: 30px / 30px; 
+			-webkit-border-radius: 30px / 30px;
+			border-bottom: 5px solid lemonchiffon; }
+			.nose
+			{ height: 0;
+			width: 0;
+			border-left: 6px solid lightseagreen;
+			border-right: 6px solid lightseagreen;
+			border-bottom: 20px solid lemonchiffon;
+			position: absolute;
+			top: 145px;
+			left: 269px; }
+			.eye1
+			{ height: 60px;
+			width: 45px;
+			background: lemonchiffon;
+			position: absolute;
+			top: 105px;
+			left: 215px;
+			border-radius: 45px / 60px;
+			-webkit-border-radius: 45px / 60px; }
+			.eye2
+			{ height: 60px;
+			width: 45px;
+			background: lemonchiffon;
+			position: absolute;
+			top: 105px;
+			left: 290px;
+			border-radius: 45px / 60px;
+			-webkit-border-radius: 45px / 60px; }
+			.pupil1
+			{ height: 25px;
+			width: 25px;
+			background: lightseagreen;
+			position: absolute;
+			top: 125px;
+			left: 237px;
+			border-radius: 25px; }
+			.pupil2
+			{ height: 25px;
+			width: 25px;
+			background: lightseagreen;
+			position: absolute;
+			top: 125px;
+			left: 312px;
+			border-radius: 25px; }
+			.brow1
+			{ height: 15px;
+			width: 20px;
+			background: transparent;
+			position: absolute;
+			top: 85px;
+			left: 227px;
+			border-radius: 20px / 15px; 
+			-webkit-border-radius: 20px / 15px;
+			border-top: 5px solid lemonchiffon; }
+			.brow2
+			{ height: 15px;
+			width: 20px;
+			background: transparent;
+			position: absolute;
+			top: 85px;
+			left: 303px;
+			border-radius: 20px / 15px; 
+			-webkit-border-radius: 20px / 15px;
+			border-top: 5px solid lemonchiffon; }
+		</style>
+	</head>
+	<body>
+		<div></div>
+		<div class="head"></div>
+		<div class="head2"></div>
+		<div class="head3"></div>
+		<div class="torso"></div>
+		<div class="leg1"></div>
+		<div class="leg2"></div>
+		<div class="outerleg1"></div>
+		<div class="outerleg2"></div>
+		<div class="foot1"></div>
+		<div class="foot2"></div>
+		<div class="arms"></div>
+		<div class="bend"></div>
+		<div class="hand"></div>
+		<div class="thumb1"></div>
+		<div class="thumb2"></div>
+		<div class="mouth"></div>
+		<div class="nose"></div>
+		<div class="eye1"></div>
+		<div class="eye2"></div>
+		<div class="pupil1"></div>
+		<div class="pupil2"></div>
+		<div class="brow1"></div>
+		<div class="brow2"></div>
+	</body>
+</html>
