@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>flag</title>
+		<style>
+			div { 
+				width: 500px;
+				height: 360px;
+				background: navy;
+				margin: 10px; 
+				z-index: 0;
+			}
+			.vert {
+				width: 80px;
+				height: 279 px;
+			background: white;
+			position: absolute;
+			bottom: 0; left: 140;
+			z-index: 5;
+			   }
+			.horiz {
+				width: 500px;
+				height: 40px;
+			background: red;
+			position: absolute;
+			bottom: 160; left: 7;
+			z-index: 10;
+			   }
+			.horiz2 {
+				width: 800px;
+				height: 80px;
+			background: white;
+			position: absolute;
+			bottom: 140; left: 7;
+			z-index: 5;
+			   }
+			.vert2 {
+				width: 40px;
+				height: 50 px;
+			background: red;
+			position: absolute;
+			bottom: 0; left: 160
+		;
+			z-index: 5;
+			   }
+		</style>
+	</head>  
+	<body>
+				<!-- different -->
+		<div class="horiz"></div>
+		<div class="vert"></div>
+				<div class="horiz2"></div>
+				<div class="vert2"></div>
+		<div></div>
+
+	</body>
+</html> 
