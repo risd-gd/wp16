@@ -7,10 +7,17 @@
 			div {
 			background: white;
 			width: 25vh; height: 25vh;
+			margin: 5px;
+			border: 5px;
 			overflow: hidden;
-		    
-			
 			}
+			
+			.bigdiv { background: white;
+					width: 125vh; height: 125vh;
+					margin: 5px;
+					border: 5px;
+					overflow: hidden;
+					}
 			
 			.ravista {
 					  background: white;
@@ -50,10 +57,10 @@
 					overflow: hidden; }
 			
 			.adrian div { 
-				 	transform: rotate(7deg) ;
-				 	border: 89px solid navy;
-				    opacity: .9
-				    margin: 100px;
+				 	transform: rotate(-3deg) ;
+				 	border: 60px solid blue;
+				    
+				    
 				    width: 400vh; 
 				    height: 70vh; 
 				    border-radius: 30%;
@@ -67,17 +74,25 @@
 					 
 					 .imordini div {
 					 		height: 15vh; width: 15vh;
-					 		background: black;
+					 		background: orange;
 					 		border: 1px solid white;
 					 		border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 					  		 }
 				 	 .imordiniTwo div {
 					 		height: 10vh; width: 10vh;
 					 		background: white;
-					 		border: 1px solid black;
-							border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-					 
+					 		border: 1px solid blue;
+							border-radius: 50% ;
 					  		 }
+					  		 
+			.move { 
+			       float: left;
+			       }
+			
+			.fliph { transform: scale(-1, 1);
+					}
+					
+			.flipv {transform: scale(1, -1);}
 			
 		</style>
 		
@@ -85,7 +100,9 @@
 		
 		<body>
 		
-		<div>
+		<div class= "bigdiv">
+		
+		<div class= "move">
 			<div class="ravista">
 				<div class="ravista2"></div>
 			</div>
@@ -93,15 +110,69 @@
 			<div class="ravista3"></div>		
 		</div>
 		
-		<div class= "adrian">
+		<div class= "adrian move">
 			<div><div><div></div></div></div>
 		</div>
 		
-		<div class="imordini">
-		<div><div><div><div><div><div></div></div></div></div></div></div>
-		<div class="imordiniTwo">
-		<div><div><div><div><div><div></div></div></div></div></div></div>
 		
+		<div class="imordini move">
+		
+				<div><div><div><div><div><div></div></div></div></div></div></div>
+			<div class="imordiniTwo">
+				<div><div><div><div><div><div></div></div></div></div></div></div>
+			</div>
+		</div>
+		
+		<div class= "move fliph">
+		
+			<div class="ravista">
+				<div class="ravista2"></div>
+			</div>
+			<div class="ravista2"></div>
+			<div class="ravista3"></div>		
+		</div>
+		
+		<div class= "adrian flipv">
+			<div><div><div></div></div></div>
+		</div>
+		
+		
+		
+		<div class= "move flipv">
+			<div class="ravista">
+				<div class="ravista2"></div>
+			</div>
+			<div class="ravista2"></div>
+			<div class="ravista3"></div>		
+		</div>
+		
+		<div class= "adrian move flipv">
+			<div><div><div></div></div></div>
+		</div>
+		
+		
+		<div class="imordini move flipv">
+		
+				<div><div><div><div><div><div></div></div></div></div></div></div>
+			<div class="imordiniTwo">
+				<div><div><div><div><div><div></div></div></div></div></div></div>
+			</div>
+		</div>
+		
+		<div class= "move fliph">
+		
+			<div class="ravista">
+				<div class="ravista2"></div>
+			</div>
+			<div class="ravista2"></div>
+			<div class="ravista3"></div>		
+		</div>
+		
+		<div class= "adrian flipv">
+			<div><div><div></div></div></div>
+		</div>
+		
+		</div>
 		</body>
 		
 </html>	
