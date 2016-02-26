@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<title>Abby1</title>
+	</head>
+	<style>
+		div, .special {/*declarations*/}
+		/*all divs AND "special" classes*/
+
+		div .special{ /*declarations*/}
+		/* all divs WITHIN "special" classes*/
+
+
+		div>.special{ /*declarations*/}
+		/* the first "special" class within divs*/
+
+		.mos{
+			background: none;
+			width: 100vw; height: 100vh;
+			margin: 50px;
+		}
+
+		.mos div{
+			transform: perspective(600px) rotateX(20deg) rotateY(30deg);
+			border: 80px solid black;
+			margin: 60px;
+			width: 50vw; height: 50vh;
+			border-radius: 30px;
+			border-right: 80px solid transparent;
+		}
+
+		.mos2{
+			transform: perspective(100px) rotateX(-20deg) rotateY(-30deg);
+			
+
+		}
+		.mos3{
+			transform: perspective(100px) rotateX(70deg) rotateY(-30deg);
+			transform: rotate(80deg);
+
+		}
+	</style>
+
+	<body>
+
+		<div class="mos">
+			<div class="mos2"><div><div class= "mos3"><div></div></div>
+</div></div>
+
+
+
+		</div>
+
+
+	</body>
+
+</html>	
