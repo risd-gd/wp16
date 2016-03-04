@@ -1,0 +1,123 @@
+<html>
+	<head>
+		<title>Pattern</title>
+		<style>
+			div, .brick {  /* declarations */ }
+			/* all divs AND brick classes */
+			
+			div .brick {  /* declarations */ }
+			/* all divs nested WITHIN brick classes */
+			
+			div>.brick {  /* declarations */ }
+			/* divs whose children are brick classes */
+			
+			div.brick {  /* declarations */ }
+			/* div elements that have class of brick */
+			
+			div.brick {  /* declarations */ }
+			/* div elements that have class of brick */
+
+			div+brick {  /* declarations */ }
+			/* if brick class comes after div */
+
+			div~brick {  /* declarations */ }
+			/* if brick class comes before div  */
+
+			.layer1, .layer2 {
+				position: absolute;
+				top: 0px;
+				left: 0px;
+			}
+			body { margin-left: 10px}
+			
+			.layer1, .layer2 { 
+				background: white;
+				width: 100vw; height: 100vh; /* why 100?*/
+				overflow: hidden; /* The other option scroll*/
+				 
+				  }
+			.layer2 div { background: #808080; }
+			/* div inside layer 2 is red*/
+
+			
+			.layer1 div, .layer2 div { 
+				 transform: rotate(12deg);
+				 border: 40px solid white;
+				 margin: -20px; float: left;
+				 mix-blend-mode: multiply;
+				 width: 100px; height: 100px;
+				 /*border-radius: 50%;*/
+				 margin-left: 10px;
+
+				  }
+				  /*div inside layer2 and layer1, rotate, solid green*/
+				  
+			.layer2 div:nth-child(even) {  border-color: white; }
+			/* if brick class comes before div  */
+			/* the even div inside layer 2 will be red*/
+
+		</style>
+	</head>
+	<body>
+
+	<div class="hex"></div>
+	
+		<div class="layer1">
+
+
+
+		</div>
+		
+	
+		<div class="layer2">
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		
+		
+		
+	</body>
+</html>
