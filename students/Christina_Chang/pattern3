@@ -1,0 +1,63 @@
+<html>
+<head>
+	<style>
+		.cyan{
+			.triangle {
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+			border-bottom: 100px solid cyan;
+			background: cyan;
+			border: 20px yellow;
+			margin: 33px; 
+			z-index: 3;
+			float: left;
+			transform: rotate(-20deg);
+		
+			}
+		.yellow {
+	
+			height: 130px;
+			width: 130px;
+			border-radius: 20px;
+			background: yellow;
+			border: 20px black;
+			margin: 33px; 
+			z-index: 3;
+			float: left;
+			transform: rotate(20deg);
+			}
+		.black{
+			height:20px;
+			width: 30px;
+			border-radius: 200px;
+			background: orange;
+			opacity: 0.5;
+			float: left;
+			transform: rotate(-20deg);
+			border: 10px black;
+			margin: -2px; 
+			mix-blend-mode: multiply;
+			z-index: 1;
+			}
+		.white{
+			height:20px;
+			width: 30px;
+			border-radius: 200px;
+			background: limegreen;
+			transform: rotate(20deg);
+			opacity: 0.5;
+			float: left;
+			
+			border: 10px limegreen;
+			margin: -2px; 
+			mix-blend-mode: multiply;
+			z-index: 1;
+			}
+	</style>
+
+</head>
+
+<body>
+	<div class="cyan"> </div>
+</body>
+</html>

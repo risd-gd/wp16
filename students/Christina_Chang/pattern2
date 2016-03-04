@@ -1,0 +1,36 @@
+<html>
+<head>
+	<style>
+		.green{
+			height: 5vw;
+			width: 5vw;
+			border-radius: 20px;
+			background: pink;
+			border: 20px black;
+			margin: 20px; 
+			z-index: 3;
+			}
+		.pink{
+			height:20vw;
+			width: 20vw;
+			border-radius: 200px;
+			background: black;
+			opacity: 0.5;
+			float: left;
+			
+			border: 80px black;
+			margin: -33px; 
+			mix-blend-mode: multiply;
+			z-index: 1;
+			}
+	</style>
+
+</head>
+
+<body>
+	<div class="green"> 
+		<div class="pink> </div>
+	</div>
+</body>
+
+</html>
