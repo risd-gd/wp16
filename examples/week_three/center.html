@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Center</title>
+	<style>
+	body{
+		margin: 0px;
+		padding: 0px;
+		background-color: #eee;
+		color: #333;
+		font-family: sans-serif;
+	}
+	section{
+		width: 1100px;
+		margin: 0 auto;
+	}
+	.titles{
+		text-align: center;
+	}
+	.titles a {
+		text-decoration:none;
+	}
+	h1{
+		margin-top:50px;
+		margin-bottom: 0px;
+	}
+	h3{
+		font-size: 12px;
+	}
+	.example{
+		background-color: #fff;
+		margin: 50px;
+		width: 400px;
+		height: 400px;
+		border: 1px solid #333;
+		border-radius: 5px;	
+		float: left;
+		clear: both;
+	}
+	.code{
+		background-color: #333;
+		color: #eee;
+		margin: 50px;
+		width: 400px;
+		height: 400px;
+		border: 1px solid #333;
+		border-radius: 5px;
+		float: left;
+	}
+	.css{
+		width: 100%;
+		font-size: 16px; 
+	}
+	.codeWrapper{
+		padding: 20px;
+	}
+	.selector{
+		color: #dfc48c;
+	}
+	.property{
+		color: #9b869c;
+	}
+	.value{
+		color: #cd6a51;
+	}
+	.indent{
+		margin: 20px;
+	}
+	.exampleOne{
+		text-align: center;
+	}
+	.exampleTwo{
+		/* Must set width */
+		width: 122px;
+		margin: 0 auto;
+	}
+	.exampleThree h2{
+		width:300px;
+		background-color: red;
+	}
+	.exampleThree{
+		position: relative;
+		left: 50%;
+		margin-left: -150px;	
+	}
+	.exampleFour{
+		display: table;
+		width: 100%;
+		text-align: center;
+		vertical-align: middle;
+	}
+	</style>
+</head>
+<body>
+<section>
+	<div class="titles">
+		<h1>Centering Examples</h1>
+		<h3>But don't forget about <a href="http://amzn.com/1849762570"> asymmetry</a>.</h3>
+	</div>
+	<div class="example">
+		<div class="exampleOne">
+			<h2>Center Text</h2>
+		</div>
+	</div>
+	<div class="code">
+		<div class="codeWrapper">
+			<code class="css">
+				<span class="selector">.exampleOne</span> 
+				<span class="punctuation">{</span> </br>
+				<span class="indent"></span>
+				<span class="property">text-align</span>
+				<span class="punctuation">: </span>
+				<span class="value">center </span>
+				<span class="punctuation">; </span></br>
+				<span class="punctuation">}</span>
+			</code>
+		</div>
+	</div>
+	<div class="example">
+		<div class="exampleTwo">
+			<h2>Center Div</h2>
+		</div>
+	</div>
+	<div class="code">
+		<div class="codeWrapper">
+			<code class="css">
+				<span class="selector">.exampleTwo</span> 
+				<span class="punctuation">{</span> </br>
+				<span class="indent"></span>
+				/* Must set width */<br>
+				<span class="indent"></span>
+				<span class="property">width</span>
+				<span class="punctuation">: </span>
+				<span class="value">222px </span>
+				<span class="punctuation">; </span></br>
+				<span class="indent"></span>
+				<span class="property">margin</span>
+				<span class="punctuation">: </span>
+				<span class="value">0 auto </span>
+				<span class="punctuation">; </span></br>
+				<span class="punctuation">}</span>
+			</code>
+		</div>
+	</div>
+	<div class="example">
+		<div class="exampleThree">
+			<h2>Center with Left 50%</h2>
+		</div>
+	</div>
+	<div class="code">
+		<div class="codeWrapper">
+			<code class="css">
+				<span class="selector">.exampleThree</span> 
+				<span class="punctuation">{</span> </br>
+				<span class="indent"></span>
+				<span class="property">position</span>
+				<span class="punctuation">: </span>
+				<span class="value">relative </span>
+				<span class="punctuation">; </span></br>
+				<span class="indent"></span>
+				<span class="property">left</span>
+				<span class="punctuation">: </span>
+				<span class="value">50% </span>
+				<span class="punctuation">; </span></br>
+				<span class="indent"></span>
+				/* Negative half of width */<br>
+				<span class="indent"></span>
+				<span class="property">margin-left</span>
+				<span class="punctuation">: </span>
+				<span class="value">-150px </span>
+				<span class="punctuation">; </span></br>
+				<span class="punctuation">}</span>
+			</code>
+		</div>
+	</div>
+	<div class="example">
+		<div class="exampleFour">
+			<h2>Center With Table</h2>
+		</div>
+	</div>
+	<div class="code">
+		<div class="codeWrapper">
+			<code class="css">
+				<span class="selector">.exampleFour</span> 
+				<span class="punctuation">{</span> </br>
+				<span class="indent"></span>
+				<span class="property">display</span>
+				<span class="punctuation">: </span>
+				<span class="value">table </span>
+				<span class="punctuation">; </span></br>
+				<span class="indent"></span>
+				<span class="property">width</span>
+				<span class="punctuation">: </span>
+				<span class="value">100% </span>
+				<span class="punctuation">; </span></br>
+				<span class="indent"></span>
+				<span class="property">text-align</span>
+				<span class="punctuation">: </span>
+				<span class="value">center </span>
+				<span class="punctuation">; </span></br>
+				<span class="indent"></span>
+				<span class="property">vertical-align</span>
+				<span class="punctuation">: </span>
+				<span class="value">middle </span>
+				<span class="punctuation">; </span></br>
+				<span class="punctuation">}</span>
+			</code>
+		</div>
+	</div>
+</section>
+</body>
+</html>
