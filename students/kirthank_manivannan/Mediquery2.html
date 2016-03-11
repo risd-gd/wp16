@@ -1,74 +1,39 @@
 <html>
-	
 	<head>
-		<title> mediaquery2 </title>
 		<style>
-		
-		.threeline {
-					height: 45px; 
-					width: 50px;
-					background: black;
-					position: fixed;
-					top: 20px;
-					left: 20px;
-					}
-		.adresslinebox {
-					height: 75px;
-					width: 210px;
-					background: blue;
-					float: right;
-					top:30px;
-					right:30px;
-					z-index: 1;
-					-webkit-transition: all 1s;  
-	   			transition: all 1s;
-					}
-
-
-		.nameline1 {
-					height:100px;
-					width: 250px;
-					background: gray;
-					position:absolute;
-					float: left;
-					top: 170px;
-					left: 20px;
-					-webkit-transition: all 1s;  
-	   			transition: all 1s;
-					}
-
-		.graybox 	{
-					height: 520px;
-					width: 100%;
-					background: darkgray;
-					position:absolute;
-					left: 0px;
-					top: 300px;
-					z-index: 1
-					-webkit-transition: all 1s;  
-	   			transition: all 1s;
-					}
-					
-			@media (max-width: 500px) {
-			div { display: block; 
-			height: 50%; width: 50%}
+			div { width: 200px; height: 200px;
+			background: gray; float: left; margin: 10px; 
+			transition: all 1s;  
 			}
-			@media (min-width: 750px; max-width:800px;) {
-			div {display: block;
-			height: 50%; width: 50%}
-			}
+			.different { background: gray; clear: both; }
 
-					
+			
+			@media (max-width: 867px) {
+				.different { background: yellow; }
+			}
+			@media (max-width: 667px) {
+				.different { background: pink; }
+			}
+			@media (max-width:500px) {
+				.different {background: orange;}
+			}
+			
 		</style>
+
 	</head>
 	
 	<body>
-<div class="openline1"></div>
-	<div class="threeline"></div> 
-<div class="adresslinebox"> <p> kajdflkjaskj </p></div>
-<div class="nameline1"> <h1> ljfasdkfjlasdkfiroe </h1></div>
-<div class="graybox"> <h1> asdafaksldfjasdjflas </h1>
-<p> akljsdflaks;djfklasjfklasjdklajsldkfjas </p>
-</div>
-</body>
+		
+		<div></div>
+		<div class="different"></div>
+		<div class="different"></div>
+		<div></div>
+		<div></div>
+		<div class="different"></div>
+		<div class="different"></div>
+		<div></div>
+
+	</body>
+
+
 </html>
