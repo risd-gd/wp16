@@ -1,0 +1,122 @@
+<html>
+	<head>
+		<style>
+			div { width: 200px; 
+			height: 200px;
+			background: #F4F6F7; 
+			float: left; 
+			margin: 10px; 
+			transition: all 1s;
+			border-radius:50%;
+			
+			}
+			.boxclear { width: 200px; 
+			height: 500px;
+			width: 500px;
+			background: #B3B6B7; 
+
+			
+			}
+			.different { background: #F0FFFF; clear: both; }
+
+			div:hover { 
+				-webkit-transform:translateX(-125px);
+				transform:translateX(-125px);
+				background: #F5B041;
+				-webkit-transform:translateX(50%);
+				transform:translateX(50%);
+				background: #E74C3C;
+				z-index: 2;
+		    }
+			.buttondown {}
+			
+			.boxclear:hover { 
+			-webkit-transform:translateX(50%);
+			transform:translateX(50%);
+			background: #E74C3C;
+			z-index: 1;
+		    }
+			
+			.hello { background: yellow; 
+			margin-top: 100px; 
+			width: 50px;
+			transform: rotate(90deg);
+			opacity: .5;
+			border-radius: 20%;
+			}
+			
+			.text {
+				font-family: helvetica;
+				margin-top: 0;
+				color: white;
+				float: center;
+				background:blue;
+				font-size:25;	
+			}
+			
+			.animate {
+			 animation-name: jake;
+			 animation-duration: 10s;
+			 animation-iteration-count: 10;
+			 animation-direction: alternate;
+			 animation-timing-function: ease-out;
+			 animation-fill-mode: forwards;
+			 animation-delay: 0s;
+
+			}
+			
+		@keyframes jake {
+		  0%   { background: black; }
+		  50%  { background: blue;}
+		  100% { opacity: orange; }
+		}
+
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+	</head>
+	
+	<body>
+		
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div class="boxclear"></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div class="boxclear"></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div class="boxclear">
+		</div><div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div class="boxclear">
+		</div><div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+
+		<script>
+			$("div").click(function() {
+				$(this).toggleClass("animate");
+			});
+		</script>
+
+
+	</body>
+
+
+</html>

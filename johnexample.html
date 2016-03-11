@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<style>
+			div { width: 200px; height: 200px;
+			background: red; float: left; margin: 10px; 
+			transition: all 1s;  
+			}
+			.different { background: green; clear: both; }
+
+			
+			@media (max-width: 867px) {
+				.different { background: blue; }
+			}
+			@media (max-width: 667px) {
+				.different { background: pink; }
+			}
+			
+		</style>
+
+	</head>
+	
+	<body>
+		
+		<div></div>
+		<div></div>
+		<div class="different"></div>
+
+
+	</body>
+
+
+</html>
