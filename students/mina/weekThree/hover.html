@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<style>
+			div { width: 200px; height: 200px;
+			background: red; float: left; margin: 10px; 
+			transition: all 1s; 
+			
+			}
+			.different { background: green; clear: both; }
+
+			div:hover { border-radius: 50%; }
+			.buttondown {}
+			
+			.hello { background: yellow; 
+			margin-top: 100px; 
+			width: 100px;
+			transform: rotate(45deg);
+			opacity: .5;
+			border-radius: 50%;
+			}
+
+			.hello2 { background: pink; 
+			margin-top: 50px; 
+			width: 30px;
+			transform: rotate(45deg);
+			opacity: .5;
+			border-radius: 50%;
+			}
+			
+			.animate {
+			 animation-name: movio;
+			 animation-duration: 4s;
+			 animation-iteration-count: 10;
+			 animation-direction: alternate;
+			 animation-timing-function: ease-out;
+			 animation-fill-mode: forwards;
+			 animation-delay: 0s;
+
+			}
+			
+		@keyframes buffalo {
+		  0%   { background: black; }
+		  50%  { background: blue;}
+		  100% { background: orange; }
+		}
+
+			@keyframes movio{
+   		 0%   {background-color:red; left:0px; top:0px;}
+   		 25%  {background-color:yellow; left:200px; top:0px;}
+   		 50%  {background-color:blue; left:200px; top:200px;}
+		75%  {background-color:green; left:0px; top:200px;}
+   		 100% {background-color:red; left:0px; top:0px;}
+}
+
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+	</head>
+	
+	<body>
+		
+		<div></div>
+		<div></div>
+		<div class="different"></div>
+
+		<script>
+		
+			$("div").click(function() {
+				$(this).toggleClass("animate");
+			});
+		</script>
+
+	</body>
+
+</html>
