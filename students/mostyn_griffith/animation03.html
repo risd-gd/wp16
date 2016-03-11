@@ -1,0 +1,122 @@
+<html>
+	<head>
+		<style>
+		 
+			
+			
+
+			.bg{
+				background: #cafffb; clear: both; 
+				width: 100%; height: 200%;
+				padding: 40px;
+				font-size: 20px;
+				font-family: Georgia;
+
+			}
+
+			.different { 
+				position: relative;
+				left: 45%;
+				background: #6f7176; clear: both;
+			width: 50px; height: 50px;
+			background: #000000; float: left; 
+			transition: all 1s; 
+			 }
+
+			.exchanged { background: #D1F3F4; clear: both;
+			width: 50px; height: 50px; 
+			background: red; float: right; 
+			transition: all 2s; 
+			}
+
+			div:hover { background-color: #e2fffd
+
+; }
+			.buttondown {background-color: white;}
+
+			div.image{
+				content: url(http://clipartfreefor.com/cliparts/files/paper-airplane-clipart-paperairplan.png/ 2000x1800)
+			}
+
+			.2nd{
+				mi
+			}
+			
+			.animate {
+			 animation-name: buffalo;
+			 animation-duration: 4s;
+			 animation-iteration-count: 10;
+			 animation-direction: alternate;
+			 animation-timing-function: ease-out;
+			 animation-fill-mode: forwards;
+			 animation-delay: 0s;
+
+			}
+
+			.exchanged {
+			 animation-name: pig;
+			 animation-duration: 10s;
+			 animation-iteration-count: 10;
+			 animation-direction: alternate;
+			 animation-timing-function: ease-out;
+			 animation-fill-mode: forwards;
+			 animation-delay: 0s;
+
+			}
+			
+		@keyframes buffalo{
+		  0%   { width: 80px; }
+		  50%  { width: 200px; left: 100px;}
+		  100% { width: 400px; left: 140px; height: 400px; }
+		}
+
+		@keyframes pig{
+		  0%   { width: 10px; }
+		  50%  { width: 200px; left: -100px;}
+		  100% { width: 400px; left: -50px;top: 140px; height: 1000px; }
+		}
+
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+	</head>
+	
+	<body>
+		
+		<div class="bg"> Chess time is over.
+
+		<div class="different">
+				<div class="exchanged"></div>
+		</div>
+		<div class="different">
+				<div class="exchanged"></div>
+		</div>
+		<div class="different">
+				<div class="exchanged"></div>
+		</div>
+		<div class="different">
+				<div class="exchanged"></div>
+		</div>
+		<div class="different">
+				<div class="exchanged"></div>
+		</div>
+		<div class="different">
+				<div class="exchanged"></div>
+		</div>
+	
+
+</div>
+		<script>
+			$(".different").click(function() {
+				$(this).toggleClass("animate");
+			});
+
+			$(".exchanged").click(function() {
+				$(this).toggleClass("exchanged");
+			});
+		</script>
+
+	</body>
+
+
+</html>
