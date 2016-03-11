@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<style>
+	
+  			
+  			
+  		.bg{
+  			height: 100vw;
+  			width:100vw;
+  			background: #36c;background-color: yellow;
+			background-image: linear-gradient(transparent 50%, rgba(255,255,255,.5) 50%);
+			background-size: 50px 50px;
+			transition: all 2s;
+			}
+		
+		
+			@media (max-width: 1200px) {
+  				 .bg{
+  				 background: 
+					linear-gradient(135deg, teal 25%, transparent 25%) -50px 0,
+					linear-gradient(225deg, teal 25%, transparent 25%) -50px 0,
+					linear-gradient(315deg, teal 25%, transparent 25%),
+					linear-gradient(45deg, teal 25%, transparent 25%);	
+				background-size: 100px 100px;
+				background-color: yellow;}
+				}
+			
+			
+			@media (max-width: 900px) {
+				.bg{
+					background: 
+						linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+						linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 0 0,
+						linear-gradient(115deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+						linear-gradient(245deg, transparent 75%, rgba(255,255,255,.8) 75%) 7px -15px,
+						#36c;
+					background-size: 15px 30px}
+  					transition: all 1s;}
+					}
+  			
+  			
+  			
+  		</style>
+	</head>
+	
+	<body>
+		<div class ="bg"></div>
+	
+		
+	</body>
+	
+	
+</html>
