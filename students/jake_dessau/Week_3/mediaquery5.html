@@ -1,0 +1,115 @@
+<html>
+	<head>
+		<style>
+			div { width: 25%; 
+			height: 25%;
+			background:#1E90FF; 
+			float: left; 
+			margin: 10px; 
+			transition: all 1s;
+			border-radius: 50%
+			
+			}
+			.square2 { width: 200px; 
+			height: 81%;
+			width: 25%;
+			background: #E74C3C; 
+			
+			
+			}
+
+			.different { background: #48C9B0; clear: both; }
+
+			div:hover { 
+				width: 30%; 
+				height: 30%;
+				-webkit-transform:translateY(200%);
+				transform:translateY(200%);
+				background: #FF00FF;
+				opacity: .6;
+		    }
+			.buttondown {}
+			
+			.square2:hover { 
+			width: 38%;
+			height: 38%;
+			background: #FF0000;
+		    }
+			
+			.hello { background: yellow; 
+			margin-top: 100px; 
+			width: 50px;
+			transform: rotate(90deg);
+			opacity: .5;
+			border-radius: 20%;
+			}
+			
+			.text {
+				font-family: helvetica;
+				margin-top: 0;
+				color: white;
+				float: center;
+				background:blue;
+				font-size:25;	
+			}
+			
+			.animate {
+			 animation-name: jake;
+			 animation-duration: 10s;
+			 animation-iteration-count: 10;
+			 animation-direction: alternate;
+			 animation-timing-function: ease-out;
+			 animation-fill-mode: forwards;
+			 animation-delay: 0s;
+
+			}
+			
+		@keyframes jake {
+		  0%   { background: black; }
+		  50%  { background: blue;}
+		  100% { opacity: orange; }
+		}
+
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+	</head>
+	
+	<body>
+		<div class="square2"></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div class="square2"></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div class="square2"></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div class="square2"></div>
+		<div></div>
+		<div></div>
+
+
+		<script>
+			$("div").click(function() {
+				$(this).toggleClass("animate");
+			});
+		</script>
+
+
+	</body>
+
+
+</html>
