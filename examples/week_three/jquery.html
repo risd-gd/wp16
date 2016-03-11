@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Keyframe</title>
+		<style>
+			.box { background: red; float: left; margin: 1px;
+				width: 200px; height: 200px; 
+				transition: 1s all; 
+			}
+			.clickedDiv { margin-top: 100px; }
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		
+		<script>
+			$(".box").click(function() {
+			
+				$(this).toggleClass("clickedDiv");
+
+			});
+		</script>
+
+
+
+	</body>
+
+</html>
