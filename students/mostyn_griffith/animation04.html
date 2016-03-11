@@ -6,8 +6,8 @@
 				width: 50px;
 				height: 80px; 
 			 clear: both;
-			 position: relative;
-			 left: 90%; top: 60%;
+			 position: absolute;
+			 left: 90%; top: 80%;
 			 }
 
 			.dobby:hover { transform: rotate(60deg) ; }
@@ -16,7 +16,7 @@
 			
 			.animate {
 			 animation-name: buffalo;
-			 animation-duration: 6s;
+			 animation-duration: 8s;
 			 animation-iteration-count: 10;
 			 animation-direction: alternate;
 			 animation-timing-function: ease-out;
@@ -27,8 +27,8 @@
 			
 		@keyframes buffalo {
 		  0%   { width: 50px; height: 80px; }
-		  50%  { width: 100px; height: 160px;}
-		  100% { width: 200px; height: 320px; }
+		  50%  { width: 100px; height: 160px;left: 20%; top: 40%;}}
+		  100% { width: 200px; height: 320px; left: 50%; top: 10%;}}
 		}
 
 		</style>

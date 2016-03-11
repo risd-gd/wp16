@@ -61,6 +61,25 @@
 		  100% { width: 200px; height: 320px; margin-top: 200px;}
 		}
 
+
+		.lanimate {
+			 animation-name: muffle;
+			 animation-duration: 5s;
+			 animation-iteration-count: 10;
+			 animation-direction: alternate;
+			 animation-timing-function: ease-in;
+			 animation-fill-mode: forwards;
+			 animation-delay: 0s;
+
+		}
+			
+		@keyframes muffle {
+		  0%   { width: 300px; height: 500px;}
+		  50%  { width: 600px; height: 1000px;}
+		  100% { width: 1200px; height: 2000px;}
+		}
+
+
 		</style>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
@@ -83,7 +102,7 @@
 			});
 
 			$(".page2").click(function() {
-				$(this).toggleClass("animate");
+				$(this).toggleClass("lanimate");
 			});
 
 
