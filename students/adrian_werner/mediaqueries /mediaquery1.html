@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<title>alter 1</title>
+		<style>
+			body {background:lightyellow;}
+
+			div, p { }			
+			.adrian {background:none; }
+			
+			.adrian div { 
+				transform: rotate(70deg) ;
+				border: 80px solid magenta;
+				opacity: .5
+				margin: 1px;
+				width: 4vh; 
+				height: 25vh; 
+				border-radius: 47%;
+				border-right: 157px solid transparent;
+				transition: all 3s;  
+				}
+				  
+				  
+				@media (max-width: 587px) {
+				.adrian div {width: 100vh; 
+				opacity: .3;}
+				}
+			
+			.bar div {				
+				width: 100vh; 
+				height: 10vh; 
+				background: orange;
+				float: left;
+				margin-left: 500px;
+				margin-top: 150px;
+				opacity: .08;
+				transition: all 3s;  
+
+				}
+			.bar div:hover {
+				opacity:.5
+			 }
+
+		</style>
+	</head>
+	<body>
+		<div class= "bar"><div></div></div>
+		<div class= "adrian">
+			<div><div><div></div></div></div>
+		</div>
+		
+		</body>
+		
+</html>
