@@ -1,0 +1,79 @@
+<html>
+	<head>
+	<title>SearchBubbles</title>
+		<style>
+				body { margin:0; }
+			
+			div { width: 400px;
+				height: 375px;
+				background-color: navy;
+				mix-blend-mode: overlay;
+				border-radius: 70%;
+				transition: all 2s;
+				float: left; margin: -60px; 
+				overflow: hidden; 
+				}
+			
+			div:hover {
+				width:450px;
+				height: 450px;
+				mix-blend-mode: multiply;
+				 border: 15px;
+				 margin: 40px; 
+				animation-name: blend;
+				animation-duration: 4s;
+				
+				
+				}
+				
+			@keyframes blend {
+				mix-blend-mode: multiply;
+				 border: 15px solid grey;
+				 margin: 40px; 
+				
+				  }
+			
+			.clear {clear: left;}
+			
+			.different { background: lightblue; 
+						
+						 mix-blend-mode: screen;
+						}
+
+			
+			
+			
+		</style>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+	</head>
+	
+	<body>
+	
+		<div></div>
+		<div class="different"></div>
+		<div></div>
+	
+		<div class="different"></div>
+		<div></div>
+		<div class="different"></div>
+		<div></div>
+		<div class="different"></div>
+		<div></div>
+		<div class="different"></div>
+		<div></div>
+		<div class="different"></div>
+
+
+		<script>
+			$(".blend").click(function() {
+				$(this).toggleClass("animate");
+			});
+		</script>
+
+
+	</body>
+
+
+</html>

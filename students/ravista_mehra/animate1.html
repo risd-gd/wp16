@@ -1,0 +1,76 @@
+<html>
+	<head>
+	<title>Boocolour</title>
+		<style>
+				body { margin:0; 
+				}
+			
+			div { width: 300px;
+				height: 300px;
+				background-color: green;
+				opacity: 30%;
+				border-radius: 50%;
+				transition: all 2s;
+				float: left; margin: 15px; 
+				overflow: hidden; 
+				}
+			
+			div:hover {
+				width: 300px;
+				height: 300px;
+				border-radius: 0%;
+				transform: rotate(45deg);
+				margin: -25px;
+				mix-blend-mode: screen;
+				animation-name: change;
+				animation-duration: 7s;
+				
+				}
+				
+			@keyframes change {
+				0%   {background-color: yellow;}
+				25%  {background-color: blue;}
+				50%  {background-color: purple;}
+				100% {background-color: orange;}
+				}
+			
+			.clear {clear: left;}
+			
+			.different { background: lime; 
+						 margin-top: 15px;
+						}
+
+			
+			
+			
+			
+		</style>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+	</head>
+	
+	<body>
+		
+		<div></div>
+		<div></div>
+		<div class="different"></div>
+		<div></div>
+		<div></div>
+		<div class="different"></div>
+		<div></div>
+		<div></div>
+		<div class="different"></div>
+	
+
+		<script>
+			$(".change").click(function() {
+				$(this).toggleClass("animate");
+			});
+		</script>
+
+
+	</body>
+
+
+</html>

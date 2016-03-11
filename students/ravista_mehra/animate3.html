@@ -1,0 +1,91 @@
+<html>
+	<head>
+	<title>Tilt</title>
+		<style>
+				body { margin:0; }
+			
+			div { width: 150px;
+				height: 375px;
+				background-color: black;
+				transform: rotate(45deg);
+				mix-blend-mode: multiply;
+				border-radius: 20%;
+				transition: all 2s;
+				float: left; margin: -20px; 
+				overflow: hidden; 
+				}
+			
+			div:hover {
+				width:250px;
+				height: 250px;
+				mix-blend-mode: multiply;
+				 border-radius: 5%;
+				 margin: 30px; 
+				 transform: rotate(-45deg);
+				animation-name: blend;
+				animation-duration: 4s;
+				
+				
+				}
+				
+			@keyframes blend {
+				0%   {background-color: yellow;}
+				25%  {background-color: orange;}
+				50%  {background-color: blue;}
+				100% {background-color: purple;}
+				
+				  }
+			
+			.clear {clear: left;}
+			
+			.different { background: grey; 
+						 mix-blend-mode: multiply;
+						}
+
+			
+			
+			
+		</style>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+	</head>
+	
+	<body>
+	
+		<div></div>
+		<div class="different"></div>
+		<div></div>
+		<div class="different"></div>
+		<div></div>
+		<div class="different"></div>
+		<div></div>
+		<div class="different"></div>
+		<div></div>
+		<div class="different"></div>
+		<div></div>
+		<div class="different"></div>
+		<div></div>
+		<div class="different"></div>
+		<div></div>
+		<div class="different"></div>
+		<div></div>
+		<div class="different"></div>
+		<div></div>
+		<div class="different"></div>
+		<div></div>
+		<div class="different"></div>
+		
+
+
+		<script>
+			$(".blend").click(function() {
+				$(this).toggleClass("animate");
+			});
+		</script>
+
+
+	</body>
+
+
+</html>
