@@ -1,0 +1,92 @@
+<html>
+	<head>
+		<title>Pat01</title>
+		<style>
+			div, .brick {  /* declarations */ }
+			/* all divs AND brick classes */
+			
+			div .brick {  /* declarations */ }
+			/* all divs nested WITHIN brick classes */
+			
+			div>.brick {  /* declarations */ }
+			/* divs whose children are brick classes */
+			
+			div.brick {  /* declarations */ }
+			/* div elements that have class of brick */
+			
+			div.brick {  /* declarations */ }
+			/* div elements that have class of brick */
+
+			div+.brick {  /* declarations */ }
+			/* if brick class comes after div */
+
+			div~.brick {  /* declarations */ }
+			/* if brick class comes before div  */
+
+			
+			body { margin: 0; }
+			
+			.bg {
+				background: yellow;
+				width: 100%; height: 100%;
+
+			}
+
+			.moslyn { 
+				background: #7a8b8b;
+				width: 100vw; height: 100vh;
+				overflow: hidden; 
+				 
+				  }
+
+			.moslyn div { 
+				 transform: rotate(45deg);
+				 border: 10px solid #8b8386;
+				 margin: 15px; float: left;
+				 width: 150px; height: 150px;
+				 border-radius: 20%;
+				  }
+				  
+			.moslyn div:nth-child(2n) {  border-color: #8b8b7a; }
+			/* if brick class comes before div  */
+			.moslyn div:nth-child(3n) {border-color: #838383;}
+
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+<iframe style="display:none" width="325" height="276" frameborder="0" scrolling="auto"></iframe>
+
+
+
+
+		<div class="moslyn">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+
+	</body>
+</html>

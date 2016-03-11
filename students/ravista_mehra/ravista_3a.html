@@ -1,0 +1,178 @@
+<html>
+	<head>
+		<title>SHAPE</title>
+		
+		<style>
+			
+			div {
+			background: white;
+			width: 25vh; height: 25vh;
+			margin: 5px;
+			border: 5px;
+			overflow: hidden;
+			}
+			
+			.bigdiv { background: white;
+					width: 125vh; height: 125vh;
+					margin: 5px;
+					border: 5px;
+					overflow: hidden;
+					}
+			
+			.ravista {
+					  background: white;
+					  width: 15px; height: 75px;
+					  transform: rotate(20deg);
+					  border: 40px dashed blue;
+					  border-radius: 5%;
+					  border-right: 40px solid transparent;
+					  
+					  }
+			
+			.ravista2 { background: white;
+						width: 30px; height: 80px;
+						transform: rotate(-30deg);
+						border: 20px solid orange;
+						border-radius: 30%;
+						border left: 70px solid transparent;
+						margin: -20px;
+						}
+		
+			.ravista3 { 
+						background: orange;
+						width: 60px; height: 120px;
+						transform: rotate(25deg);
+						border: 50px solid white;
+						border-radius: 30%;
+						border left: 70px solid transparent;
+						margin: -20px;
+						position: relative;
+						top: -200px;
+						left: 145px;
+						}
+						
+			.adrian {background:none;
+					width: 25vh; 
+					height: 25vh; 
+					overflow: hidden; }
+			
+			.adrian div { 
+				 	transform: rotate(-3deg) ;
+				 	border: 60px solid blue;
+				    
+				    
+				    width: 400vh; 
+				    height: 70vh; 
+				    border-radius: 30%;
+				    border-right: 170px solid transparent;
+				  }
+			
+			.imordini { 
+					 background:white;
+					 width: 25vh; height: 25vh;
+					 overflow: hidden; } 
+					 
+					 .imordini div {
+					 		height: 15vh; width: 15vh;
+					 		background: orange;
+					 		border: 1px solid white;
+					 		border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+					  		 }
+				 	 .imordiniTwo div {
+					 		height: 10vh; width: 10vh;
+					 		background: white;
+					 		border: 1px solid blue;
+							border-radius: 50% ;
+					  		 }
+					  		 
+			.move { 
+			       float: left;
+			       }
+			
+			.fliph { transform: scale(-1, 1);
+					}
+					
+			.flipv {transform: scale(1, -1);}
+			
+		</style>
+		
+		</head>
+		
+		<body>
+		
+		<div class= "bigdiv">
+		
+		<div class= "move">
+			<div class="ravista">
+				<div class="ravista2"></div>
+			</div>
+			<div class="ravista2"></div>
+			<div class="ravista3"></div>		
+		</div>
+		
+		<div class= "adrian move">
+			<div><div><div></div></div></div>
+		</div>
+		
+		
+		<div class="imordini move">
+		
+				<div><div><div><div><div><div></div></div></div></div></div></div>
+			<div class="imordiniTwo">
+				<div><div><div><div><div><div></div></div></div></div></div></div>
+			</div>
+		</div>
+		
+		<div class= "move fliph">
+		
+			<div class="ravista">
+				<div class="ravista2"></div>
+			</div>
+			<div class="ravista2"></div>
+			<div class="ravista3"></div>		
+		</div>
+		
+		<div class= "adrian flipv">
+			<div><div><div></div></div></div>
+		</div>
+		
+		
+		
+		<div class= "move flipv">
+			<div class="ravista">
+				<div class="ravista2"></div>
+			</div>
+			<div class="ravista2"></div>
+			<div class="ravista3"></div>		
+		</div>
+		
+		<div class= "adrian move flipv">
+			<div><div><div></div></div></div>
+		</div>
+		
+		
+		<div class="imordini move flipv">
+		
+				<div><div><div><div><div><div></div></div></div></div></div></div>
+			<div class="imordiniTwo">
+				<div><div><div><div><div><div></div></div></div></div></div></div>
+			</div>
+		</div>
+		
+		<div class= "move fliph">
+		
+			<div class="ravista">
+				<div class="ravista2"></div>
+			</div>
+			<div class="ravista2"></div>
+			<div class="ravista3"></div>		
+		</div>
+		
+		<div class= "adrian flipv">
+			<div><div><div></div></div></div>
+		</div>
+		
+		</div>
+		</body>
+		
+</html>	

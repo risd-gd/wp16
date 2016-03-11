@@ -1,0 +1,62 @@
+<html>
+	<head>
+		<style>
+
+			.dobby { 
+				width: 50px;
+				height: 80px; 
+			 clear: both;
+			 position: relative;
+			 left: 90%; top: 60%;
+			 }
+
+			.dobby:hover { transform: rotate(60deg) ; }
+			.buttondown {}
+		
+			
+			.animate {
+			 animation-name: buffalo;
+			 animation-duration: 6s;
+			 animation-iteration-count: 10;
+			 animation-direction: alternate;
+			 animation-timing-function: ease-out;
+			 animation-fill-mode: forwards;
+			 animation-delay: 0s;
+
+			}
+			
+		@keyframes buffalo {
+		  0%   { width: 50px; height: 80px; }
+		  50%  { width: 100px; height: 160px;}
+		  100% { width: 200px; height: 320px; left: 20%; top: 20%; }
+		}
+
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+	</head>
+	
+	<body>
+
+<div> <img src="http://myrabridgforth.com/wp-content/uploads/blue-sky-clouds.jpg" width="100%" height="100%">
+
+		<div class="dobby">
+
+			<img src="https://richardlaw.files.wordpress.com/2014/11/english-paper-airplane.png" width="100%" height="100%">
+
+		</div>
+
+</div>
+		<script>
+			$(".dobby").click(function() {
+				$(this).toggleClass("animate");
+			});
+
+			
+		</script>
+
+
+	</body>
+
+
+</html>

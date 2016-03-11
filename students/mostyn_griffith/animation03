@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<style>
+			div { width: 80px; height: 80px; margin-top: 10px;
+			background: red; float: left; 
+			transition: all 1s; 
+			
+			}
+
+			.bg{
+				background: #9B9FAB; clear: both; 
+
+
+			}
+
+			.different { background: #6f7176; clear: both; }
+
+			.exchanged { background-color: teal; clear: both;}
+
+			div:hover { background-color: red; }
+			.buttondown {}
+
+			div.image{
+				content: url(http://clipartfreefor.com/cliparts/files/paper-airplane-clipart-paperairplan.png/ 2000x1800)
+			}
+			
+			.animate {
+			 animation-name: buffalo;
+			 animation-duration: 4s;
+			 animation-iteration-count: 10;
+			 animation-direction: alternate;
+			 animation-timing-function: ease-out;
+			 animation-fill-mode: forwards;
+			 animation-delay: 0s;
+
+			}
+
+			.exchanged {
+			 animation-name: buffalo;
+			 animation-duration: 2s;
+			 animation-iteration-count: 10;
+			 animation-direction: alternate;
+			 animation-timing-function: ease-out;
+			 animation-fill-mode: forwards;
+			 animation-delay: 0s;
+
+			}
+			
+		@keyframes buffalo {
+		  0%   { width: 80px; }
+		  50%  { width: 200px;}
+		  100% { width: 400px; }
+		}
+
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+	</head>
+	
+	<body>
+		
+	<div class="image">
+
+		<div class="different"></div>
+		<div class="different"></div>
+		<div class="different"></div>
+		<div class="different"></div>
+		<div class="different"></div>
+		<div class="different"></div>
+		<div class="different"></div>
+
+</div>
+		<script>
+			$(".different").click(function() {
+				$(this).toggleClass("animate");
+			});
+
+			$(".exchanged").click(function() {
+				$(this).toggleClass("animate");
+			});
+		</script>
+
+	</body>
+
+
+</html>

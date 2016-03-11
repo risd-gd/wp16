@@ -1,0 +1,94 @@
+<html>
+<html>
+	<head>
+		<title>Pat04</title>
+		<style>
+			div, .brick {  /* declarations */ }
+			/* all divs AND brick classes */
+			
+			div .brick {  /* declarations */ }
+			/* all divs nested WITHIN brick classes */
+			
+			div>.brick {  /* declarations */ }
+			/* divs whose children are brick classes */
+			
+			div.brick {  /* declarations */ }
+			/* div elements that have class of brick */
+			
+			div.brick {  /* declarations */ }
+			/* div elements that have class of brick */
+
+			div+.brick {  /* declarations */ }
+			/* if brick class comes after div */
+
+			div~.brick {  /* declarations */ }
+			/* if brick class comes before div  */
+
+			
+			body { margin: 0; }
+
+			
+	
+
+			.moslyn { 
+				width: 100vw; height: 100vh;
+				background: #5affda;
+				overflow: hidden; 
+				 
+				  }
+
+			.moslyn div { 
+				background: black;
+				 transform:  perspective(50px) rotateX(10deg) rotateY(20deg);
+
+				 border: 15px solid #fff8b4;
+				 margin: 45px; float: left;
+				 width: 90px; height: 90px;
+				 border-radius: 20%;
+				  }
+				  
+			.moslyn div:nth-child(2n) {  border-color: #b4d3ff; }
+			/* if brick class comes before div  */
+			.moslyn div:nth-child(3n) {border-color: #ffb4b4;}
+
+		</style>
+	</head>
+	<body>
+
+		
+		<div class="moslyn">
+			<div><img src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Oasis_in_Libya.jpg" alt="oasis" height="100%" width="100%"></img></div>
+			<div></div>
+			<div><img src="http://s.newsweek.com/sites/www.newsweek.com/files/styles/embedded_full/public/2012/10/07/1349486664139.cached.jpg" height="100%" width="100%"></img></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div><img src="https://easyr17.files.wordpress.com/2013/08/paradise.jpg" height="100%" width="100%"></img></div>
+			<div></div>
+			<div></div>
+			<div><img src="https://upload.wikimedia.org/wikipedia/commons/2/2d/2004-tsunami.jpg" height="100%" width="100%"></img></div>
+			<div></div>
+			<div><img src="https://wallpaperscraft.com/image/sea_palm_trees_coast_stones_boulders_tropics_45933_1920x1080.jpg" height="100%" width="100%"></img></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div><img src="https://birdchadlouis.files.wordpress.com/2013/11/stairs-to-heaven.jpg" alt="oasis" height="100%" width="100%"></img></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+						<div></div>
+
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+
+		</div>
+	</body>
+</html>

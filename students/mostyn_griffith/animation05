@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<style>
+
+			.page1 { 
+				width: 300px;
+				height: 500px; 
+			 clear: both; 
+			 border: 2px black bold}
+
+
+
+			div:hover { transform: perspective(400px) rotateX(20deg); }
+			.buttondown {}
+		
+			
+			.animate {
+			 animation-name: buffalo;
+			 animation-duration: 4s;
+			 animation-iteration-count: 10;
+			 animation-direction: alternate;
+			 animation-timing-function: ease-out;
+			 animation-fill-mode: forwards;
+			 animation-delay: 0s;
+
+			}
+			
+		@keyframes buffalo {
+		  0%   { width: 50px; height: 80px; }
+		  50%  { width: 100px; height: 160px;}
+		  100% { width: 200px; height: 3200px; }
+		}
+
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+	</head>
+	
+	<body>
+
+		<div class="page1">
+		</div>
+
+		<script>
+			$(".page1").click(function() {
+				$(this).toggleClass("animate");
+			});
+
+		</script>
+
+
+	</body>
+
+
+</html>
