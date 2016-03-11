@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<style>
+	
+		.block{
+			height: 300px;
+			width: 30px;
+			border-radius: 100px;
+			background: red;
+		 	position: absolute;
+  			top: 40%;
+  			lefT: 40%;
+  			margin: 20px;
+  			transition: all 2s;
+  			z-index: 2;
+  			float: left;
+  			}
+
+  		.bg{
+  			height: 100vw;
+  			width:100vw;
+  			background: white;
+  			transition: all 2s;
+  			}
+  			
+  			@media (max-width: 1400px) {
+  			{transition: all 1s;}
+  			.block {transform: rotate(90deg);
+  					background: gray;}
+  			 .bg {background:-webkit-linear-gradient(yellow, white);}
+  			 
+  			 }
+  			
+  			@media (max-width: 700px) {
+  			 .block {transform: rotate(210deg);
+  			 		background: pink;}
+  			 .bg{background: -webkit-linear-gradient(turquoise, white);}
+  			 {transition: all 1 s;}
+  			 }
+  		</style>
+	</head>
+	
+	<body>
+		<div class= "block"> </div>
+		<div class= "block"> </div>
+		<div class= "block"> </div>
+		<div class= "block"> </div>
+		<div class= "block"> </div>
+		<div class ="bg"></div>
+	</body>
+	
+	
+</html>

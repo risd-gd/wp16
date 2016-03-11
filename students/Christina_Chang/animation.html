@@ -1,0 +1,78 @@
+<html>
+	<head>
+		<style>
+		
+		
+			
+			div {
+			height: 300px;
+			width: 300px;
+			background: sienna;
+			float: left;
+			margin-top:200px;
+			transition: all 1s;
+			}
+			.white {
+			height: 300px;
+			width: 100px;
+			background: white;
+			float:left;
+			margin-top:200px;
+			}
+			
+			.different {
+			width: 200px;
+			background: indigo;
+			}
+			
+			div:hover{
+			border-radius: 50%;
+			background: -webkit-linear-gradient(yellow, turquoise);
+			}
+			.white:hover {background: -webkit-linear-gradient(yellow, pink);
+			height: 300px;
+			width: 300px;
+				h{
+			font-style: sans-serif;
+			fontcolor: white;
+			font-size: 50px;}}
+			
+
+			.animate {
+			 animation-name: buffalo;
+			 animation-duration: 4s;
+			 animation-iteration-count: 10;
+			 animation-direction: alternate;
+			 animation-timing-function: ease-out;
+			 animation-fill-mode: forwards;
+			 animation-delay: 0s;
+
+			}
+			
+		@keyframes buffalo {
+		  0%   { background: black; }
+		  50%  { background: red;}
+		  100% { opacity: orange; }
+		}
+
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+		</style>
+	</head>
+	
+	<body bgcolor = "orange">
+		<div></div>
+		<div class = "white"> <h> A</h> </div>
+		
+		<div class = "different"> </div>
+		
+		<script>
+			$(".different").click(function() {
+				$(this).toggleClass("animate");
+			});
+		</script>
+		
+	
+
+</html>
