@@ -1,0 +1,114 @@
+<html>
+	<head>
+		<title>pattern 3</title>
+		<style>
+		
+			body { margin: 0; }
+			
+			.wheee { 
+				background: gold;
+				width: 100vw; height: 100vh;
+				overflow: hidden; 
+				 
+				  }
+
+			.wheee div { 
+				 background: lightskyblue;
+				 border: 10px solid white;
+				 margin: 20px; float: left;
+				 mix-blend-mode: multiply;
+				 border-left: 50px solid transparent;
+				 border-right: 50px solid transparent;
+				 border-bottom: 100px solid white;
+				 border-radius: 50%;
+				  }
+				  
+			.wheee div:nth-child(3n) {  border-color: greenyellow; }
+			
+			.animate {
+			 animation-name: buffalo;
+			 animation-duration: 4s;
+			 animation-iteration-count: 10;
+			 animation-direction: alternate;
+			 animation-timing-function: ease-out;
+			 animation-fill-mode: forwards;
+			 animation-delay: 0s;
+
+			}
+			
+		@keyframes buffalo {
+		  0%   { background: gray;
+		  		-webkit-transform: rotate(0deg) }
+		  50%  { background: mistyrose;
+		  		-webkit-transform: rotate(180deg)}
+		  100% { opacity: cornsilk; 
+		  		-webkit-transform: rotate(360deg)}
+		}
+	
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	</head>
+	<body>
+		<div class="wheee">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		<script>
+			$(".wheee").click(function() {
+				$(this).toggleClass("animate");
+			});
+		</script>
+	</body>
+</html>
+
