@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<style>
+			div { width: 200px; height: 300px;
+			background: red; float: left; margin: 10px; 
+			transition: all 1s; 
+			
+			}
+			.different { background: green; clear: both; }
+
+
+			li {
+    		background: url('http://www.t-shirtmaker.co.uk/resources/cliparts/admin/3173_ico.png');
+   			margin-top:50px;
+   			margin-left: 50px; 
+   			border: solid black;
+   			padding: 50px;
+    		height: 500px;
+    		width: 90px;
+    		border-radius:60
+    		
+    		
+}
+			div:hover { border-radius: 60%; }
+			.buttondown {}
+			
+			.different2 { background: yellow; float: left; }
+			
+			.hello { background: yellow; 
+			margin-top: 100px; 
+			width: 100px;
+			transform: rotate(45deg);
+			opacity: .5;
+			border-radius: 50%;
+			}
+			
+				.hello2 { background: yellow; 
+			margin-top: 100px; 
+			width: 100px;
+			transform: rotate(45deg);
+			opacity: .5;
+			border-radius: 50%;
+			}
+			
+			.animate {
+			 -webkit-animation-name: buffalo;
+			  -webkit-animation-duration: 4s;			 			 
+			 -webkit-animation-direction: alternate;
+			 -webkit-animation-timing-function: ease-out;
+			 animation-fill-mode: forwards;
+			 -webkit-animation-delay: 0s;
+
+			}
+			
+		@-webkit-keyframes buffalo {
+		  0%   { background: black; }
+		  50%  { background: blue;}
+		  100% { background: orange;}
+		  
+		}
+
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+	</head>
+	
+	<body>
+		
+		
+		<li id="test2"> </li>
+		
+		<script>
+			$(".different").click(function() {
+				$(this).toggleClass("animate");
+				
+			});
+			
+			$("li#test2").hover(
+     	 function () {
+        	$(this).animate({
+          	'background-position-y': '-1000'
+        	}, 500);
+      	},
+      	function () {
+        	$(this).animate({
+          	'background-position-y': '1000'
+        	}, 500);
+      	}
+    	);
+    	
+
+		</script>
+		
+		
+		
+		
+	
+
+	</body>
+
+
+</html>

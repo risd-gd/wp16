@@ -1,0 +1,132 @@
+
+		
+	
+
+<html>
+	<head>
+		<style>
+			
+			
+			/*.newman { {background: transparent;
+			width: 400px; height: 400px; position: absolute;
+			top: 20; left: 20; 
+			
+		}*/
+		
+		
+			
+			div { width: 200px; height: 300px;
+			background: red; float: left; margin: 10px; 
+			transition: all 1s; 
+			
+			}
+			.different { background: green; clear: both; }
+
+
+			li {
+    		background: url('http://tr1.cbsistatic.com/hub/i/2015/05/07/a653e8e0-f4ae-11e4-940f-14feb5cc3d2a/cherry09062012.png');
+   			margin-top:100px;
+   			margin-left: 50px; 
+   			
+   			
+    		height: 1000px;
+    		width: 1000px;
+    		border-radius:60
+    		opacity: 0.9;
+    		
+    		
+}
+			div:hover { border-radius: 60%; }
+			.buttondown {}
+			
+			.different2 { background: yellow; float: left; }
+			
+			.hello { background: yellow; 
+			margin-top: 100px; 
+			width: 100px;
+			transform: rotate(45deg);
+			opacity: .5;
+			border-radius: 50%;
+			}
+			
+				.hello2 { background: yellow; 
+			margin-top: 100px; 
+			width: 100px;
+			transform: rotate(45deg);
+			opacity: .5;
+			border-radius: 50%;
+			}
+			
+			.animate {
+			 -webkit-animation-name: buffalo;
+			  -webkit-animation-duration: 4s;			 			 
+			 -webkit-animation-direction: alternate;
+			 -webkit-animation-timing-function: ease-out;
+			 animation-fill-mode: forwards;
+			 -webkit-animation-delay: 0s;
+
+			}
+			
+		@-webkit-keyframes buffalo {
+		  0%   { background: black; }
+		  50%  { background: blue;}
+		  100% { background: orange;}
+		  
+		}
+
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+  
+	
+
+
+
+
+</head>
+	
+	<body>
+		
+		
+	
+		
+	
+		
+		<li id="test2"> 
+		 <img src="http://pngimg.com/upload/tv_PNG480.png"
+		style="width:1000px;height:1000px; "></li>
+		
+		<script>
+			$(".different").click(function() {
+				$(this).toggleClass("animate");
+				
+			});
+			
+			$("li#test2").hover(
+     	 function () {
+        	$(this).animate({
+          	'background-position-x': '-700'
+        	}, 500);
+      	},
+      	function () {
+        	$(this).animate({
+          	'background-position-x': '700'
+        	}, 500);
+      	}
+    	);
+    	
+    	
+    	
+		
+
+		</script>
+		
+		
+		
+		
+	
+
+	</body>
+
+
+</html>
