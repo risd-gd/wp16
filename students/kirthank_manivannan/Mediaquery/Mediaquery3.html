@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<style>
+			div { width: 200px; height: 200px;
+			background: lightpink; float: left; margin: 10px; 
+			transition: all 1s;  
+			}
+			.different { background: pink; clear: both; }
+
+			
+			@media only screen and (max-width: 1040px) {
+			.different { display: block; 
+				margin: 5px; 
+				width: 100px; height: 100px; 
+				float: left;
+				}
+			@media only screen and (max-width: 500px) {
+			.different {display: block;
+				margin: 2px;
+				width: 50px; height: 50px;
+				float: right;
+			}
+		</style>
+
+	</head>
+	
+	<body>
+		
+		<div></div>
+		<div></div>
+		<div></div>
+		<div class="different"></div>
+		<div class="different"></div>
+		<div class="different"></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div class="different"></div>
+		<div class="different"></div>
+		<div></div>
+
+	</body>
+
+
+</html>

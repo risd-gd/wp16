@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<style>
+			div { width: 200px; height: 200px;
+			background: gray; float: left; margin: 10px; 
+			transition: all 1s;  
+			}
+			.different { background: gray; clear: both; }
+
+			
+			@media (max-width: 867px) {
+				.different { background: yellow; }
+			}
+			@media (max-width: 667px) {
+				.different { background: pink; }
+			}
+			@media (max-width:500px) {
+				.different {background: orange;}
+			}
+			
+		</style>
+
+	</head>
+	
+	<body>
+		
+		<div></div>
+		<div class="different"></div>
+		<div class="different"></div>
+		<div></div>
+		<div></div>
+		<div class="different"></div>
+		<div class="different"></div>
+		<div></div>
+
+	</body>
+
+
+</html>
