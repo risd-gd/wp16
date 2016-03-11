@@ -1,0 +1,59 @@
+<html>
+	<head>
+		<style>
+			div { width: 500px; height: 80px;
+			background: forestgreen; float: left; margin: -40px; 
+		transition: all 1s; 
+						 animation-name: buffalo;
+			 animation-duration: 3s;
+			 animation-iteration-count: 100;
+			 animation-direction: alternate;
+			 animation-timing-function: ease-out;
+			 animation-fill-mode: forwards;
+			 animation-delay: 0s;
+			
+			}
+
+			div:hover { border-left: 400px solid transparent;
+			border-right: 40px solid transparent
+				background: yellow;
+			 }
+
+			
+			.different { background: magenta; clear: both; }
+
+			
+			
+		
+				
+		@-webkit-keyframes buffalo {
+		  from { transform: rotate(45deg); opacity: .1; }
+		  to	{ transform: rotate(135deg); opacity: .9;}
+		}
+		
+
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+	</head>
+	
+	<body>
+		
+		<div></div>
+		<div></div>
+
+		<div class="different"></div>
+
+		<script>
+			$(".different").click(function() {
+				$(this).toggleClass("animate");
+			});
+		</script>
+		
+		
+
+
+	</body>
+
+
+</html>
