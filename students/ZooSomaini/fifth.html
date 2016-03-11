@@ -36,6 +36,11 @@
     		
     		
 }
+
+			div { background: blue; }
+			
+			.first div { background: pink; }
+			
 			div:hover { border-radius: 60%; }
 			.buttondown {}
 			
@@ -48,6 +53,17 @@
 			opacity: .5;
 			border-radius: 50%;
 			}
+			
+			ul { width: 100vw; margin: 0;
+			position: absolute;
+			top: 0; left: 0; }
+			
+#test2 img { width: 100%; }
+
+@media (max-width: 1000px) {
+#test2 img { width: 400px; }
+
+}
 			
 				.hello2 { background: yellow; 
 			margin-top: 100px; 
@@ -91,11 +107,10 @@
 	
 		
 	
-		
+		<ul>
 		<li id="test2"> 
-		 <img src="http://pngimg.com/upload/tv_PNG480.png"
-		style="width:1000px;height:1000px; "></li>
-		
+		 <img src="http://pngimg.com/upload/tv_PNG480.png""></li>
+		</ul>
 		<script>
 			$(".different").click(function() {
 				$(this).toggleClass("animate");
