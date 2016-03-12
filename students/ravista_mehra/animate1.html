@@ -5,8 +5,8 @@
 				body { margin:0; 
 				}
 			
-			div { width: 300px;
-				height: 300px;
+			div { width: 100vw;
+				height: 200px;
 				background-color: green;
 				opacity: 30%;
 				border-radius: 50%;
@@ -16,15 +16,18 @@
 				}
 			
 			div:hover {
-				width: 300px;
-				height: 300px;
+				width: 100vw;
+				height: 200px;
 				border-radius: 0%;
 				transform: rotate(45deg);
 				margin: -25px;
 				mix-blend-mode: screen;
 				animation-name: change;
 				animation-duration: 7s;
+				}
 				
+				.different:hover {
+				transform: rotate(-45deg);
 				}
 				
 			@keyframes change {
@@ -47,16 +50,16 @@
 			}
 			@media (min-width: 1000px) {
 				div { float: left;
-				background: yellow;
+				background-color: yellow;
 				}
 			@media (max-width: 500px) {
 				.two { float: left;
-				background: navy;
+				background-color: navy;
 				}
 			}
 			@media (min-width: 1000px) {
 				.two { float: left;
-				background: white;
+				background-color: white;
 				}
 
 			em { display: none; margin: 100px; }
@@ -71,6 +74,7 @@
 	
 	<body>
 		
+		<div class="different"></div>
 		<div></div>
 		<div></div>
 		<div class="different"></div>
