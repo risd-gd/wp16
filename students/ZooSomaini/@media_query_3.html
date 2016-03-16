@@ -21,149 +21,12 @@
 				opacity:.9;}
 			
 			
-			
-			.different { background: #130033; clear: both; }
-			.different2 { background: #330066; clear: both; }
-			.different3 { background: #530099; clear: both; }
-			.different4 { background: #7300CC; clear: both; }
-			.different5 { background: #9300FF; clear: both; }
-			
-			
-			
-			
-			@media (max-width: 500px) {
-			div{ background: #660000;
-			 }
-			.different{ background: #160066;
-			 } 
-			 .different2{ background: #260066;
-			 } 
-			 .different3{ background: #360099;
-			 } 
-			 .different4{ background: #4600CC;
-			 } 
-			 .different5{ background: #6600FF;
-			 } 
-			 
-			.circle3 {background : pink; border: blue;}
-			.circle {background : light yellow; border: blue;}
-			 
-			
-			}
-			 
-			}
-			@media (max-width: 600px) {
-			div{ background: #333300;
-			 }
-			.different{ background: #733312;
-			 } 
-			 .different2{ background: #833367;
-			 } 
-			 .different3{ background: #933314;
-			 } 
-			 .different4{ background: #312390;
-			 } 
-			 .different5{ background: #3993FF;
-			 } 
-	 		
-				.circle3 {background : light orange;border: blue;}
-				.circle2 {background : limegreen;border: blue;}
-	 		
-			}
-			
-			@media (max-width: 20000px) {
-			div{ background: #444400;
-			 }
-			.different{ background: #444433;
-			 } 
-			 .different2{ background: #555566;
-			 } 
-			 .different3{ background: #666699;
-			 } 
-			 .different4{ background: #7777CC;
-			 } 
-			 .different5{ background: #8888FF;
-			 } 
-			 	.circle3 {background : orange;}
-			 	.circle2 {background : light pink;border: blue;}
-			 
-			 
-			 	
-			@media (max-width: 20000px) {
-			div{ background: #222200;
-			 }
-			.different{ background: #922233;
-			 } 
-			 .different2{ background: #522266;
-			 } 
-			 .different3{ background: #422299;
-			 } 
-			 .different4{ background: #3222CC;
-			 } 
-			 .different5{ background: #2222FF;
-			 } 
-			 	.circle3 {background : light turquoise;border: blue;}
-			 	.circle2 {background : orange;border: blue;}
-			 
-	 		
-			@media (max-width: 20000px) {
-			div{ background: #222200;
-			 }
-			.different{ background: #122233;
-			 } 
-			 .different2{ background: #122266;
-			 } 
-			 .different3{ background: #122299;
-			 } 
-			 .different4{ background: #1222CC;
-			 } 
-			 .different5{ background: #1222FF;
-			 } 
-			 
-			 	.circle3 {background : gold; border: blue;}
-			 	.circle2 {background : indigo; border: blue;}
-			
-			 
-			 	@media (max-width: 20000px) {
-			div{ background: #922200;
-			 }
-			.different{ background: #922233;
-			 } 
-			 .different2{ background: #922266;
-			 } 
-			 .different3{ background: #922299;
-			 } 
-			 .different4{ background: #9222CC;
-			 } 
-			 .different5{ background: #9222FF;
-			 } 
-			
-				.circle3 {background : purple; border: blue;}
-				.circle2 {background : white; border: blue;}
-	 
-	 	 	@media (max-width: 20000px) {
-			div{ background: #822200;
-			 }
-			.different{ background: #822233;
-			 } 
-			 .different2{ background: #822266;
-			 } 
-			 .different3{ background: #822299;
-			 } 
-			 .different4{ background: #8222CC;
-			 } 
-			 .different5{ background: #8222FF;
-			 } 
-			
+		
+	
 				.circle3 {background : limegreen; border: blue;}
 				.circle2 {background : black; border: blue;}
 				
-				
-				div { width: 200px; height: 300px;
-			background: red; float: left; margin: 10px; 
-			transition: all 1s; 
 			
-			}
 			.different { background: green; clear: both; }
 
 
@@ -181,9 +44,9 @@
     		
     		
 }
-			div:hover { border-radius: 60%; }
-			.buttondown { background: yellow; float: left; width: 50px; height: 50px;
-			position: absolute; top: 60px; left: 60px;}
+			div:hover { border-radius: 3%; color:red; transform: rotate(42deg);}
+			. { background: yellow; float: left; width: 20px; height: 20px;
+			position: absolute; top: 0px; left: 0px;}
 			
 			.different2 { background: yellow; float: left; }
 			
@@ -198,17 +61,17 @@
 				.hello2 { background: yellow; 
 			margin-top: 100px; 
 			width: 100px;
-			transform: rotate(45deg);
+			transform: rotate(42deg);
 			opacity: .5;
 			border-radius: 50%;
 			}
 			
 			.animate {
 			 -webkit-animation-name: buffalo;
-			  -webkit-animation-duration: 10s;			 			 
-			 -webkit-animation-direction: alternate;
+			  -webkit-animation-duration: 5s;			 			 
+			 -webkit-animation-direction: linear;
 			 -webkit-animation-timing-function: ease-out;
-			 animation-fill-mode: forwards;
+			 animation-fill-mode: backwards;
 			 -webkit-animation-delay: 0s;
 
 			}
@@ -216,7 +79,7 @@
 		@-webkit-keyframes buffalo {
 		  0%   { background: black; }
 		  50%  { background: blue;}
-		  100% { background: orange;}
+		  50% { background: orange;}
 		  
 		}
 
@@ -237,14 +100,16 @@
 	
 	<body>
 		
-		<div class="circle3">
+	<div class="circle3">
 	ZOO
 			<div class="buttondown">
 			
 	</div></div>
 	
 		
-		
+	<div >
+	
+	</div>	
 	
 	
 		
@@ -264,13 +129,13 @@
 			$("li#test2").hover(
      	 function () {
         	$(this).animate({
-          	'background-position-x': '-5000'
-        	}, 5000);
+          	'background-position-x': '-10000'
+        	}, 10000);
       	},
       	function () {
         	$(this).animate({
-          	'background-position-x': '5000'
-        	}, 5000);
+          	'background-position-x': '10000'
+        	}, 10000);
       	}
     	);
     	
