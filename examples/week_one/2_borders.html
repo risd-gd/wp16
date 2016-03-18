@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<style>
+			body { background: blue; }
+			.boxes { 
+				background: red; 
+				margin: 10px; 
+				width: 120px;
+				height: 120px; 
+				float: left; }
+				
+			.border { 
+			
+			/* Can assign four sides separately */
+			border-left: 40px solid white;
+			border-right: 20px solid white;
+
+			/* four values is four sides, top first
+			clockwise */
+			margin: 10px 5px 20px 30px;
+
+			/* two values is 
+			top and bottom, then left right */
+			padding: 10px 50px;
+			 }
+			
+		</style>
+		<title>Four sided thing</title>
+	</head>
+	<body>
+			<div class="boxes"></div>
+			<div class="boxes"></div>
+			<div class="boxes"></div>
+			<div class="boxes"></div>
+			<div class="boxes border">hi</div>
+			<div class="boxes border">hi</div>
+	</body>
+	
+</html>
