@@ -16,12 +16,14 @@ div {
 .div1 {
 	background: pink;
 	width: 60%;
-	margin-top: 20px;
+	margin-top: 10px;
 }
 .div2 {
 	color: pink;
-	width: 20%;
-	margin-bottom: 20px;
+	width: 160px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border: solid 3px;
 }
 .div3 {
 	color: green;
@@ -31,4 +33,17 @@ div {
 img {
 	width: 160px;
 	height: auto;
+}
+.img1:hover{
+	border: solid 3px;
+	padding: 5px;
+}
+.hay {
+	position: fixed;
+	right: 100px;
+	top: 50%;
+	color: green;
+}
+.hay:hover {
+	color: pink;
 }
