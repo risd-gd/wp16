@@ -1,12 +1,34 @@
 div {
-	padding: 10px;
+	
+}
+.divpink {
+	background: pink;
+	width: 20px;
+	height: 20px;
+	float: left;
+}
+.divgreen {
+	background: green;
+	width: 20px;
+	height: 20px;
+	float: left;
 }
 .div1 {
 	background: pink;
 	width: 60%;
-	margin-top: 10px;
+	margin-top: 20px;
 }
 .div2 {
 	color: pink;
 	width: 20%;
+	margin-bottom: 20px;
+}
+.div3 {
+	color: green;
+	width:160px;
+	height: auto;
+}
+img {
+	width: 160px;
+	height: auto;
 }
