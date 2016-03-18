@@ -2,21 +2,40 @@
 	<head>
 		<style>
 		
+					
 		
+			 button {
+    				margin: 10px;
+  					}
 			
-		
 			div { width: 1000vw; height: 11px;
 			background: #130000; opacity: .1; float: left; margin-top: -10px; 
 			transition: all 1s;  
 			}
 			
+			.boy {height:5000px; width: 7px; margin-left:0px; margin-top:-10px; background : black;
+			opacity: 0.6; }
 		
-			.circle3 { height: 100px; width: 100px; font: helvetica; font-size: 500px; display: inline-block;
+			.circle3 { height: 150px; width: 120px; font: helvetica; font-size: 35px; display: inline-block;
 				text-align: center; 
 				background: transparent;
-				padding: 100px;
-				border-radius: 50%;
-				margin: 0 auto;
+				padding-top: 70px;
+				border-radius: 100%;
+				margin-top: 175;
+				margin-left: 403;
+				color: blue;
+				opacity:.9;
+				
+				}
+				
+			.circle4{
+					height: 100px; width: 100px; font: helvetica; font-size: 590px; display: inline-block;
+					text-align: center; 
+					background: transparent;
+					padding: 5px;
+					border-radius: 50%;
+					margin-top: -50;
+				margin-left: 5;
 				color: blue;
 				opacity:.9;}
 			
@@ -33,14 +52,14 @@
 	 
 	 li {
     		background: url('http://www.graphicxtras.com/images2/binary-code-pattern.png');
-   			margin-top:0px;
+   			margin-top:-500px;
    			margin-left: 0px; 
    			
    			
     		height: 10000px;
     		width: 20000px;
     		border-radius:60
-    		opacity: 0.9;
+    		opacity: 0.1;
     		
     		
 }
@@ -68,10 +87,10 @@
 			
 			.animate {
 			 -webkit-animation-name: buffalo;
-			  -webkit-animation-duration: 5s;			 			 
+			  -webkit-animation-duration: 10s;			 			 
 			 -webkit-animation-direction: linear;
 			 -webkit-animation-timing-function: ease-out;
-			 animation-fill-mode: backwards;
+			 -webkit-animation-fill-mode: backwards;
 			 -webkit-animation-delay: 0s;
 
 			}
@@ -83,11 +102,31 @@
 		  
 		}
 
+		.sense {background: yellow; margin-left:-80; margin-top:-80; height: 5000;
+		width:5000; opacity: 0.2;}
+		
+		.sense2 {background: turquoise; margin-left:-80px; margin-top:-80px; height: 5000;
+		width:5000; opacity: 0.2;}
+
+
+		ul {
+    margin-left: 20px;
+    color: blue;
+  }
+  li2 {
+    cursor: default;
+  }
+  span {
+    color: red;
+  }
+
 		</style>
+		
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 
   
-	
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 
 
@@ -99,12 +138,34 @@
 	</head>
 	
 	<body>
+	
+	<div class="boy">
+	</div>
+	
+	
+	<div class="circle4">
+	ZOO
+	
+		<div class= "sense2">
+		</div>
+	</div>
+
+	
+	
+	
+	
 		
 	<div class="circle3">
-	ZOO
+	WORK
 			<div class="buttondown">
 			
 	</div></div>
+
+		
+	
+	
+	
+	</div>
 	
 		
 	<div >
@@ -139,14 +200,24 @@
       	}
     	);
     	
+    		$( "#foo" ).on( "click", function() {
+  alert( $( this ).text() );
+});
+$( "#foo" ).trigger( "click" );
+    	
     	
     	
 		
 
 		</script>
 		
+
 		
-	
+		
+	<div class= "sense">
+		</div>
+	<div class= "sense2">
+		</div>
 			
 	</body>
 
