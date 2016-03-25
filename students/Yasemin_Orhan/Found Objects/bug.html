@@ -1,0 +1,536 @@
+<html>
+	<head>
+		<title> Bug in rasin </title>
+			<style>
+			
+				.bug {
+					position:absloute;
+					top:50px;
+					left:50px;
+					}
+					
+				.body {
+					position:absolute;
+					top: 200px;
+					left:100px;
+					width: 200px;
+					height:250px;
+					border-radius:100px/100px;
+					background:black;
+					z-index:6;
+					}
+				
+				.bodyrect {
+					position:absolute;
+					top: 195px;
+					left:100px;
+					width: 200px;
+					height:120px;
+					border-radius:10px/10px;
+					background:black;
+					z-index:1;
+					}
+				.bodysqaure { 
+					position:absolute;
+					top: 150px;
+					left:150px;
+					width:100px;
+					height:50px;
+					border-radius:13px/13px;
+					background:black;
+					z-index:5;
+					}
+				.triangleright {
+					position:absolute;
+					top:01px;
+					left:-48px;
+					border-left: 55px solid transparent;
+					border-right: 02px solid transparent;
+					border-bottom: 48px solid black;
+					z-index:3;
+					}
+				.triangleleft {
+					position:absolute;
+					top:01px;
+					left:+91px;
+					border-left: 02px solid transparent;
+					border-right: 55px solid transparent;
+					border-bottom: 48px solid black;
+					z-index:2;
+					}
+				.face {
+					position:absolute;
+					top: 125px;
+					left: 180px;
+					width:40px;
+					height: 30px;
+					border-radius: 10px/10px;
+					background:black;
+					z-index:4;
+					}					
+					
+				.eye1 {
+					position: absolute;
+					top:5px;
+					left:-20px;
+					width:25px;
+					height:25px;
+					border-radius:20px;
+					background:black;
+					border: 2px solid white;
+					z-index:2;
+					}
+					
+				.eye2 {
+					position: absolute;
+					top:5px;
+					left:35px;
+					width:25px;
+					height:25px;
+					border-radius:20px;
+					background:black;
+					border: 2px solid white;
+					z-index:2;
+					}
+				.stripes {
+					position: absolute;
+					top: 250px;
+					left:100px;
+					width:200px;
+					height:6px;
+					background:white;
+					border-radius:1px/1px;
+					z-index:7;
+					}
+				.stripe1 {
+					position: absolute;
+					top: -40px;
+					left:+0px;
+					width:85px;
+					height:15px;
+					background:white;
+					border-radius:1px/1px;
+					z-index:7;
+						-webkit-transform: rotate(55deg);
+					}
+					
+				.stripe2 {
+					position: absolute;
+					top: -55px;
+					left:+87px;
+					width:105px;
+					height:15px;
+					background:white;
+					border-radius:1px/1px;
+					z-index:7;
+						-webkit-transform: rotate(-80deg);
+					}
+					
+				.stripe3 {
+					position: absolute;
+					top: -100px;
+					left:+95px;
+					width:15px;
+					height:105px;
+					background:white;
+					border-radius:1px/1px;
+					z-index:7;
+				
+					}
+					
+				.stripe3head {
+					position: absolute;
+					top: -120px;
+					left:+100px;
+					width:5px;
+					height:50px;
+					background:white;
+					border-radius:1px/1px;
+					z-index:7;
+				
+					}
+					
+				.stripe4 {
+					position: absolute;
+					top: -55px;
+					left:+12px;
+					width:105px;
+					height:15px;
+					background:white;
+					border-radius:1px/1px;
+					z-index:7;
+						-webkit-transform: rotate(80deg);
+					}
+					
+				.stripe5 {
+					position: absolute;
+					top: -40px;
+					left:+120px;
+					width:85px;
+					height:15px;
+					background:white;
+					border-radius:1px/1px;
+					z-index:7;
+						-webkit-transform: rotate(-55deg);
+					}
+					
+				.stripe6 {
+					position: absolute;
+					top: 0px;
+					left:+60px;
+					width:15px;
+					height:200px;
+					background:white;
+					border-radius:1px/1px;
+					z-index:8;
+					}
+					
+				.stripe7 {
+					position: absolute;
+					top: 0px;
+					left:+95px;
+					width:15px;
+					height:200px;
+					background:white;
+					border-radius:1px/1px;
+					z-index:7;
+				
+					}
+					
+				.stripe8 {
+					position: absolute;
+					top: 0px;
+					left:+130px;
+					width:15px;
+					height:200px;
+					background:white;
+					border-radius:1px/1px;
+					z-index:8;
+					}
+				
+				.stripe9 {
+					position: absolute;
+					top: 0px;
+					left:+170px;
+					width:15px;
+					height:200px;
+					background:white;
+					border-radius:1px/1px;
+					z-index:8;
+					}
+					
+				.stripe10 {
+					position: absolute;
+					top: 0px;
+					left:+20px;
+					width:15px;
+					height:200px;
+					background:white;
+					border-radius:1px/1px;
+					z-index:8;
+					}
+					
+				.stripe11 {
+					position: absolute;
+					top: -25px;
+					left:-22px;
+					width:65px;
+					height:15px;
+					background:white;
+					border-radius:1px/1px;
+					z-index:9;
+						-webkit-transform: rotate(50deg);
+					}
+					
+				.stripe12 {
+					position: absolute;
+					top: -25px;
+					left:162px;
+					width:65px;
+					height:15px;
+					background:white;
+					border-radius:1px/1px;
+					z-index:9;
+						-webkit-transform: rotate(-50deg);
+					}
+				
+				.legs {
+					position: absolute;
+					top: 200px;
+					left:200px;
+					width:5px;
+					height:100px;
+					background:white;
+					border-radius:1px/1px;
+					z-index:10;
+				
+					}
+					
+				 .leg1 {
+					position: absolute;
+					top: -55px;
+					left:-75px;
+					width:8px;
+					height:30px;
+					background:black;
+					border-radius:1px/1px;
+					z-index:10;
+						-webkit-transform: rotate(-70deg);
+					}
+				.leg1part2 {
+					position: absolute;
+					top: -55px;
+					left: 26px;
+					width:8px;
+					height:70px;
+					background:black;
+					border-radius:1px/1px;
+					z-index:10;
+						-webkit-transform: rotate(50deg);
+				
+					}
+				.leg1part3 {
+					position: absolute;
+					top: -70px;
+					left: 53px;
+					width:8px;
+					height:30px;
+					background:black;
+					border-radius:1px/1px;
+					z-index:10;
+						-webkit-transform: rotate(5deg);
+				}
+				
+				.leg2 {
+					position: absolute;
+					top: -50px;
+					left:67px;
+					width:8px;
+					height:30px;
+					background:black;
+					border-radius:1px/1px;
+					z-index:10;
+						-webkit-transform: rotate(70deg);
+					}
+					
+					.leg2part2 {
+					position: absolute;
+					top: -55px;
+					left: -26px;
+					width:8px;
+					height:70px;
+					background:black;
+					border-radius:1px/1px;
+					z-index:10;
+						-webkit-transform: rotate(-50deg);
+				
+					}
+				.leg2part3 {
+					position: absolute;
+					top: -70px;
+					left: -53px;
+					width:8px;
+					height:30px;
+					background:black;
+					border-radius:1px/1px;
+					z-index:10;
+						-webkit-transform: rotate(-5deg);
+						}
+				
+				.leg3 {
+					position: absolute;
+					top: -8px;
+					left: -127px;
+					width:8px;
+					height:120px;
+					background:black;
+					border-radius:1px/1px;
+					z-index:10;
+						-webkit-transform: rotate(30deg);
+					
+				}
+				
+				.leg3part2 {
+					position: absolute;
+					top: 115px;
+					left: -7px;
+					width:8px;
+					height:30px;
+					background:black;
+					border-radius:1px/1px;
+					z-index:10;
+						-webkit-transform: rotate(30deg);
+						}
+				
+				.leg4 {
+					position: absolute;
+					top: -8px;
+					left: 120px;
+					width:8px;
+					height:120px;
+					background:black;
+					border-radius:1px/1px;
+					z-index:10;
+						-webkit-transform: rotate(-30deg);
+				}
+				
+				.leg4part2 {
+					position: absolute;
+					top: 115px;
+					left: 7px;
+					width:8px;
+					height:30px;
+					background:black;
+					border-radius:1px/1px;
+					z-index:10;
+						-webkit-transform: rotate(-30deg);
+						}
+						
+				.leg5 {
+					position: absolute;
+					top: 100px;
+					left: -115px;
+					width:8px;
+					height:30px;
+					background:black;
+					border-radius:1px/1px;
+					z-index:10;
+						-webkit-transform: rotate(60deg);
+						}
+						
+					.leg5part2 {
+					position: absolute;
+					top: 23px;
+					left: +20px;
+					width:8px;
+					height:80px;
+					background:black;
+					border-radius:1px/1px;
+					z-index:10;
+						-webkit-transform: rotate(-30deg);
+						}
+						
+					.leg5part3 {
+					position: absolute;
+					top: -223px;
+					left: 162px;
+					width:8px;
+					height:80px;
+					background:black;
+					border-radius:1px/1px;
+					z-index:10;
+						-webkit-transform: rotate(90deg);
+						}
+					
+					.leg5part4 {
+					position: absolute;
+					top: 93px;
+					left: 41px;
+					width:8px;
+					height:30px;
+					background:black;
+					border-radius:1px/1px;
+					z-index:10;
+						-webkit-transform: rotate(-10deg);
+						}
+
+				
+						
+
+				.leg6 {
+					position: absolute;
+					top: 100px;
+					left: 106px;
+					width:8px;
+					height:30px;
+					background:black;
+					border-radius:1px/1px;
+					z-index:10;
+						-webkit-transform: rotate(-60deg);
+						}
+						
+						
+					.leg6part3 {
+					position: absolute;
+					top: 94px;
+					left: -41px;
+					width:8px;
+					height:30px;
+					background:black;
+					border-radius:1px/1px;
+					z-index:10;
+						-webkit-transform: rotate(10deg);
+						}
+
+					.container {
+					position: absolute;
+					left:50px;
+					
+					}
+			
+				
+				
+			</style>
+			
+			<body>
+			<div class="container" >
+				<div class="bug" >
+				<div class="body" ></div>
+				<div class="bodyrect" ></div>
+				<div class="bodysqaure" >
+					<div class="triangleright" ></div>
+					<div class="triangleleft" ></div>
+				</div>
+				<div class="face" >
+					<div class="eye1"></div>
+					<div class="eye2"></div>
+				</div>
+				<div class="stripes" >
+					<div class="stripe1" ></div>
+					<div class="stripe2" ></div>
+					<div class="stripe3" ></div>
+					<div class="stripe3head" ></div>
+					<div class="stripe4" ></div>
+					<div class="stripe5" ></div>
+					<div class="stripe6" ></div>
+					<div class="stripe7" ></div>
+					<div class="stripe8" ></div>
+					<div class="stripe9" ></div>
+					<div class="stripe10" ></div>
+					<div class="stripe11" ></div>
+					<div class="stripe12" ></div>
+				</div>
+				</div>
+				<div class="legs" >
+					<div class="leg1" >
+						<div class="leg1part2" ></div>
+						<div class="leg1part2" ></div>
+						<div class="leg1part3" ></div>
+						</div>
+					<div class="leg2" >
+						<div class="leg2part2" ></div>
+						<div class="leg2part2" ></div>
+						<div class="leg2part3" ></div>
+						</div>
+					<div class="leg3" >
+						<div class="leg3part2" ></div>
+						</div>
+					<div class="leg4" >
+						<div class="leg4part2" ></div>
+					</div>
+					
+					<div class="leg5" >
+						<div class="leg5part2" ></div>
+						<div class="leg5part3" ></div>
+						<div class="leg5part4" ></div>
+
+					</div>
+					<div class="leg6" >
+						<div class="leg6part3" ></div>
+					</div>
+			</div>
+		
+			</body>
+			
+	</head>
+</html>

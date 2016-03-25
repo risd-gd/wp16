@@ -1,0 +1,716 @@
+<html>
+	<head>
+		<title> Comb </title>
+			<style>
+			
+				.bodyrect {
+					position: absolute;
+					top:50px;
+					left:50px;
+					width:107px;
+					height:520px;
+					border-radius: 10px/10px;
+					background:black;
+					z-index:3
+					}
+					
+				.bodyrect2 {
+					position: absolute;
+					top:6px;
+					left:6px;
+					width:85px;
+					height:500px;
+					border-radius: 10px/10px;
+					background:	black;
+					border-left:5px solid white;
+					border-right:5px solid white;
+					border-top:5px solid white;
+					border-bottom:5px solid white;
+					z-index:3;
+					}
+				
+				.bodystripe1 {
+					position: absolute;
+					top:76px;
+					left:52px;
+					width: 4px;
+					height: 120px;
+					background:white;
+						-webkit-transform: rotate(-45deg);
+					z-index:4;
+					}
+					
+				.bodystripe2 {
+					position: absolute;
+					top:244px;
+					left:52px;
+					width: 4px;
+					height: 120px;
+					background:white;
+						-webkit-transform: rotate(-45deg);
+					z-index:4;
+					}
+				
+				.bodystripe3 {
+					position: absolute;
+					top:408px;
+					left:52px;
+					width: 4px;
+					height: 120px;
+					background:white;
+						-webkit-transform: rotate(-45deg);
+					z-index:4;
+					}
+				
+				.bodystripe4 {
+					position: absolute;
+					top:-6px;
+					left:52px;
+					width: 4px;
+					height: 120px;
+					background:white;
+						-webkit-transform: rotate(45deg);
+					z-index:4;
+					}
+					
+				.bodystripe5 {
+					position: absolute;
+					top:160px;
+					left:52px;
+					width: 4px;
+					height: 120px;
+					background:white;
+						-webkit-transform: rotate(45deg);
+					z-index:3;
+					}
+				
+				.bodystripe6 {
+					position: absolute;
+					top:325px;
+					left:52px;
+					width: 4px;
+					height: 120px;
+					background:white;
+						-webkit-transform: rotate(45deg);
+					z-index:4;
+					}
+					
+				.comb {
+					position: absolute;
+					top:5px;
+					left:105px;
+					width:15px;
+					height:510px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:1;
+					}
+				.stripe1 {
+					position: absolute;
+					top:0px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				
+				.stripe2 {
+					position: absolute;
+					top:10px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe3 {
+					position: absolute;
+					top:20px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+					
+				.stripe4 {
+					position: absolute;
+					top:30px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+					
+				.stripe5 {
+					position: absolute;
+					top:40px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe6 {
+					position: absolute;
+					top:50px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe7 {
+					position: absolute;
+					top:60px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe8 {
+					position: absolute;
+					top:70px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe9 {
+					position: absolute;
+					top:80px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe10 {
+					position: absolute;
+					top:90px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe11 {
+					position: absolute;
+					top:100px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe12 {
+					position: absolute;
+					top:110px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe13 {
+					position: absolute;
+					top:120px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				
+				.stripe14 {
+					position: absolute;
+					top:130px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe15 {
+					position: absolute;
+					top:140px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe16 {
+					position: absolute;
+					top:150px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe17 {
+					position: absolute;
+					top:160px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe18 {
+					position: absolute;
+					top:170px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe19 {
+					position: absolute;
+					top:200px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe20 {
+					position: absolute;
+					top:210px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe21 {
+					position: absolute;
+					top:220px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe22 {
+					position: absolute;
+					top:230px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe23 {
+					position: absolute;
+					top:240px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe24 {
+					position: absolute;
+					top:250px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe25 {
+					position: absolute;
+					top:260px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe26 {
+					position: absolute;
+					top:270px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe27 {
+					position: absolute;
+					top:280px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe28 {
+					position: absolute;
+					top:290px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+					
+				.stripe29 {
+					position: absolute;
+					top:300px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe30 {
+					position: absolute;
+					top:310px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe31 {
+					position: absolute;
+					top:320px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe32 {
+					position: absolute;
+					top:330px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe33 {
+					position: absolute;
+					top:340px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe35 {
+					position: absolute;
+					top:360px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe36 {
+					position: absolute;
+					top:370px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe37 {
+					position: absolute;
+					top:380px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe38 {
+					position: absolute;
+					top:390px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe39 {
+					position: absolute;
+					top:400px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe40 {
+					position: absolute;
+					top:410px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe42 {
+					position: absolute;
+					top:420px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe43 {
+					position: absolute;
+					top:440px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe44 {
+					position: absolute;
+					top:450px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe45 {
+					position: absolute;
+					top:460px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe46 {
+					position: absolute;
+					top:470px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe47 {
+					position: absolute;
+					top:480px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe48 {
+					position: absolute;
+					top:490px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe49 {
+					position: absolute;
+					top:500px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe50 {
+					position: absolute;
+					top:430px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				.stripe51 {
+					position: absolute;
+					top:180px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					
+				.stripe60 {
+					position: absolute;
+					top:190px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				
+				.stripe59 {
+					position: absolute;
+					top:180px;
+					left:5px;
+					width:55px;
+					height:5px;
+					border-radius: 2px/2px;
+					background:	black;
+					z-index:2;
+					}
+				
+					
+				
+			</style>
+			
+			<body>
+				<div class="bodyrect" >
+					<div class="bodyrect2" ></div>
+					<div class="bodystripe1" ></div>
+					<div class="bodystripe2" ></div>
+					<div class="bodystripe3" ></div>
+					<div class="bodystripe4" ></div>
+					<div class="bodystripe5" ></div>
+					<div class="bodystripe6" ></div>
+					<div class="bodystripe7" ></div>	
+					<div class="comb" >
+						<div class="stripe1" ></div>
+						<div class="stripe2" ></div>
+						<div class="stripe3" ></div>
+						<div class="stripe4" ></div>
+						<div class="stripe5" ></div>
+						<div class="stripe6" ></div>
+						<div class="stripe7" ></div>
+						<div class="stripe8" ></div>
+						<div class="stripe9" ></div>
+						<div class="stripe10" ></div>
+						<div class="stripe11" ></div>
+						<div class="stripe12" ></div>
+						<div class="stripe13" ></div>
+						<div class="stripe14" ></div>
+						<div class="stripe15" ></div>
+						<div class="stripe16" ></div>
+						<div class="stripe17" ></div>
+						<div class="stripe18" ></div>
+						<div class="stripe19" ></div>
+						<div class="stripe20" ></div>
+						<div class="stripe21" ></div>
+						<div class="stripe22" ></div>
+						<div class="stripe23" ></div>
+						<div class="stripe24" ></div>
+						<div class="stripe25" ></div>
+						<div class="stripe26" ></div>
+						<div class="stripe27" ></div>
+						<div class="stripe28" ></div>
+						<div class="stripe29" ></div>
+						<div class="stripe30" ></div>
+						<div class="stripe31" ></div>
+						<div class="stripe32" ></div>
+						<div class="stripe33" ></div>
+						<div class="stripe34" ></div>
+						<div class="stripe35" ></div>
+						<div class="stripe36" ></div>
+						<div class="stripe37" ></div>
+						<div class="stripe38" ></div>
+						<div class="stripe39" ></div>
+						<div class="stripe40" ></div>
+						<div class="stripe41" ></div>
+						<div class="stripe42" ></div>
+						<div class="stripe43" ></div>
+						<div class="stripe44" ></div>
+						<div class="stripe45" ></div>
+						<div class="stripe46" ></div>
+						<div class="stripe47" ></div>
+						<div class="stripe48" ></div>
+						<div class="stripe49" ></div>
+						<div class="stripe50" ></div>
+						<div class="stripe51" ></div>
+						<div class="stripe52" ></div>
+						<div class="stripe53" ></div>
+						<div class="stripe54" ></div>
+						<div class="stripe55" ></div>
+						<div class="stripe56" ></div>
+						<div class="stripe57" ></div>
+						<div class="stripe58" ></div>
+						<div class="stripe59" ></div>
+						<div class="stripe60" ></div>
+
+						
+
+
+					</div> 				
+				</div>
+				
+					
+				
+			
+			
+			
+			
+			</body>
+			
+	</head>
+</html>

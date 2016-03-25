@@ -1,0 +1,94 @@
+<html> 
+	<head>
+		<title> Pot </title>
+		
+			<style>
+			
+				.bodytriangle { 
+					position: absolute;
+					top: 250px;
+					left:125px;
+					border-left:150px solid transparent;
+					border-right:150px solid transparent;
+					border-bottom:270px solid black;
+					border-radius: 100px/60px;
+					z-index:1;
+				}
+				
+				.bodyrect {
+					position: absolute;
+					top: 186px;
+					left:141px;
+					height:300px;
+					width:263px;
+					background:black;
+					border:2px solid white;
+					z-index:2;
+				}
+				
+				.bodytriangle2 { 
+					position: absolute;
+					top: 157px;
+					left:125px;
+					border-left:150px solid transparent;
+					border-right:150px solid transparent;
+					border-bottom:270px solid black;
+					border-radius: 100px/60px;
+						-webkit-transform: rotate(180deg);
+					z-index:1;
+				}
+						
+				.topcircle {
+					position: absolute;
+					top: 125px;
+					left:245px;
+					height:30px;
+					width:50px;
+					border-radius:40px/30px;
+					border:3px solid white;
+					background:black;
+					z-index:3;
+				}
+				
+				.handle {
+					position: absolute;
+					top: 205px;
+					left: 380px;
+					height:20px;
+					width:230px;
+					background:black;
+					z-index:3;
+						-webkit-transform: rotate(-20deg);
+				}
+				
+				.handlehand {
+					position: absolute;
+					top: -7px;
+					left: 200px;
+					height:30px;
+					width:200px;
+					border-radius: 60px/40px;
+					border:3px solid white;
+					background:black;
+					z-index:3;
+				
+				
+				}
+				
+				
+					
+			
+			</style>
+			
+			<body>
+				<div class="bodyrect" ></div>
+				<div class="bodytriangle" ></div>
+				<div class="topcircle" ></div>
+				<div class="bodytriangle2" ></div>
+				<div class="handle" >
+					<div class="handlehand" ></div></div>
+			
+			</body>
+		
+	</head>
+</html>
