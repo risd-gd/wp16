@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Laptop Charger</title>
+		<style>
+			.circlebody {
+						height: 300px; 
+						width: 300px; 
+						background: black;
+						
+						position: absolute;
+						top: 300px;
+						left: 500px;
+						border-radius: 40px;
+			}
+						
+		</style>
+	</head>
+	<body>
+	<div class="circlebody"></div>
+	<div class="circleinner"></div>
+	<div class="circleL"></div>
+	<div class="circleL1"></div>
+	<div class="circleL2"></div>
+	<div class="circleL3"></div>
+	<div class="circleR"></div>
+	<div class="circleR1"></div>
+	<div class="circleR2"></div>
+	<div class="circleR3"></div>
+	
+	
+	</body>
+</html>
