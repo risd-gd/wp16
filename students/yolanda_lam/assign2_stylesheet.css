@@ -191,6 +191,15 @@ div {
 	left: 732;
 	top:215;
 }
+.dhole {
+	background: #f7f7f7;
+	width: 18px;
+	height: 8px;
+	left: 691;
+	top: 1223;	
+}
+
+
 
 /* iPHONE CABLE*/
 .usb {
@@ -423,20 +432,21 @@ div {
 	height: 40px;
 	left: 1450;
 	top: 330;
+}
 .ot3 {
 	background: #707070;
 	border-radius: 30px;
 	width: 20px;
 	height:20px;
 	left: 1420;
-	top: 450;
+	top: 390;
 }
 .ot3w {
 	background: #fff;
 	width: 20px;
 	height:10px;
 	left: 1420;
-	top: 465;
+	top: 405;
 }
 .bottom {
 	border: #ededed 5px solid;
@@ -447,15 +457,33 @@ div {
 	top: 480;
 }
 .ob1 {
-	
+	background: #707070;
+	border-radius: 2px;
+	width: 15px;
+	height: 40px;
+	left: 1395;
+	top: 510;
 }
 .ob2 {
-	
+	background: #707070;
+	border-radius: 2px;
+	width: 15px;
+	height: 40px;
+	left: 1450;
+	top: 510;
 }
 .ob3 {
-	
+	background: #707070;
+	border-radius: 30px;
+	width: 20px;
+	height:20px;
+	left: 1420;
+	top: 570;
 }
 .ob3w {
-	
-}
+	background: #fff;
+	width: 20px;
+	height:10px;
+	left: 1420;
+	top: 585;
 	
