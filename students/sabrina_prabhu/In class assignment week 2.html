@@ -4,17 +4,18 @@
 		
 	.canvas{
 		width: 300px;
-		height: 300px;
-		background: #83B2B5;
+		height: 290px;
+		background: #79B7C3;
+		margin: 30px;
 		}
 	
 	.sabrinashape{
 		width: 233px;
-		height: 44px;
-		border-radius: 5px;
+		height: 50px;
+		border-radius: 10px;
 		background: #540C4A;
 		position: absolute;
-		top: 33px;
+		top: 30px;
 		left: 37px;
 		}
 	.anothersabrinashape { 
@@ -37,19 +38,92 @@
 				 width: 233px; height: 112px;
 				 position: absolute;
 				 top: 110px;
-				 left: 66px;
-				
-	}
+				 left: 66px;}
 	
+		.greta-circle {
+			position: absolute;
+			top:25px; left:100px;
+			height:100px;
+			width:100px;
+			background: #FFC2D6;
+			border-radius:50px;
+		}
+			
+		.greta-circle-three {
+			position: absolute;
+			top:160px; left:235px;
+			
+		}
+			
 		
-	</style>
+		
+		.greta-arm-rotate {
+			position: absolute;
+			top: 45px; left: 170px;
+			height:200px;
+			width:100px;
+			background: #ABF4FF;
+			transform:rotate(-45deg);
+			mix-blend-mode: multiply;		
+		}
+		
+	.helga {
+				border: 44px solid black;
+				width: 29px; height: 29px;
+				transform: rotate(-44deg);
+				position: absolute;
+				top: 330px;
+				left: 192px;
+			}
+			
+			
+	.yo {
+				background: #FFCFCE;
+				width:300px;
+				height:300px;	
+				overflow: hidden;
+			}
+			.moon {
+				background: #BD603E;
+				border-radius: 50%;
+				width: 80px;
+				height: 80px;
+				margin-left: 50px;
+				margin-top: -150px;
+			}		
+			
+			.triangle{
+				background: red;
+				border-radius: 22%
+				width: 30px;
+				height: 20px;
+			
+	
+	</style> 
 	</head>
+
+<body>
+	<div class="container">
 		
-	<body>
+			<div class="greta-circle"></div>
+			<div class="greta-circle greta-circle-two"></div>
+			<div class="greta-circle greta-circle-three"></div>
+			<div class="greta-arm-rotate"></div>
+			
+	</div>
+
 		<div class="sabrinashape"></div>
 		<div class="canvas"></div>
 		<div class="anothersabrinashape"></div>
 		<div class="yetanothersabrinashape"></div>
+		
+		
+	<div class="helga"></div>	
+	<div class="yo"></div>	
+	<div class="circle"></div>
+	<div class="moon"></div>	
+		
+		
 	</body>
 </html>
 		
