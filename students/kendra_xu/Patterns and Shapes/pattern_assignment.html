@@ -1,0 +1,195 @@
+<html>
+
+	<head>
+		<title>pattern shape thing</title>
+		<style>
+			
+			/* kendra */
+			
+			.canvas {
+				background: linear-gradient( to bottom, #ccddff,#FD385C);
+				height: 700px;
+				width: 1000px;
+				position: absolute;
+				left:0; top:0;
+				overflow: hidden;	
+			}
+			
+			.canvas div {
+				height: 5px;
+				width: 80px;
+				background: white;
+				-webkit-transform: rotate(30deg);
+				display: inline block;
+				margin: 50px;
+				border-radius: 15px;
+				z-index: 1;
+			}
+			
+			.circle {
+				height: 200px;
+				width: 200px;
+				background: rgba(255,0,77,0.50);
+				border: 10% solid rgb(255,0,30);
+				border-radius: 100px;
+				position: absolute;
+				left: 80px; top: 63px;
+				mix-blend-mode: inherit;
+			}	
+			
+			
+			/* greta */
+			
+		.greta-arm-rotate {
+			position: absolute;
+			top: 5px; left: 200px;
+			height:500px;
+			width:100px;
+			background: #ABF4FF;
+			transform:rotate(40deg);
+			mix-blend-mode: multiply;
+			z-index: 1;	
+		}
+		
+		.greta-circle {
+			position: absolute;
+			top:200px; left:300px;
+			height:100px;
+			width:100px;
+			background: red;
+			border-radius:50px;
+			mix-blend-mode: color-dodge;
+			z-index: 1;
+		}
+		
+		.greta-circle2 {
+			position: absolute;
+			top:300px; left:805px;
+			height:50px;
+			width:50px;
+			background: red;
+			border-radius:50px;
+			mix-blend-mode: overlay;
+			z-index: 1;
+		}
+		
+		
+
+			/* catherine */
+		 
+	.cathc{
+        margin-left: 300px;
+        margin-top: 100px;
+        width: 300px;
+        height: 300px;
+        background: linear-gradient( to bottom, #ccddff,#33cccc );
+      }
+		
+		
+	.shape1{
+        width: 100px;
+        height: 300px;
+        border-left: 80px dotted #33cccc;
+        border-radius: 600px 200px;
+        background: linear-gradient( to bottom,#fd385c,#ccddff);
+        position: absolute;
+        left: 450px;
+        transform: scale(2,3);
+        mix-blend-mode: luminosity;
+
+      }
+
+    .shape2{
+        width: 50px;
+        height: 300px;
+        border-left: 20px dotted #fd385c;
+        border-radius: 800px 300px;
+        background: #ccddff;
+        position: absolute;
+        left: 350px;
+        transform: scale(1,2);
+        mix-blend-mode: luminosity;
+      }
+
+    .shape3{
+        width: 50px;
+        height: 300px;
+        border-radius: 800px 300px;
+        border-left: 70px dotted rgba(0,255,208,0.3);
+        background: linear-gradient( to bottom, #ccddff,#33cccc );
+        position: absolute;
+        left: 750px;
+        transform: rotate(20deg);
+        transform: scale(2,3);
+        mix-blend-mode: luminosity;
+      }
+	
+		/* haejung */
+		
+		.haeline {
+			 	height: 10px;
+				width: 200px;
+				background: #77eeee;
+				margin: 20px;
+				position: absolute;
+				top: 500px; left: 500px;
+				border-radius:20%;
+				z-index: 1;	
+				mix-blend-mode: overlay;
+			 } 
+			 
+		em { 
+				height: 140px;
+				width: 20px;
+				background: red;
+				margin: 10px;
+				position: absolute;
+				top: -100px; left: 100px;
+				border-radius:50%;
+				mix-blend-mode: overlay;
+				}
+		
+		
+		</style>
+	</head>
+	
+	<body>
+		
+		<!-- kendra -->
+		
+		<div class="canvas">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		
+		<div class="circle"></div>
+		
+		<!-- greta -->
+		
+		<div class="greta-arm-rotate"></div>
+		<div class="greta-circle"></div>
+		<div class="greta-circle2"></div>
+			
+		<!-- catherine -->
+		
+		 <div class="cathc">
+      		<div class="shape1"></div>
+      		<div class="shape2"></div>
+      		<div class="shape3"></div>
+    	</div>
+		
+		
+		<!-- haejung -->
+		
+		<div class="haeline"</div>
+		<em></em>
+			
+			
+	</body>
+
+</html>
