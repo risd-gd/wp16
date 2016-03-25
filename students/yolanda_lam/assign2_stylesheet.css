@@ -4,6 +4,10 @@ body {
 div {
 	position: absolute;
 }
+
+
+
+/* CHARGER */
 .charger {
 	background: #fff;
 	border-radius: 25px;
@@ -115,3 +119,343 @@ div {
 	left:0;
 	top: 10900px;
 }
+
+
+
+/* DONGLE */
+.dongle {
+	background: #fff;
+	border-radius: 5px;
+	width: 180px;
+	height: 260px;
+	left: 610;
+	top: 200;
+}
+.rectstart {
+	background: #c9c9c9;
+	border-radius: 2px;
+	width: 37px;
+	height: 23px;
+	left: 682;
+	top: 460;
+}
+.dcord {
+	background: #c9c9c9;
+	width: 20px;
+	height: 600px;
+	left: 690;
+	top: 483;
+}
+.rectend {
+	background: #c9c9c9;
+	border-radius: 2px;
+	width: 37px;
+	height: 23px;
+	left: 682;
+	top: 1083;
+}
+.dplastic {
+	background: #fff;
+	border-radius: 3px;
+	width: 55px;
+	height: 100px;
+	left: 673;
+	top: 1106;
+}
+.dend {
+	background: #a8a8a8;
+	border-radius: 1px;
+	width: 37px;
+	height: 30px;
+	left: 682;
+	top:1206;
+}
+.dsignleft {
+	border: #ededed 2px solid;
+	width: 0px;
+	height: 28px;
+	left: 670;
+	top:215;
+}
+.dsignmid {
+	border: #ededed 4px solid;
+	width: 37px;
+	height: 23px;
+	left: 680;
+	top:215;
+}
+.dsignright {
+	border: #ededed 2px solid;
+	width: 0px;
+	height: 28px;
+	left: 732;
+	top:215;
+}
+
+/* iPHONE CABLE*/
+.usb {
+	background: #a8a8a8;
+	width: 75px;
+	height: 80px;
+	left: 900;
+	top: 200;
+}
+.usbhole1 {
+	background: #fff;
+	width: 15px;
+	height: 15px;
+	left: 912;
+	top: 225;
+}
+.usbhole2 {
+	background: #fff;
+	width: 15px;
+	height: 15px;
+	left: 948;
+	top: 225;
+}
+.uplastic {
+	background: #fff;
+	width: 85px;
+	height: 80px;
+	left: 895;
+	top: 280;
+}
+.urectstart {
+	background: #c9c9c9;
+	border-radius: 2px;
+	width: 20px;
+	height: 50px;
+	left: 930;
+	top: 360;
+}
+.ucord {
+	background: #c9c9c9;
+	width: 13px;
+	height: 1500px;
+	left: 934;
+	top: 410;
+}
+.urectend {
+	background: #c9c9c9;
+	border-radius: 2px;
+	width: 20px;
+	height: 50px;
+	left: 930;
+	top: 1910;
+}
+.utplastic {
+	background: #fff;
+	border-radius: 2px;
+	width: 35px;
+	height: 60px;
+	left: 923;
+	top: 1960;
+}
+.thunder {
+	background: #a8a8a8;
+	border-radius: 5px;
+	width: 30px;
+	height: 33px;
+	left: 925;
+	top: 2015;
+	z-index: -1;
+}
+.thunderw {
+	background: #fff;
+	border-radius: 3px;
+	width: 25px;
+	height: 10px;
+	left: 928;
+	top: 2035;
+}
+.thunderg {
+	background: #E8C160;
+	border-radius: 1px;
+	width: 2px;
+	height: 8px;
+	top: 2036;
+}
+.g1 {
+	left:930;
+}
+.g2 {
+	left:934;
+}
+.g3 {
+	left:938;
+}
+.g4 {
+	left:942;
+}
+.g5 {
+	left:946;
+}
+.g6 {
+	left:950;
+}
+
+
+
+/* iPOD CABLE */
+.podusb {
+	background: #a8a8a8;
+	width: 75px;
+	height: 80px;
+	left: 1085;
+	top: 200;
+}
+.podhole1 {
+	background: #fff;
+	width: 15px;
+	height: 15px;
+	left: 1097;
+	top: 225;
+}
+.podhole2 {
+	background: #fff;
+	width: 15px;
+	height: 15px;
+	left: 1133;
+	top: 225;
+}
+.pplastic {
+	background: #fff;
+	width: 85px;
+	height: 80px;
+	left: 1080;
+	top: 280;
+}
+.prectstart {
+	background: #c9c9c9;
+	border-radius: 2px;
+	width: 20px;
+	height: 30px;
+	left: 1113;
+	top: 360;
+}
+.pcord {
+	background: #c9c9c9;
+	width: 13px;
+	height: 440px;
+	left: 1117;
+	top: 390;
+}
+.prectend {
+	background: #c9c9c9;
+	border-radius: 2px;
+	width: 20px;
+	height: 30px;
+	left: 1113;
+	top: 830;
+}
+.pjplastic {
+	background: #fff;
+	border-radius: 2px;
+	width: 30px;
+	height: 80px;
+	left: 1109;
+	top: 860;
+}
+.jack {
+	background: #a8a8a8;
+	border-radius: 2px;
+	width: 20px;
+	height: 60px;
+	left: 1113;
+	top: 940;
+}
+.jstripe1 {
+	background: #fff;
+	width: 20px;
+	height: 5px;
+	left: 1113;
+	top: 960;
+}
+.jstripe2 {
+	background: #fff;
+	width: 20px;
+	height: 5px;
+	left: 1113;
+	top: 980;
+}
+.jtip1 {
+	background: #a8a8a8;
+	border-radius: 2px;
+	width: 20px;
+	height: 20px;
+	left: 1113;
+	top: 1000;
+	-webkit-perspective: 800px;
+    perspective: 800px;
+}
+
+
+/* OUTLET */
+.cover {
+	background: #fff;
+	border-radius: 20px;
+	width: 300px;
+	height: 500px;
+	left: 1280;
+	top: 200;
+}
+.top {
+	border: #ededed 5px solid;
+	border-radius:70px;
+	width: 150px;
+	height: 120px;
+	left: 1350;
+	top: 300;
+}
+.ot1 {
+	background: #707070;
+	border-radius: 2px;
+	width: 15px;
+	height: 40px;
+	left: 1395;
+	top: 330;
+}
+.ot2 {
+	background: #707070;
+	border-radius: 2px;
+	width: 15px;
+	height: 40px;
+	left: 1450;
+	top: 330;
+.ot3 {
+	background: #707070;
+	border-radius: 30px;
+	width: 20px;
+	height:20px;
+	left: 1420;
+	top: 450;
+}
+.ot3w {
+	background: #fff;
+	width: 20px;
+	height:10px;
+	left: 1420;
+	top: 465;
+}
+.bottom {
+	border: #ededed 5px solid;
+	border-radius:70px;
+	width: 150px;
+	height: 120px;
+	left: 1350;
+	top: 480;
+}
+.ob1 {
+	
+}
+.ob2 {
+	
+}
+.ob3 {
+	
+}
+.ob3w {
+	
+}
+	
