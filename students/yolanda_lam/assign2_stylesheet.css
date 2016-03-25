@@ -1,0 +1,117 @@
+body {
+	background-color: #ededed;
+}
+div {
+	position: absolute;
+}
+.charger {
+	background: #fff;
+	border-radius: 25px;
+	width: 400px;
+	height: 400px;
+	left: 100px;
+	top: 200px;	
+}
+.plug {
+	font-family: sans-serif;
+	font-size: 200px;
+	font-weight: 200;
+	color: #ededed;
+	left: 118px;
+	top: 135px;
+	-ms-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+.plugrect {
+	background: #fff;
+	border-radius: 10px;
+	width: 60px;
+	height: 10px;
+	left: 160px;
+	top: 195px;
+}
+.metal {
+	background: #a8a8a8;
+	border-radius: 2px;
+	border: #ededed 3px solid;
+	width: 28px;
+	height: 75px;
+	left: 173px;
+	top: 116px;
+}
+.metal:hover {
+	border: #FFF200 3px solid;
+}
+.metalcircle {
+	background: #ededed;
+	border-radius: 40px;
+	width: 17px;
+	height: 17px;
+	left: 181px;
+	top: 130px;
+}
+.cordstart {
+	background: #c9c9c9;
+	border-radius: 2px;
+	width: 24px;
+	height: 60px;
+	left: 290px;
+	top: 600px;
+}
+.cord {
+	background: #c9c9c9;
+	width: 15px;
+	height: 10000px;
+	left: 295px;
+	top: 660px;
+}
+.cordend {
+	background: #c9c9c9;
+	border-radius: 2px;
+	width: 24px;
+	height: 40px;
+	left: 290px;
+	top: 10660px;
+}
+.cordclip {
+	background: #c9c9c9;
+	border-radius: 5px;
+	width: 45px;
+	height: 24px;
+	left: 290;
+	top: 10600;
+}
+.base {
+	background: #b5b5b5;
+	border-radius: 2px;
+	width: 78px;
+	height: 50px;
+	left: 263;
+	top: 10700;
+}
+.magnet {
+	background: #9c9c9c;
+	border-radius: 1px;
+	width: 73px;
+	height: 11px;
+	left: 265;
+	top: 10750;
+}
+.light {
+	background: #A3E886;
+	border-radius: 10px;
+	width:8px;
+	height: 8px;
+	left: 298;
+	top: 10723;
+}
+.light:hover {
+	background: #FFA050;
+}
+.footer {
+	width: 100%;
+	height: 200px;
+	left:0;
+	top: 10900px;
+}
