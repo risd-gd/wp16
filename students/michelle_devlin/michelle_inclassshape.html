@@ -2,49 +2,144 @@
 	<head>
 		<title>mchell shape</title>
 		<style>
-			div {
-				border-radius: 0%;
-				border: 0px solid transparent;
-				border-right: 50px solid red;
-				border-top: 50px solid yellow;
-				width: 300px; height: 300px;
-				overflow: hidden;
+		body {
+			background-color: lightgreen;
+			}
+			.mgw {
+			background: rgba(233, 250, 40, .5);
+			width: 300px; height: 300px;
+			}
+			.mgwvert {
+			background: rgb(9, 189, 108);
+			width: 8px; height: 205px;
+			margin-left: 50px; margin-top: 90px;
+			border-radius: 4px;
+			box-shadow: 3px 3px cyan;
+			float: left;
+			}
+			.mgwhori {
+			background: rgba(9, 189, 108, .30);
+			width: 155px; height: 12px;
+			margin-left: 200px; margin-top: -100px;
+			border-radius: 6px;
+			border-top: 10px solid yellow;
+			float: top;
+			mix-blend-mode: lighten;
+			
+			}
+			.mgwdots {
+			background: rgb(217, 249, 250);
+			width: 20px; height: 20px;
+			margin-left: 61px; margin-top: -90px;
+			border-radius: 10px;
+			float: left;
+			} 
+		.container {
+			width:300px;
+			height:300px;
+			background: transparent;
+			position:absolute;
+			top: 300px;
+			left:10px;
+		}
+		
+		.greta-circle {
+			position: absolute;
+			top:25px; left:110px;
+			height:270px;
+			width:100px;
+			background: cyan;
+			border-radius:200px;
+			mix-blend-mode: multiply;
+		}
+			.greta-circle-two {
+			position: absolute;
+			top:293px; left:110px;
+			mix-blend-mode: multiply;
+		}
+		.greta-circle-three {
+			position: absolute;
+			top:7px; left:233px;
+			mix-blend-mode: multiply;	
+		}
+		.greta-arm-rotate {
+			position: absolute;
+			top: 45px; left: 475px;
+			height:200px;
+			width:100px;
+			background: cyan;
+			transform:rotate(-45deg);
+			mix-blend-mode: multiply;		
+		}
+		.michelle2 {
+			border-radius: 5%;
+			border: 0px solid transparent;
+			border-right: 100px solid red;
+			border-top: 90px solid yellow;				
+			width: 450px; height: 500px;
+			overflow: hidden;
+			
 			 }
 			 .michelle { 
 			 	width: 300px; height: 300px;
-			 	background: cyan
 			 	}
 			.anotherthing {
-				height: 20px; 
-				width: 250px; 
-				background: cyan;
+				height: 50px; 
+				width: 375px; 
+				background: red;
 				position: absolute;
-				top: 200px;
-				left: 8px;
-				border-left: 35px solid red;
-				-moz-transform: scaleX(-1);    /* Gecko */
-			    -o-transform: scaleX(-1);      /* Opera */
-  				-webkit-transform: scaleX(-1); /* Webkit */
-  				transform: scaleX(-1);         /* Standard */
-			 
+				top: 364px;
+				left: 58px;
+				border-left: 90px solid yellow;
+			 	mix-blend-mode: multiply;
 			}
 			.reflect
-			{ -ms-transform: rotate(180deg); /* IE 9 */
-    			-webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
-    			transform: rotate(180deg);
+			{ -ms-transform: rotate(90deg); /* IE 9 */
+    			-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    			transform: rotate(90deg);
     			position: absolute;
 				top: 70px;
 				left: 8px;
 				overflow: hidden;
     				}
+    		.move {
+    			position: absolute;
+    			left: 222px
+    			
+    			}		
 		</style>
 	</head> 
 	
 	<body>
 	<div>
-		<div class="michelle"></div>
+	<div class="move reflect">
+		<div class="mgw"></div>
+		<div class="mgwvert"></div>
+		<div class="mgwvert"></div>
+		<div class="mgwvert"></div>
+		<div class="mgwvert"></div>
+		<div class="mgwvert"></div>
+		<div class="mgwvert"></div>
+		<div class="mgwhori"></div>
+		<div class="mgwhori"></div>
+		<div class="mgwhori"></div>
+		<div class="mgwdots"></div></div>
+		<div class="greta-circle"></div>
+		<div class="greta-circle greta-circle-two"></div>
+		<div class="greta-circle greta-circle-three"></div>
+		<div class="greta-arm-rotate"></div>
+		<div class="hae">
+		<div></div>
+		<h2></h2>
+		<em></em>
+		<h1></h1>
+		<div class="michelle2"></div>
 		<div class="anotherthing"></div>
-		<div class="anotherthing reflect"></div>
+		<div class="anotherthing"></div>
+		</div>
+		
+			
+	</div>
 	</div>	
 	
 	</body>
