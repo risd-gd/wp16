@@ -11,7 +11,7 @@
 			}
 			 .mlee { 
 			 		overflow: hidden;
-					width: 400px; height: 400px;
+					width: 500px; height: 500px;
 			 		background: #fa9e9e;
 			 		
 			 }
@@ -23,11 +23,11 @@
 			-webkit-transform:rotate(45deg);
 		}
 		 .rotate3shape{ 
-			 		height:100px;
-					width:100px;
-					border-color:rgba(255,0,0,.75);
+			 		height:250px;
+					width:200px;
+					border-color:rgba(132, 255, 0,0.4);
 
-			-webkit-transform:rotate(180deg);
+			-webkit-transform:rotate(-45deg);
 		}
 		.container {
 			width:300px;
@@ -70,34 +70,92 @@
 		
 		.addshape{
 			position: absolute;
-			top:25px; left:100px;
+			top:100px; left:300px;
 			
-			height:200px;
-			width:80px;
-			background: rgb(255, 77, 136,0.5);
-			border-radius:20px;
+			height:450px;
+			width:50px;
+			background: rgba(250, 255, 204, .5)
+;
+			border-radius:40px;
 		}
+		.moon {
+				background: #FFF;
+				border-radius: 50%;
+				width: 80px;
+				height: 80px;
+				margin-left: 10px;
+				margin-top: -150px;
+		}
+		.canvas div {
+				height: 5px;
+				width: 100px;
+				border: 10px solid white;
+				background: #B389FD;
+				-webkit-transform: rotate(30deg);
+				display: inline block;
+				margin: 20px;
+				margin-top:-150px;
+				margin-left: 20px;
+				border-radius: 15px;
+		}
+		.shape2{
+        width: 100px;
+        height: 500px;
+        border: 15px dotted rgb(255, 51, 255);
+        border-radius: 900px 100px;
+        background: rgba(204, 221, 255,0.7);
+        position: fixed;
+        left: 140px;
+        top: 100px;
+      }
+      .shape3{
+        width: 150px;
+        height: 60px;
+        border: 10px dotted rgb(217, 102, 255);
+        border-radius: 1000px 200px;
+        background: rgba(255, 255, 204,0.7);
+        position: fixed;
+        left: 300px;
+        top: 50px;
+        
+        -webkit-transform:rotate(45deg);
+    }
 			 		
 		</style>
 	</head> 
 	
 	<body>
+	
+	
 	<div class="mlee">
+		
 		<div class="shape1"></div>
 		<div class="shape1 rotate2shape"></div>
+		<div class="moon"></div>
 		<div class="shape1 rotate3shape"></div>
 		<div class="shape1"></div>	
+		<div class="clear"></div>
 		
-		
-		<div class="container"></div>
 		<div class="greta-circle"></div>
-		<div class="greta-circle greta-circle-two"></div>
 		<div class="greta-circle greta-circle-three"></div>
 		<div class="greta-arm-rotate"></div>
+	
 	</div>
-	<div class="addshape"></div>
+		<div class="addshape"></div>
+		<div class="shape2"></div>
+		<div class="shape3"></div>
+	</div> 
 	
-	
+	<div class="canvas">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+	</div>
+
 	
 	</body>
 </html>
