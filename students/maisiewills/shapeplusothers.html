@@ -1,0 +1,161 @@
+<html>
+	<head>
+		<title>maisie's shape</title>
+		<style>
+			body {
+			width: 300px; height: 1000px;
+			}
+			.mgw {
+			overflow: hidden;
+			background: rgb(233, 250, 40);
+			width: 300px; height: 300px;
+			}
+			.mgwvert {
+			background: rgb(9, 189, 108);
+			width: 8px; height: 275px;
+			margin-left: 30px; margin-top: -260px;
+			border-radius: 4px;
+			box-shadow: 3px 6px red;
+			float: left;
+			mix-blend-mode: exclusion;
+			}
+			.mgwhori {
+			background: rgba(9, 189, 108, .30);
+			width: 155px; height: 12px;
+			margin-left: 90px; margin-top: -90px;
+			border-radius: 6px;
+			box-shadow: 3px 6px rgb(217, 249, 250);
+			float: top;
+			}
+			.mgwdots {
+			position: absolute;
+			top: 166; left: 319;
+			background: rgb(217, 249, 250);
+			width: 20px; height: 20px;
+			border-radius: 12px;
+			border: 2px dotted red;
+			z-index: 10;
+			mix-blend-mode: multiply;
+			}
+			
+			.greta-circle {
+			margin-top: -136px; margin-left: 90px;
+			height:100px;
+			width:100px;
+			background: #FFC2D6;
+			border-radius:50px;
+			float: left;
+			}
+			.greta-circle-two {
+			position: absolute;
+			top:160px; left:10px;
+			}
+			.greta-circle-three {
+			position: absolute;
+			top:300px; left:150px;
+			z-index: 8;
+			}
+			.greta-arm-rotate {
+			position: absolute;
+			top: 45px; left: 170px;
+			height:200px;
+			width:100px;
+			background: #ABF4FF;
+			transform:rotate(-45deg);
+			mix-blend-mode: multiply;
+			z-index: 9;		
+			} 
+			
+			.hae { 
+			width: 300px; height: 300px;
+			background: rgb(233, 250, 40);
+			position: absolute;
+			top: 8px; left: 280px
+			}
+			.hae div {
+			height: 140px;
+			width: 140px;
+			background: red;
+			float: left;
+			border-radius:50%;
+			mix-blend-mode: overlay;
+			}
+			.hae em { 
+			height: 32px;
+			width: 150px;
+			background: red;				
+			margin-left: 100px; margin-top: 130;
+			border-radius: 16px;
+			box-shadow: 3px 9px	#FFC2D6;	
+			float: left;
+			z-index: 10;
+			}
+			.hae h1{
+			height: 400px;
+			width: 150px;
+			background: rgba(217, 249, 250, .9);			
+			border-right: 50px dotted rgb(9, 189, 108);
+			border-radius:20%;
+			transform:rotate(15deg);
+			mix-blend-mode: lighten;
+			} 
+			
+			.canvas {
+			background: transparent;
+			height: 300px;
+			width: 90px;
+			position: absolute;
+			top: 8px; left: 500px;
+			}
+			.canvas div {
+			height: 5px;
+			width: 80px;
+			border: 10px solid white;
+			background: rgb(9, 189, 108);				
+			-webkit-transform: rotate(50deg);
+			display: inline block;
+			margin-left: 20px; margin-top: 42px;
+			border-radius: 15px;
+			mix-blend-mode: exclusion;
+			}
+			
+		</style>
+	</head>
+	<body>
+		
+		<div class="mgw"></div>
+		<div class="mgwvert"></div>
+		<div class="mgwvert"></div>
+		<div class="mgwvert"></div>
+		<div class="mgwvert"></div>
+		<div class="mgwvert"></div>
+		<div class="mgwvert"></div>
+		<div class="mgwhori"></div>
+		<div class="mgwhori"></div>
+		<div class="mgwhori"></div>
+		
+		<div class="container">
+				<div class="greta-circle"></div>
+				<div class="greta-circle greta-circle-two"></div>
+				<div class="greta-circle greta-circle-three"></div>
+				<div class="greta-arm-rotate"></div>
+		</div>
+		
+		<div class="mgwdots"></div>
+		
+		<div class="hae">
+			<div></div>
+			<h2></h2>
+			<em></em>
+			<h1></h1>
+		</div>
+		
+		<div class="canvas">
+			<div></div>
+			<div></div>
+			<div></div>			
+			<div></div>
+		</div>
+		
+	</body>
+</html>
