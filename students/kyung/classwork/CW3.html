@@ -1,0 +1,53 @@
+<html>
+	<head>
+	<title> CW2 </title>
+
+	<style>
+
+		.me {
+		background-color:black;
+		width:200px; height:200px;
+		position:relative;
+		top:10%; left:5%;
+		border-radius: 10px;
+
+		margin:10px;
+		transition: all 2s;
+		overflow: hidden;
+			}
+
+		.clickedDiv{
+			background-color: blue;
+		}
+
+		
+
+		/*div:nth-child(2n) { background-color: pink; }
+		div:nth-child(3n) { background-color: yellow; }
+		div:hover{ width: 40vw; height:40vw; border-radius: 500px; transform:rotate(500deg); }*/
+
+
+
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+	</head>
+
+	<body>
+		
+		<div class="me"></div>
+
+		<script>
+			$(".me").click(function() {
+			
+				$(this).toggleClass("clickedDiv");
+
+				
+			});
+		</script>
+
+		
+
+	</body>
+
+</html>
