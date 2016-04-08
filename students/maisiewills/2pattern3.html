@@ -1,9 +1,13 @@
 <html>
 	<head>
-		<title> sprinkles combo </title>
+		<title> cells hover </title>
 		<style>
 			body {
 			background: rgb(220, 247, 243);
+			}
+			.sprinkle1:hover {
+			transform: scale(3, 3);
+			mix-blend-mode: exclusion;
 			}
 			.sprinkle1 {
 			background: rgb(195, 235, 11);
@@ -15,6 +19,12 @@
 			border: 10px solid rgb(100, 245, 102);
 			transform: rotate(30deg);
 			mix-blend-mode: multiply;
+			transition: all 1s;
+			}
+			.sprinkle2:hover {
+			transform: rotate(90deg) scale(3, 3);
+			background: rgb(222, 152, 163);
+			mix-blend-mode; color-burn;
 			}
 			.sprinkle2 {
 			background: rgb(228, 66, 45);
@@ -25,7 +35,11 @@
 			border-radius: 60px;
 			border: 5px dotted rgb(195, 235, 11);
 			z-index: 3;
-			mix-blend-mode: difference;
+			transition: all 3s;
+			}
+			.sprinkle3:hover {
+			transform: scale(5, 5);
+			background: yellow;
 			}
 			.sprinkle3 {
 			background: rgb(8, 237, 160);
@@ -36,16 +50,21 @@
 			border-radius: 80px;
 			transform: rotate(35deg);
 			mix-blend-mode: exclusion;
+			transition: all 2s;
 			}
 			.rotate {
 			transform: rotate(10deg);
 			margin-left: 50px; margin-top: 60px;
 			mix-blend-mode: exclusion;
 			}
+			.mega:hover {
+			transform: rotate(-45deg);
+			}
 			.mega {
 			transform: scale(2, 2);
 			margin-left: 50px; margin-top: 90px;
 			float: left;
+			transition: all 1s;
 			mix-blend-mode: multiply;
 			}
 			.tiny {
