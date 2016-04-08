@@ -1,0 +1,440 @@
+<html>
+	<head>
+		<title>eggy</title>
+		<style>
+			div, .brick {  /* declarations */ }
+			/* all divs AND brick classes */
+			
+			div .brick {  /* declarations */ }
+			/* all divs nested WITHIN brick classes */
+			
+			div>.brick {  /* declarations */ }
+			/* divs whose children are brick classes */
+			
+			div.brick {  /* declarations */ }
+			/* div elements that have class of brick */
+			
+			div.brick {  /* declarations */ }
+			/* div elements that have class of brick */
+
+			div+brick {  /* declarations */ }
+			/* if brick class comes after div */
+
+			div~brick {  /* declarations */ }
+			/* if brick class comes before div  */
+
+			.layer1, .layer2, .layer3egg {
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+			
+			body { margin: 0; }
+			
+			.layer1, .layer2 {
+				background-color: black;
+				width: 150vw; height: 100vh;
+				overflow: hidden;  
+				  }
+				  
+			.layer2 div { background-color: black;}
+
+			.layer1 div, .layer2 div { 
+				 transform: rotate(0deg);
+				 border: 4px dotted rgba(255, 179, 102,1);
+				 margin: 0px; float: left;
+				 mix-blend-mode: hard-light;
+				 width: 304px; height: 304px;
+				 border-radius: -20%;
+				  }
+				
+			.layer3egg div {
+				float: left;
+				overflow: auto;
+				transform:scale(0.8,0.8);
+				margin: 55px;
+				width: 200px; height: 200px;
+				}
+			
+			.layer2 div:nth-child(even) {  border-color: white; height: 300px;}	  
+			.layer2 div:nth-child(odd) { height:300px; }
+			.layer3egg div:nth-child(odd) { transform:scale(0.2,0.2);}
+			
+			/* if brick class comes before div  */
+
+		</style>
+	</head>
+	<body>
+
+	
+		<div class="layer1">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+				<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+				<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		
+	
+		<div class="layer2">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+				<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+		
+		<div class="layer3egg">
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+			<div><img src="http://fitseats.com/wp-content/uploads/2015/11/egg.png" width="200px" height="200px"></div>
+		</div>
+		
+		
+		
+	</body>
+</html>
