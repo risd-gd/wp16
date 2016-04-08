@@ -5,13 +5,16 @@
 			background: red; float: left; margin: 10px; 
 			transition: all 1s;  
 			}
-			.different { background: green; clear: both; }
+			.different { }
 
 			
-			@media (max-width: 867px) {
+			@media (min-width: 928px) {
 				.different { background: blue; }
 			}
-			@media (max-width: 667px) {
+			@media (max-width: 867px) {
+				.different { background: yellow; }
+			}
+			@media (max-width: 467px) {
 				.different { background: pink; }
 			}
 			
