@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title>jQuery Position</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	
+		<style>
+			body {
+				margin: 50px;
+				background: #F2C5FF;
+			}
+			div {
+				font-family: sans-serif;
+				font-size: 500px;
+				color: white;
+				width: 100vw; height: 100vh;
+				text-align: center;
+			
+				transition: all 1s;
+			}
+			div:hover {
+				cursor: pointer;
+			}
+			.click1, .click2, .click3, .click4 {
+				font-size: 50px;
+				color: #EA0AFF;
+				position: absolute;
+			}
+			.c1 {
+				left: 400;
+				top: 120;
+			}
+			.c2 {
+				right: 200;
+				top: 80;
+			}
+			.c3 {
+				left: 210;
+				top: 700;
+			}
+			.c4 {
+				right: 500;
+				top: 400;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<div>yo</div>
+		<div class="click1">yo</div>
+		<div class="click2">yo</div>
+		<div class="click3">yo</div>
+		<div class="click4">yo</div>
+		
+		
+		<script>
+			$("div").click(function() {
+				console.log("test"); // shows activity when viewing source/using developer tools
+				$(".click1").toggleClass("c1"); 
+				// instead of calling $(this), $(".click") specifies target
+				// then adds/removes c1 when clicked
+				$(".click2").toggleClass("c2");
+				$(".click3").toggleClass("c3");
+				$(".click4").toggleClass("c4");
+			});
+		</script>
+	</body>
+</html>

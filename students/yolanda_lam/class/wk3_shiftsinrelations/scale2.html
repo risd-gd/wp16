@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>jQuery Opacity</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	
+		<style>
+			body {
+				margin: 50px;
+				background: #F2C5FF;
+			}
+			.contain {
+				width: 80vw;
+				height: 80vw;
+				overflow: hidden;
+			}
+			.circle1, .circle2, .circle3, .circle4 {
+				background: #EA0AFF;
+				border-radius: 50%;
+				width: 25%; 
+				height: 25%;
+				float: left;
+				opacity: .4;
+				transition: all 0.5s;
+			}
+			.c1 {
+				width: 60%;
+				height: 60%;
+			}
+			.c2 {
+				width: 60%;
+				height: 60%;
+			}
+		</style>
+	</head>
+	<body>
+	<div class="contain">
+		<div class="circle1"></div>
+		<div class="circle2"></div>
+		<div class="circle3"></div>
+		<div class="circle4"></div>
+	</div>
+		
+		<script>
+			$("circle").click(function() {
+				console.log("test");
+				$(".circle1").toggleClass("c1");
+				$(".circle2").toggleClass("c2");
+				$(".circle3").toggleClass("c3");
+				$(".circle4").toggleClass("c4");
+		</script>
+		
+		
+	</body>
+</html>
