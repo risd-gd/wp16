@@ -1,0 +1,94 @@
+<html>
+	<head>
+		<style>
+
+
+			.rectangle div{
+        float:left;
+        width: 250px;
+        height: 250px;
+        background: #66ccff;
+			  transition: all .1s;
+        margin-left: 20px;
+        margin-bottom: 20px;
+			}
+
+      .rectangle div:nth-child(even){
+        float:left;
+        width: 250px;
+        height: 250px;
+        background: #66ccff;
+			  transition: all .1s;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        border-radius: 125px;
+      }
+
+			.rectangle div:hover{
+				background: white;
+				transform: scale(3);
+
+			}
+
+
+			.rectangle div:nth-child(even):hover{
+				background: white;
+				transform: scale(3);
+
+			}
+
+
+		</style>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+	</head>
+
+	<body>
+
+
+    		<script>
+    			$(".rectangle").click(function() {
+    				$(this).toggleClass("animate");
+    			});
+    		</script>
+
+
+    <div class="rectangle">
+		    <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+
+    </div>
+
+
+	</body>
+
+
+</html>

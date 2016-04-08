@@ -1,0 +1,71 @@
+<html>
+	<head>
+
+		<style>
+
+			body{
+				background:  #66ffff;
+			}
+
+			div{
+				background: #ffb3b3;
+				float: left;
+				margin: 10px;
+				width: 180px;
+				height: 180px;
+				transition: 1s all;
+			}
+
+
+			.clickedDiv {
+				transform: rotate(30deg);
+				margin-top: 100px;
+				background: #00e6e6;
+				height: 500px;
+			}
+
+			.bgChange {
+				background:  #ffcccc;
+
+			}
+
+		</style>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+	</head>
+
+	<body>
+
+			<div class="button"></div>
+
+		<!-- <div class="box"> -->
+			<div></div><div></div><div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div><div></div><div></div>
+		<!-- </div> -->
+
+		<script>
+			$("div").click(function() {
+				$(this).toggleClass("clickedDiv");
+				$("body").toggleClass("bgChange");
+			});
+
+
+		</script>
+
+
+
+
+	</body>
+
+</html>
