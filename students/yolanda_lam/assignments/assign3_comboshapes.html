@@ -1,0 +1,172 @@
+<html>
+	<head>
+		<title>Shape Combination</title>
+		<style>
+			
+			.shoot {
+				color: #FF00DE;
+				font-size:50px;
+				font-weight: 700;
+				font-family: sans-serif;
+				position: absolute;
+				top: 660;
+				left: 190;
+			}
+			.bkg {
+				background: rgba(255,207,206,.5);
+				width: 300px;
+				height: 700px;
+				position: absolute;
+				top: 5;
+				left:308;
+			}
+			.yo {
+				background: #FFCFCE;
+				width:300px;
+				height:300px;	
+				overflow: hidden;
+				margin-top:20px;
+			}
+			.circle {
+				background: none;
+				border-radius: 50%;
+				border: 135px solid transparent;
+				border-right: 135px solid #FFC7D4;
+				border-bottom: 135px solid #FFC7D4;
+				width: 200px;
+				height: 200px;
+				margin-left: 121px;
+			}
+			.circle1 {
+				border-radius: 50%;
+				border: 100px solid transparent;
+				border-top: 100px solid #FFC7D4;
+				border-left: 100px solid #FFC7D4;
+				width: 200px;
+				height: 200px;
+				margin-left: 65px;
+			}
+			.moon {
+				background: #FFF;
+				border-radius: 50%;
+				width: 80px;
+				height: 80px;
+				margin-left: 20px;
+				margin-top: 5px;
+			}
+		
+		.container {
+			width:300px;
+			height:300px;
+			background: transparent;
+			position: absolute;
+			top: 50px;
+			left:20px;
+		}
+		.greta-circle {
+			position: absolute;
+			top:25px; left:100px;
+			height:100px;
+			width:100px;
+			background: #FFC2D6;
+			border-radius:50px;
+		}
+		.greta-circle-two {
+			position: absolute;
+			top:220px; left:2px;
+			background: transparent;
+			border: 15px solid transparent;
+			border-right: 15px solid #FF00DE;
+			mix-blend-mode: screen;
+			transform: scale(2.5,2.5);
+		}
+		.greta-circle-three {
+			position: absolute;
+			top:160px; left:235px;
+			
+		}
+		.greta-arm-rotate {
+			position: absolute;
+			top: 45px; left: 170px;
+			height:200px;
+			width:100px;
+			background: #FF00DE;
+			transform:rotate(-45deg);
+			mix-blend-mode: overlay;		
+		}
+	
+			.juliette {
+				position: absolute;
+				top: 10;
+				left: 8;
+				margin-top: 150px;
+			}
+			.jul div {
+				border: 200px solid green;
+				border-left: 20px solid pink;
+				width: 50px; height: 1000px;
+				mix-blend-mode: screen;
+			 }
+			
+			.jul { 
+			 	overflow: hidden;
+			 	width: 300px; height: 400px;
+			 	background: rgba(255, 0, 207, 0.26); 
+			 }
+			.greta-circle-four {
+				position: absolute;
+				top:350px; left:20px;
+				height:100px;
+				width:100px;
+				background: #FFF;
+				border-radius:50%;
+		}
+			.canvas div {
+				height: 5px;
+				width: 100px;
+				border: 10px solid #FF00DE;
+				background: #fff;
+				-webkit-transform: rotate(45deg);
+				display: inline;
+				margin: 20px;
+				border-radius: 15px;
+				position: absolute;
+				top: 360;
+				left: 340;
+			}
+		</style>
+	</head>
+	
+	
+	<body>
+		<div class="shoot">yes</div>
+		<div class="yo">
+			<div class="moon"></div>
+			<div class="circle"></div>
+		</div>
+
+		<div class="container">
+			<div class="greta-circle"></div>
+			<div class="greta-circle greta-circle-two"></div>
+			<div class="greta-circle greta-circle-three"></div>
+			<div class="greta-arm-rotate"></div>
+		</div>
+	
+		<div class="moon"></div>
+		<div class="circle 1"></div>
+
+		<div class="greta-circle-four"></div>
+		
+		<div class="bkg"></div>
+
+		<div class="canvas">
+			<div></div>
+		</div>
+		
+		<div class="juliette">
+			<div class="jul">
+			<div class="jul div">
+		</div>
+		xs
+	</body>
+</html>

@@ -1,0 +1,83 @@
+body {
+	font-family: sans-serif;
+	margin: 0;	
+}
+h1 {
+	font-size: 40px;
+	padding-left:15px;
+}
+h3 {
+	font-size: 20px;
+	font-family: serif;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+h5 {
+	padding-left: 15px;
+	padding-right: 15px;
+	font-family: serif;
+	margin: 0;
+}
+p {
+	font-size: 12px;
+	text-align: center;
+	padding: 15px;
+}
+.address {
+	padding-left: 30%;
+	text-align: right;
+}
+.slideshow {
+	background: #a9a39e;
+	width: 100%;
+	padding-left: 0px;
+}
+
+.slideshow h1 {
+	color: white;
+	padding-top: 15px;
+}
+.slideshow h3 {
+	padding-bottom: 80px;
+}
+/*
+.prev {
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid black;
+	position: absolute;
+	top:622px;
+	left:230px;
+	transform: rotate(-90deg);
+}
+.next {
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 10px solid black;
+	position: absolute;
+	top:622px;
+	left:270px;
+	transform: rotate(90deg);
+}
+*/
+img {
+	width:50%;
+	height: auto; 
+	padding:15px;
+}
+.hamburger {
+	width: 25px;
+	height: 100px;
+	position: absolute;
+	top: 15;
+	left: 15;
+}
+.hamburger div {
+	float: left;
+	background: black;
+	width: 100%;
+	height: 2px;
+	border: 1px black solid;
+	border-radius: 20%;
+	margin: 2px;
+}
