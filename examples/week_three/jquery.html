@@ -6,20 +6,20 @@
 				width: 200px; height: 200px; 
 				transition: 1s all; 
 			}
-			.clickedDiv { margin-top: 100px; }
+			.blueDiv { background: blue; }
 		</style>
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	</head>
 	<body>
-		<div class="box"></div>
+		
+		<div class="box" id="nav"></div>
 		<div class="box"></div>
 		<div class="box"></div>
 		
 		<script>
 			$(".box").click(function() {
-			
-				$(this).toggleClass("clickedDiv");
-
+				$(this).toggleClass("blueDiv");
 			});
 		</script>
 
