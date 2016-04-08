@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<title>michelle pattern 2</title>
+		<style>
+			div, .brick {  /* declarations */ }
+			/* all divs AND brick classes */
+			
+			div .brick {  /* declarations */ }
+			/* all divs nested WITHIN brick classes */
+			
+			div>.brick {  /* declarations */ }
+			/* divs whose children are brick classes */
+			
+			div.brick {  /* declarations */ }
+			/* div elements that have class of brick */
+			
+			div+.brick {  /* declarations */ }
+			/* if brick class comes after div */
+			div~.brick {  /* declarations */ }
+			/* if brick class comes before div  */
+			.layer1 { 
+				background:none;
+				width: 10%;
+				   }
+			.layer1 div { 
+				 transform: rotate(190deg);
+				 border: 80px solid magenta;
+				 margin: 0px;
+				 width: 200vh; height: 90vh;
+				 float: left;
+				 mix-blend-mode: multiply;
+				 border-radius: 30%;
+				 border-right: 40px solid cyan;
+				  }
+			.layer1 div:nth-child(odd) {
+				 border: 80px solid cyan;
+				 border-left: 820px solid transparent;
+			}
+			.layer3 div:nth-child(even) {
+				border: 0px solid yellow;
+				 border-left: 0px solid yellow;
+				 mix-blend-mode: ; 
+			}	 
+		</style>
+	</head>
+	<body>
+		<div class="layer1">
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+		</div>
+	
+		<div class="layer2">
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+		</div>
+		<div class="layer3">
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+		</div>
+	</body>
+</html>

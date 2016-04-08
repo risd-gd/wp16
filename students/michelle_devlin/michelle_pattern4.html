@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<title>michelle pattern 4</title>
+		<style>
+			div, .brick {  /* declarations */ }
+			/* all divs AND brick classes */
+			
+			div .brick {  /* declarations */ }
+			/* all divs nested WITHIN brick classes */
+			
+			div>.brick {  /* declarations */ }
+			/* divs whose children are brick classes */
+			
+			div.brick {  /* declarations */ }
+			/* div elements that have class of brick */
+			
+			div+.brick {  /* declarations */ }
+			/* if brick class comes after div */
+			div~.brick {  /* declarations */ }
+			/* if brick class comes before div  */
+			.layer1 { 
+				background: ;
+				width: 100%;
+				   }
+			.layer1 div { 
+				 transform: rotate(deg);
+				 border: 50px solid yellow;
+				 margin: -10px;
+				 width: 20vh; height: 80vh;
+				 float: left;
+				 mix-blend-mode:;
+				 border-radius: 50%;
+				 border-right: 50px solid cyan;
+				  }
+			.layer1 div:nth-child(odd) {
+				 border: 80px solid yellow;
+				 border-left: 0px solid transparent;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="layer1">
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			
+		</div>
+	
+		<div class="layer2">
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+		</div>
+	</body>
+</html>
