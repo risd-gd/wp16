@@ -23,6 +23,11 @@ p {
 	text-align: center;
 	padding: 15px;
 }
+/* margin clear not working */
+.header h1 {
+	display: block;
+	margin: 0;
+}
 .address {
 	padding-left: 30%;
 	text-align: right;
@@ -39,6 +44,13 @@ p {
 }
 .slideshow h3 {
 	padding-bottom: 80px;
+}
+.slider {
+	width: 100vw;
+	height: 8vh;
+}
+.slider p {
+	font-size: 14px;
 }
 /*
 .prev {
