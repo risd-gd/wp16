@@ -1,34 +1,26 @@
 <html>
-	<body>
-		<style>
-			body {
-				margin: 0px;
-				background: white;
-			}
-		
-			.hae1{
-				top: 100px; bottom: 100px;	
-				overflow: hidden;		
-			}
-			
-			.hae1 div{
-				float: left;
-				background: rgba(230, 5, 10);
-				width: 50px; height: 50px; 
-				border-radius: 50%;			
-			}
-					
-			.hae1 div:nth-child(odd) {
-				background: rgb(255, 255, 250);
-				width: 200px; height: 200px;
-				border-radius: 0%;
-				margin: -100px;
-				mix-blend-mode: difference;				
-				-webkit-transform:rotate(15deg);
-				}
-		</style>
-	</body>
 	<head>
+		<style>
+			.hae1 { 
+				width: 120%;
+				   }
+
+			.hae1 div { 
+				 transform: rotate(90deg);
+				 border: 80px solid rgba(10, 255, 100, .3);
+				 margin: -40px;
+				 width: 5vh; height: 5vh;
+				 float: left;
+				 mix-blend-mode: multiply;
+				 border-right: 80px solid transparent;
+				  }
+			.hae1 div:nth-child(even) {
+				 border: 80px solid rgba(255, 255, 0, .9);
+				 border-left: 80px solid red;
+			}
+		</style>
+	</head>
+	<body>
 		<div class="hae1">
 			<div></div><div></div><div></div><div></div>
 			<div></div><div></div><div></div><div></div>
@@ -71,5 +63,6 @@
 			<div></div><div></div><div></div><div></div>
 			<div></div><div></div><div></div><div></div>
 		</div>
-	</head>
+
+	</body>
 </html>
