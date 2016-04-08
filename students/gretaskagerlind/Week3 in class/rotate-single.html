@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>scale shift (w/java)!</title>
+
+<style>
+
+	
+	.box {
+		background:#a540c2;
+		width:150px; height:300px;
+		float: left;
+		margin:5px;
+		transition:all .2s;
+		mix-blend-mode:multiply;
+		}
+
+	
+	.box-result {
+		background:#1aafda;
+		transform:rotate(45deg);
+		mix-blend-mode:multiply;
+		}
+	
+	body {
+		width: 100vw;
+		height:100vw;
+		margin:0px;
+		}
+	
+</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		
+</head>
+
+<body>
+	<div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+	<div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+	<div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+	<div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+	<div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+	<div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+	<div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+	<div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+	<div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+	
+	<script>
+	
+			$(".box").hover(function() {
+				$(".box").toggleClass("box-result");
+				$(this).removeClass("box-result");				
+			});
+
+	</script>
+
+</body>
+
+
+</html>

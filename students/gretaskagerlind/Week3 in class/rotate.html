@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>scale shift (w/java)!</title>
+
+<style>
+
+	
+	.box {
+		background:#a540c2;
+		width:100px; height:400px;
+		float: left;
+		margin:5px;
+		transition:all .5s;
+		}
+
+	
+	.box-result {
+		background:#e6ff14;
+		transform:rotate(45deg);
+		}
+	
+	body {
+		width: 100vw;
+		height:100vw;
+		margin:0px;
+		}
+	
+</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		
+</head>
+
+<body>
+	<div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+	<div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+	<div class="box"></div><div class="box"></div><div class="box"></div><div class="box"></div>
+	
+	<script>
+	
+			$(".box").hover(function() {
+				$(".box").toggleClass("box-result");
+			});
+
+	</script>
+
+</body>
+
+
+</html>
