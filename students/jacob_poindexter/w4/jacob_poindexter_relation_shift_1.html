@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<style>
+			div { background: rgba(255,0,0,.5);
+			width: 20vw; height: 20vw;
+			margin: 3px; float: left;
+			transition: all 1s;
+			}
+		
+			$('#moveright').click(function() {
+			$('#textbox').animate({
+			'marginLeft' : "+=30px" //moves right
+			});
+		
+			div:hover { border-radius: 50%;}
+			.hi:hover { background: blue; }
+			body { margin: 0; }
+		</style>
+	</head>
+	<body>
+		<div></div>
+		<div class="hi"></div>
+		<div></div>
+		<div></div>
+	</body>
+</html> 
+	
