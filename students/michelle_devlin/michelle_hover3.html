@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>hover 3</title>
+		
+	<style>
+	
+	body{
+	background: yellow;
+	width: 50vw; height: 100vh;
+	}
+	
+		div { background: cyan;
+		width: 30px; height: 30px;
+		margin-top: 200px
+		border-radius: %;
+		transform: rotate(32deg);
+		transition: all .5s;
+		}
+		div:nth-child(odd):hover {border-radius:200%; background: magenta; margin:20px; 
+		width: 300px; height: 20px; transform: scale(900,32);}
+		div:nth-child(even):hover {border-radius:50%; background: magenta; margin:20px; 
+		width: 422px; height: 400px; transform: scale(6,85);}
+		
+		body { margin-left: 0px; margin-top: 0px; }
+		
+	</style>
+	</head>
+	<body>	
+		<div></div>
+	</body>
+</html>

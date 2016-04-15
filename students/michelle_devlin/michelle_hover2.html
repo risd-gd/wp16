@@ -1,0 +1,39 @@
+<html><!http://fc12.johncaserta.info/wp-content/uploads/2012/09/rotate2.html>
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script><style type="text/css"></style>
+	<style type="text/css"> 
+	
+		a { display: block; float: left; color: white; padding: 6px; background: magenta; 
+	  		 cursor: cursor;
+	  		 font-family: Helvetica, sans-serif;
+			font-size: 42px; }
+	</style>
+	
+	<title>Scale</title>
+</head>
+
+<body>
+
+	<a>click</a>
+	<a>me</a>
+	<a>away</a>
+	<a>click</a>
+	<a>me</a>
+	<a style="display: none;">me</a>
+	<a>away</a>
+	<a style="display: none;">click</a>
+	<a>me</a>
+	<a>away</a>
+	<a>click</a><br>
+	<a id="text" style="display: none;">&nbsp;&nbsp;&nbsp;</a>
+	<script>
+	$("a").click(function () {
+		  $(this).fadeToggle("slow", function () {
+			$("#text").append("&nbsp;");
+  		});
+  	});
+	</script>
+
+
+
+</body></html>

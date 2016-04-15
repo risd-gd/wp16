@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Keyframe</title>
+		<style>
+			.box { background: red; float: left; margin: 1px;
+				width: 20vw; height: 30vw; 
+				transition: 4s all; 
+			}
+			.box2 { background: red; float: left; margin: 1px;
+				width: 20vw; height: 30vw; 
+				transition: 1s all; 
+			}
+			.blueDiv { background: magenta; }
+		</style>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	</head>
+	<body>
+		
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<div class="box2"></div>
+		<div class="box2"></div>
+		<div class="box2"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		<script>
+			$(".box").click(function() {
+				$(this).toggleClass("blueDiv");
+			});
+			$(".box2").click(function() {
+				$(this).toggleClass("blueDiv");
+			});
+		</script>
+
+
+
+	</body>
+
+</html>
