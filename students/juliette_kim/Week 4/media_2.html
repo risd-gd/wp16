@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<title>media2</title>
+		<style>
+			div { width: 200px; height: 200px; border-radius: 50%;
+			
+			background: red; float: left; margin: 10px; 
+			transition: all 1s;  
+			}
+			.small { background: red; }
+
+			
+			@media only screen and (max-width: 1040px) {
+			.small { display: block; 
+				margin: 5px; 
+				width: 100px; height: 100px; 
+				float: left; background: skyblue;
+				}
+			@media only screen and (max-width: 500px) {
+			.small {display: none;
+				margin: 2px;
+				width: 500px; height: 500px;
+				float: right;
+			}
+		</style>
+
+	</head>
+	
+	<body>
+		
+		<div></div>
+		<div class="small"></div>
+		<div></div>
+		<div class="small"></div>
+		<div></div>
+		<div class="small"></div>
+		<div></div>
+		<div class="small"></div>
+		<div></div>
+		<div class="small"></div>
+		<div></div>
+		<div class="small"></div>
+		<div></div>
+
+	</body>
+
+
+</html>

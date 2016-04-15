@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>media1</title>
+		<style>
+			div { width: 200px; height: 200px;
+			
+			background: pink; float: left; margin: 10px; 
+			transition: all 1s;  
+			}
+			.small { background: pink; clear: both; }
+
+			
+			@media only screen and (max-width: 1040px) {
+			.small { display: block; 
+				margin: 5px; 
+				width: 100px; height: 100px; 
+				float: left;
+				}
+			@media only screen and (max-width: 500px) {
+			.small {display: block;
+				margin: 2px;
+				width: 500px; height: 500px;
+				float: right;
+			}
+		</style>
+
+	</head>
+	
+	<body>
+		
+		<div></div>
+		<div></div>
+		<div></div>
+		<div class="small"></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+
+	</body>
+
+
+</html>
