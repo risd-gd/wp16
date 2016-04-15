@@ -1,0 +1,155 @@
+<html>
+
+	<head>
+	
+		<style>
+		
+			.box{
+				width: 50px; height: 50px;
+				background: black;
+				margin: 50px;
+				float: left;
+			}
+			
+			.boxanimate{
+				width: 200px; height: 200px;
+				margin-left: 100px;
+				margin-top: 100px;
+				transition: 3s;
+			}
+			
+			.circle{
+				width: 40px; height: 40px;
+				border-radius: 50%;
+				border: 3px solid black;
+				margin: 20px;
+				float: left;
+			}
+			
+			@media (min-width: 800px) {
+				.circle { 
+					border: 3px solid #413BFF;
+					transition: 2s;
+				}
+			}
+			
+			.line{
+				width: 0px; height: 40px;
+				border: 3px solid black;
+				transform: rotate(30deg);
+				margin: 7px;
+				float: left;
+			}
+			
+			.line:hover{
+				height: 400px;
+				transform: rotate(3000deg);
+				transition: 5s;
+			}
+			
+			p{
+				color: white;
+				font-family: arial;
+				font-size: 12px;
+				margin-left: 11px;
+			}
+		
+		</style>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	
+	</head>
+	
+	<body>
+	
+		<div class="box"><p>click</p></div>
+		<div class="circle"></div>
+		<div class="line"></div>
+		<div class="box"></div>
+		<div class="circle"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="box"></div>
+		<div class="circle"></div>
+		<div class="line"></div>
+		<div class="box"></div>
+		<div class="line"></div>
+		<div class="circle"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="circle"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="box"></div>
+		<div class="line"></div>
+		<div class="circle"></div>
+		<div class="line"></div>
+		<div class="box"></div>
+		<div class="circle"></div>
+		<div class="line"></div>
+		<div class="box"></div>
+		<div class="circle"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="box"></div>
+		<div class="line"></div>
+		<div class="circle"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="box"></div>
+		<div class="line"></div>
+		<div class="circle"></div>
+		<div class="line"></div>
+		<div class="box"></div>
+		<div class="circle"></div>
+		<div class="line"></div>
+		<div class="box"></div>
+		<div class="circle"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="box"></div>
+		<div class="line"></div>
+		<div class="circle"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="box"></div>
+		<div class="line"></div>
+		<div class="circle"></div>
+		<div class="line"></div>
+		<div class="box"></div>
+		<div class="circle"></div>
+		<div class="line"></div>
+		<div class="box"></div>
+		<div class="circle"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="box"></div>
+		<div class="line"></div>
+		<div class="circle"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="line"></div>
+		<div class="box"></div>
+		<div class="line"></div>
+		<div class="circle"></div>
+		<div class="line"></div>
+		<div class="box"></div>
+		<div class="circle"></div>
+		
+		<script>
+		
+			$(".box").click(function() {
+				$(this).toggleClass("boxanimate");
+			});
+	
+		</script>
+	
+	</body>
+
+</html>
