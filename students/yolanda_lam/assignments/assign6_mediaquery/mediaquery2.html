@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<title>MQ2</title>
+		<style>
+			body {
+				background: #03185A;
+			}
+			div {
+				font-family: sans-serif;
+				font-size: 100px;
+				font-weight: 700;
+			}
+			.sml {
+				color: #0318FF ;
+				text-align: right;
+				position: absolute;
+				top: 100;
+				left: 100;
+				float: left;
+			}
+			.ish {
+				color: #03185A;
+				position: absolute;
+				top: 100;
+				left: 500;
+				z-index: -1;
+			}
+			.er {
+				color: #03185A;
+				position: absolute;
+				top: 100;
+				left: 400;
+				z-index: -1;
+			}
+			.est {
+				color: #03185A;
+				position: absolute;
+				top: 100;
+				left: 400;
+				z-index: -1;
+			}
+			@media (max-width: 900px) {
+				div { font-size: 80px; color: #0318FF; }
+				.ish { color: #0318FF; opacity: .3; left: 375; z-index: 1; }
+			}
+			@media (max-width: 750px) {
+				div { font-size: 60px; color: #0381FF; }
+				.ish { color: #03185A; }
+				.er { color: #0318FF; opacity: .6; left: 306; z-index: 1; }
+			}
+			@media (max-width: 500px) {
+				div { font-size: 40px; color : #03DBFF; }
+				.ish { color: #03185A; }
+				.er { color: #03185A; }
+				.est { color : #0318FF; opacity: .9; left: 240; z-index: 1; }
+				}
+			}			
+			
+		</style>
+	</head>
+	<body>
+		<div class="sml">SMALL</div>
+		<div class="ish">ISH</div>
+		<div class="er">ER</div>
+		<div class="est">EST</div>
+	
+	</body>
+</html>

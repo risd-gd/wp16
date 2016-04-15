@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>MQ5</title>
+		<style>
+			body {
+				margin: 0;
+				background: linear-gradient(#BAE4FF, #A5AFFF);
+				transition: all 2s;
+			}
+			div {
+				top: 100;
+				left: 100;
+			}
+			.sun {
+				width: 20vw;
+				height: 20vw;
+				position: absolute;
+				top: 15vh;
+				left: 20vw;
+				background: #FFB06A;
+				border: solid 1px #FFB06A;
+				border-radius: 50%;
+			}
+			.today {
+				font-family: sans-serif;
+				font-size: 5vw;
+				color: #FFB06A;
+				position: absolute;
+				top: 5vh;
+				left: 10vw;
+			}
+			
+			@media (max-width: 1000px) {
+				body { background: linear-gradient(#9CBDF2, #FFAFBD); }
+				.sun { background: #FF7E46; border: #FF7E46;}
+				.today { color: #FF7E46; opacity: .6; }
+			}
+			@media (max-width: 800px) {
+				body {background: linear-gradient(#AAECF2, #FF8D7B); }
+				.sun { background: #FF4000; border: #FF4000;}
+				.today { color: #FF4000; opacity: .6; }
+			}
+			@media (max-width: 500px) {
+				body {background: linear-gradient(#4D7BA1, #544AA6); }
+				.sun { background: #FFf; border: #FFf; opacity: .8; }
+				.today { color: #FFf; opacity: .6; }
+			}			
+			
+		</style>
+	</head>
+	<body>
+		<div class="sun"></div>
+		<div class="today">today</div>
+	</body>
+</html>

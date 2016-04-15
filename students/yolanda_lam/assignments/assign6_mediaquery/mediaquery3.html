@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>MQ3</title>
+		<style>
+			body {
+				margin: 0;
+			}
+			.container {
+				width: 780px;
+				height: 576px;
+				overflow: hidden;
+				z-index: -1;
+			}
+			img {
+				width: 20%;
+				height: auto;
+				transition: all 3s;
+			}
+			.what {
+				color : #fFF;
+				position: absolute;
+				top: 160;
+				left: 5;
+			}
+			
+			@media (max-width: 1000px) {
+				img {width: 35%; height: auto; transition: all 3s;}
+				div { font-size: 40px; font-weight: 200;}
+			}
+			@media (max-width: 800px) {
+				img {width: 75%; height: auto; transition: all 1s;}
+				div { font-size: 60px; font-weight: 500;}
+			}
+			@media (max-width: 500px) {
+				img {width: 120%; height: auto; transition: all 0s;}
+				div { font-size: 100px; font-weight: 700;}
+				
+			}			
+			
+		</style>
+	</head>
+	<body>
+		<div class="what">W H A T</div>
+		
+		<div class="container">
+			<div><img src="what.jpeg"></div>
+		</div>
+	
+	</body>
+</html>
