@@ -3,7 +3,7 @@
 	"logo" : "logo.png",
 	"about" : "Tardigrades.",
 	"menu" : {
-		"Get to know!" : "https://www.youtube.com/watch?v=aHsVyb_VfeA",
+		"pix" : "https://www.youtube.com/watch?v=aHsVyb_VfeA",
 		"Science" : "https://en.wikipedia.org/wiki/Tardigrade",
 		}
 }
