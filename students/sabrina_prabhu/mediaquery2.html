@@ -1,0 +1,105 @@
+<html>
+	<head>
+		<title>mediaquery1</title>
+		
+	<style>
+	
+	body{
+	background: gray;
+	width: 100vw; height: 100vh;
+	}
+	
+		div { 
+		
+	background: #64ba30;
+		width: 22px; height: 20px;
+		border-radius: 110%;
+		transform: rotate(22deg);
+		float: left;
+		transition: all 2.1s;
+		}
+		div:hover {border-radius:99%; background: #ba7575; margin:20px; 
+		width: 300px; height: 20px; transform: rotate (-22deg);}
+		
+		body { margin-left: 0px; margin-top: 0px; }
+		
+
+	div2{
+
+		background: #55175c;
+		width: 100px; height: 112px;
+		border-radius: 2%;
+		transform: rotate(-27deg);
+		float: left;
+		transition: all 1.2s;
+		}
+		div2:hover {border-radius:9%; background: #b9ac1c; margin:80px; 
+		width: 90px; height: 22px; transform: rotate (-22deg);}
+		
+		body { margin-left: 0px; margin-top: 0px; }
+}
+	
+	</style>
+	</head>
+	<body>	
+		<div></div>
+		<div2></div2>
+		<div></div>
+		<div2></div2>
+		<div></div>
+		<div2></div2>
+		<div></div>
+		<div2></div2>
+		<div></div>
+		<div2></div2>
+		<div></div>
+		<div2></div2>
+		<div></div>
+		<div2></div2>
+		<div></div>
+		<div2></div2>
+		<div></div>
+		<div2></div2>
+		<div></div>
+		<div2></div2>
+		<div></div>
+		<div2></div2>
+		<div></div>
+		<div2></div2>
+		<div></div>
+		<div2></div2>
+		<div></div>
+		<div2></div2>
+		<div></div>
+		<div2></div2>
+		<div></div>
+		<div2></div2>
+		<div></div>
+		<div2></div2>
+		<div></div>
+		<div2></div2>
+		
+		<script>
+		
+	$("div").click(function () {
+		  $(this).fadeToggle("slow", function () {
+			$("#text").append("&nbsp;");
+  		});
+  	});
+  	
+  	$("div2").click(function () {
+		  $(this).fadeToggle("slow", function () {
+			$("#text").append("&nbsp;");
+  		});
+  	});
+  	
+  	
+	</script>
+		
+		
+		
+		<div class = "canvas"></div>
+	</body>
+</html>
+
+		

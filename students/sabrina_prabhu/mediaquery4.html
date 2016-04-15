@@ -1,0 +1,78 @@
+<html>
+
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<style type="text/css"> 
+	
+		a { display: inline; 
+			margin: 22px; 
+			width: 10.5px; height: 5.55px; 
+			float: left; color: white; padding: 22px; background: #2abad9; 
+			border-radius: 20px;
+		cursor: pointer;
+		-webkit-transition: all 1s;  
+	   	transition: all 3s;
+	 }
+	 
+	 b { display: inline; 
+			margin: 22px; 
+			width: 10.5px; height: 5.55px; 
+			float: left; color: white; padding: 22px; background: #114231; 
+			border-radius: 20px;
+		cursor: pointer;
+		-webkit-transition: all 1s;  
+	   	transition: all 2s;
+	 }
+	 
+	  a:hover { 
+	  	background: #9456b1;			
+		-webkit-transform:translateX(-175px);
+		transform:translateY(125px);
+	}
+	
+	b:hover { 
+	  	background: #f8ee7e;			
+		-webkit-transform:translateX(-175px);
+		transform:translateX(-125px);
+	}
+	
+	
+	</style>
+	
+	<title>Scale</title>
+</head>
+
+<body>
+	<a>I</a>
+	<b>N</b>
+	<a>V</a>
+	<b>E</b>
+	<a>R</a>
+	<b>T</b>
+
+	
+
+	<script>
+    $("a").click(function () {
+      $(this).toggleClass("move");
+    });
+
+	$("a").click(function () {
+		  $(this).fadeToggle("slow", function () {
+			$("#text").append("&nbsp;");
+  		});
+  	});
+  	
+  	$("b").click(function () {
+		  $(this).fadeToggle("slow", function () {
+			$("#text").append("&nbsp;");
+  		});
+  	});
+  	
+	</script>
+	
+	
+
+</body>
+
+</html>

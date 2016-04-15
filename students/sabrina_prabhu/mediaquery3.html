@@ -1,0 +1,72 @@
+<html>
+
+<head>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<style type="text/css"> 
+	
+		a { display: inline; float: left; color: pink; padding: 55px; 
+		background: #b9ac1c; 
+	    cursor: pointer;
+		font-size: 40.3px; }
+        b { display: inline; float: right; color: blue; padding: 55px; 
+		background: #b71cb9; 
+	    cursor: pointer;
+		font-size: 40.3px; }
+		c { display: inline; float: right; color: yellow; padding: 50px; 
+		background: #b71cb9; 
+	    cursor: pointer;
+		font-size: 40.3px; }
+		ab { display: inline; float: left; color: pink; padding: 55px; 
+		background: #d7520f; 
+	    cursor: pointer;
+		font-size: 40.3px; }	
+	
+	</style>
+	
+	<title>mediaquery2</title>
+
+</head>
+
+<body>
+	<a>why</a>
+	<b>are</b>
+	<c>solved</c>
+	<ab>the</ab>
+	<b>parts</b>
+	<ab>of</ab>
+	<b>these</b>
+	<c>get</c>
+	<a>trying</a>
+	<b>hard</b>
+	<a>to</a>
+	<c>puzzles</c>
+	<ab>confusing</ab>
+	<b>when</b>
+	<c>all</c>
+	
+	
+	
+	<script>
+	$("a").click(function () {
+		  $(this).fadeToggle("slow", function () {
+			$("#text").append("&nbsp;");
+  		});
+  	});
+  	
+  	$("b").click(function () {
+		  $(this).fadeToggle("slow", function () {
+			$("#text").append("&nbsp;");
+  		});
+  	});
+  	
+  	$("ab").click(function () {
+		  $(this).fadeToggle("slow", function () {
+			$("#text").append("&nbsp;");
+  		});
+  	});
+  	
+	</script>
+
+</body>
+
+</html>
