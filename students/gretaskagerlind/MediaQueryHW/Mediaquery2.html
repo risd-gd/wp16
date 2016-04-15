@@ -1,0 +1,82 @@
+<html>
+<head><title>Media Query 2</title>
+
+<style>
+
+body {
+	margin:0px;
+	width:100vw;
+	background: linear-gradient(#9999cc,#cccc99);
+	}
+	
+	
+.window-container {
+	float:right; 
+	width: 300px; height:100%;
+	background: #9999cc;
+	transition: all 1s;
+	
+	}
+	
+.window-container-different { background: linear-gradient(#cccc99,#9999cc);
+		}
+		
+.window-container-different-1 { background: linear-gradient(#cccc99,#9999cc);
+		}
+		
+.window-container-different-2 {background: linear-gradient(#cccc99,#9999cc);
+		}
+		
+.window-container-different-3 {background: linear-gradient(#cccc99,#9999cc);
+		}
+
+.window-container-different-4 {background: linear-gradient(#cccc99,#9999cc);
+		}
+		
+.window-container-different-5 {background: linear-gradient(#cccc99,#9999cc);
+		}
+
+	
+@media (max-width:950px) {
+	.window-container-different {background: #cccc99; width:100px;}
+	}
+	
+@media (max-width:800px) {
+	.window-container-different-1 {background: #996699; width:80px;}
+	}
+@media (max-width:650px) {
+	.window-container-different-2 {background: #666699; width:60px;}
+	}
+	
+@media (max-width:500px) {
+	.window-container-different-3 {background: #999966; width:60px;}
+	}
+	
+@media (max-width:400px) {
+	.window-container-different-4 {background: #cccc99; width:40px;}
+	}
+@media (max-width:400px) {
+	.window-container-different-5 {background: #9999cc; width:20px;}
+	}
+	
+
+
+</style>
+
+
+
+</head>
+<body>
+	<div class="window-container window-container-different"></div>
+	<div class="window-container window-container-different-1"></div>
+	<div class="window-container window-container-different-2"></div>
+	<div class="window-container window-container-different-3"></div>
+	<div class="window-container window-container-different-4"></div>
+	<div class="window-container window-container-different-5"></div>
+
+
+</body>
+
+
+
+</html>

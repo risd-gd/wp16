@@ -1,0 +1,88 @@
+<html>
+<head>
+<title>MediaQuery5</title>
+
+<style>
+body {
+	margin: 0;
+	}
+
+.container-1 {
+	margin: 0 auto;
+	
+	}
+	
+.rect-1 {
+	width: 100px; height: 100px;
+	background: #f4989e;
+	transition:all 1s; 
+	margin: 30 auto;
+	mix-blend-mode: multiply;
+	}
+	
+.rect-1-diff {}
+
+
+.rect-2 {
+	width: 100px; height: 300px;
+	background: #f2d479;
+	transition:all 1s; 
+	margin: 30 auto;
+	mix-blend-mode: multiply;
+	}
+	
+.rect-2-diff { }
+
+.rect-3 {
+	width: 100px; height: 50px;
+	background: #6ee59e;
+	transition:all 1s; 
+	margin: 20 auto;
+	mix-blend-mode: multiply;
+	}
+
+.rect-3-diff { }
+
+.rect-4 {
+	width: 100px; height: 100px;
+	background: #9cbcd9;
+	transition:all 1s; 
+	margin: 30 auto;
+	mix-blend-mode: multiply;
+	}
+	
+.rect-4-diff { }
+
+
+@media (max-width:1000px) {
+	.rect-1-diff {transform:rotate(360deg); background: #9cbcd9;}
+	}
+	
+@media (max-width:800px) {
+	.rect-2-diff {transform:rotate(360deg); background: #f4989e;}
+	}
+	
+@media (max-width:600px) {
+	.rect-3-diff {transform:rotate(360deg); background: #f2d479;}
+	}
+	
+@media (max-width:400px) {
+	.rect-4-diff {transform:rotate(360deg); background: #6ee59e;}
+	}
+
+</style>
+	
+</head>
+
+<body>
+<div class="container-1">
+	<div class ="rect-1 rect-1-diff"></div>
+	<div class ="rect-2 rect-2-diff"></div>
+	<div class ="rect-3 rect-3-diff"></div>
+	<div class ="rect-4 rect-4-diff"></div>
+</div>
+
+
+
+</body>
+</html>

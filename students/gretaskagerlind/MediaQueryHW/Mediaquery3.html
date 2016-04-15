@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>MediaQuery3</title>
+<style>
+body {
+	margin:0px;
+	}
+	
+.text-container {
+	font-size: 2px;
+	font-family:helvetica;
+	color:black;
+	width:100vw; height: 100%; overflow:hidden;
+	transition:all .5s;	}
+
+.text-container-different { }
+
+@media (max-width: 1200px) {
+	.text-container-different {font-size: 200px;}
+	}
+	
+@media (max-width: 1000px) {
+	.text-container-different {font-size: 400px;}
+	}
+
+@media (max-width: 800px) {
+	.text-container-different {font-size: 600px;}
+	}
+
+	
+
+</style>
+
+
+</head>
+<body>
+	<div class="text-container text-container-different">This paragraph contains very important personal information. Look really really close. Try and read it. Please please. This is a diary entry. This is a diary entry. This is a diary entry. This is a diary entry. This is a diary entry. This is a diary entry.</div>
+
+
+
+</body>
+
+
+
+</html>
