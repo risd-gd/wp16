@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<style>
+			div { width: 200px; height: 200px;
+			border-radius:50%;
+			background: khaki; float: left; margin: 0px; 
+			transition: all 1s;  
+			}
+			.different { width:500px, height:10px;;
+  			 }
+
+			body{
+				background: goldenrod;
+			}
+			
+			@media (max-width: 1000px) {
+				.different { 
+				background: rgba(20,20,20,0.3);
+				width: 800px; height: .5px;
+				border-radius:0%;
+				transform:rotate(-90deg); }
+			}
+			@media (max-width: 800px) {
+				.different { 
+				background: darkorange;
+				width: 200px; height: 200px;
+				transform:rotate(0deg);  }
+			}
+			@media (max-width: 400px) {
+				.different { 
+				background: rgba(50,50,50,0.5);
+				float:left
+								width: 200px; height: 200px;
+				transform:rotate(0deg);  }
+			}
+			
+		</style>
+
+	</head>
+	
+	<body>
+		<div></div>
+		<div class="different"></div><div></div>
+		<div class="different"></div>
+<div></div>
+		<div class="different"></div>
+<div></div>
+		<div class="different"></div>
+<div></div>
+		<div class="different"></div>
+<div></div>
+		<div class="different"></div>
+<div></div>
+		<div class="different"></div>
+<div></div>
+		<div class="different"></div>
+
+
+
+		
+
+	</body>
+
+
+</html>
