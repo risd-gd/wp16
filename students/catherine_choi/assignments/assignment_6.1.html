@@ -1,0 +1,191 @@
+<html>
+	<head>
+		<style>
+
+		@media (min-width: 1025px) {
+
+			body{
+				background: black;
+			}
+			.rectangle div{
+				float:left;
+				width: 250px;
+				height: 250px;
+				background:  #ffff00;
+				transition: all .1s;
+				margin-left: 20px;
+				margin-bottom: 20px;
+				mix-blend-mode: difference;
+			}
+
+			.rectangle div:nth-child(even){
+				float:left;
+				width: 250px;
+				height: 250px;
+				background: #ff00ff;
+				transition: all .1s;
+				margin-left: 20px;
+				margin-bottom: 20px;
+				border-radius: 125px;
+				mix-blend-mode: difference;
+			}
+
+			.rectangle div:hover{
+				background:  blue;
+				transform: scale(3);
+
+			}
+
+
+			.rectangle div:nth-child(even):hover{
+				background: blue;
+;
+				transform: scale(3);
+
+			}
+
+		}
+		@media (max-width: 1024px) {
+
+			body{
+				background: black;
+			}
+
+			.rectangle div{
+        float:left;
+        width: 150px;
+        height: 150px;
+        background: #cc00ff;
+			  transition: all .1s;
+        margin-left: 20px;
+        margin-bottom: 20px;
+				mix-blend-mode: difference;
+			}
+
+      .rectangle div:nth-child(even){
+        float:left;
+        width: 150px;
+        height: 150px;
+        background: #00ff00;
+			  transition: all .1s;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        border-radius: 125px;
+				mix-blend-mode: difference;
+      }
+
+			.rectangle div:hover{
+				background: yellow;
+				transform: scale(3);
+
+			}
+
+
+			.rectangle div:nth-child(even):hover{
+				background: yellow;
+				transform: scale(3);
+
+			}
+
+		}
+		@media (max-width: 768px) {
+
+			body{
+				background:  black;
+			}
+
+			.rectangle div{
+        float:left;
+        width: 100px;
+        height: 100px;
+        background: #99ff99;
+			  transition: all .1s;
+        margin-left: 20px;
+        margin-bottom: 20px;
+				mix-blend-mode: difference;
+			}
+
+      .rectangle div:nth-child(even){
+        float:left;
+        width: 100px;
+        height: 100px;
+        background: #00ffff;
+			  transition: all .1s;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        border-radius: 125px;
+				mix-blend-mode: difference;
+      }
+
+			.rectangle div:hover{
+				background: #e6ffff;
+				transform: scale(3);
+
+			}
+
+
+			.rectangle div:nth-child(even):hover{
+				background: #e6ffff;
+				transform: scale(3);
+
+			}
+
+		}
+
+
+
+
+		</style>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+	</head>
+
+	<body>
+
+
+    		<script>
+    			$(".rectangle").click(function() {
+    				$(this).toggleClass("animate");
+    			});
+    		</script>
+
+
+    <div class="rectangle">
+		    <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+        <div></div><div></div><div></div><div></div><div></div><div></div>
+
+    </div>
+
+
+	</body>
+
+
+</html>
