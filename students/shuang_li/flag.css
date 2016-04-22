@@ -1,0 +1,33 @@
+#star{
+	width: 200px;
+	height: 135px;
+	background-color: #0052A5;
+	float: left;
+	padding-top: 5px;
+}
+
+.stripe_red{
+	width: 460px;
+	height: 20px;
+	background-color: #E0162B;
+}
+
+.stripe_white{
+	width: 460px;
+	height: 20px;
+	background-color: #ffffff;
+
+}
+
+.star_odd{
+	text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+}
+
+.star_even{
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+

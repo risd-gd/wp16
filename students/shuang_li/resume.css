@@ -2,18 +2,36 @@ body{
 	font-family: helvetica, arial, serif;
 	margin: 20px;
 	line-height: 20px;
+	color: #666666;
+
 }
 
 span.school{
 	font-weight: bold;
-	color: #000000;
+
 }
 
 h1{
 	font-weight: bold;
-	font-size: 1.6em;
+	font-size: 1.5em;
+	color: #000000;
 }
 
 #info {
 	margin-left: 20px;
+	font-size: 0.9em;
+	color: 
+}
+
+h2{
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #000000;
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+
+a{
+	text-decoration: none;
+	text-decoration-color: none;
 }
