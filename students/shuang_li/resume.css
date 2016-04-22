@@ -1,0 +1,19 @@
+body{
+	font-family: helvetica, arial, serif;
+	margin: 20px;
+	line-height: 20px;
+}
+
+span.school{
+	font-weight: bold;
+	color: #000000;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 1.6em;
+}
+
+#info {
+	margin-left: 20px;
+}
