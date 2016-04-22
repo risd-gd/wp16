@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Circular-Book;
+    src: url(CircularStd-Book.otf);
+}
+
+body{
+	font-family: Circular-Book,helvetica, arial, serif;
+	margin: 20px;
+	line-height: 20px;
+	color: #666666;
+	font-size: 0.9em;
+
+}
+
+span.school{
+	font-weight: bold;
+
+}
+
+#color_block{
+	width: 60px;
+	height: 60px;
+	z-index: -1;
+	background-color: yellow;
+	position: fixed;
+	float:right;
+}
+h1{
+	font-weight: bold;
+	font-size: 1.5em;
+	color: #000000;
+}
+
+#info {
+	margin-left: 20px;
+	color: 
+}
+
+h2{
+	font-weight: bold;
+	font-size: 1.2em;
+	color: #000000;
+	text-decoration: underline;
+	text-decoration-color: red;
+}
+
+
+a:hover{
+	text-decoration-line: 5px;
+	text-decoration-color: yellow;
+	background-color: yellow;
+}
