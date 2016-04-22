@@ -1,0 +1,42 @@
+<html>
+<head>
+<title> absolute position flag </title>
+<style>
+	div { 
+		position: absolute;
+		background: red;
+		top:0;
+		left:0;
+		width: 160px; height: 100px;
+		z-index: 0;
+		}
+		
+		.vert {
+				width: 20px; height: 100px;
+				position: absolute;
+				top: 0;
+				left: 55px;
+				background: yellow;
+				z-index: 1;
+				
+				}
+				
+		.hor {
+				width: 160px; height: 20px;
+				position: absolute;
+				top: 40px;
+				left: 0px;
+				background: yellow;
+				z-index: 3;
+				
+				}
+</style>
+<body>
+
+<div></div>
+<div class="vert"></div>
+<div class="hor"></div>
+</body>
+</head>
+
+</html>
