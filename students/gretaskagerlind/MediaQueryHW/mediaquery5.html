@@ -27,7 +27,7 @@ body {
 	width: 100px; height: 300px;
 	background: #f2d479;
 	transition:all 1s; 
-	margin: 30 auto;
+	margin: 30px auto;
 	mix-blend-mode: multiply;
 	}
 	
@@ -37,7 +37,7 @@ body {
 	width: 100px; height: 50px;
 	background: #6ee59e;
 	transition:all 1s; 
-	margin: 20 auto;
+	margin: 20px auto;
 	mix-blend-mode: multiply;
 	}
 
@@ -47,21 +47,22 @@ body {
 	width: 100px; height: 100px;
 	background: #9cbcd9;
 	transition:all 1s; 
-	margin: 30 auto;
+	margin: 30px auto;
 	mix-blend-mode: multiply;
 	}
 	
 .rect-4-diff { }
 
 
-@media (max-width:1000px) {
-	.rect-1-diff {transform:rotate(360deg); background: #9cbcd9;}
-	}
-	
 @media (max-width:800px) {
-	.rect-2-diff {transform:rotate(360deg); background: #f4989e;}
+	.rect-2-diff {transform:rotate(360deg);
+		}
+	.rect-1-diff {background: blue;
+		font-size: 40px; font-family: arial;
 	}
-	
+	.rect-1-diff:before { 		content: "hello";
+}
+	}
 @media (max-width:600px) {
 	.rect-3-diff {transform:rotate(360deg); background: #f2d479;}
 	}
@@ -69,6 +70,7 @@ body {
 @media (max-width:400px) {
 	.rect-4-diff {transform:rotate(360deg); background: #6ee59e;}
 	}
+	
 
 </style>
 	
