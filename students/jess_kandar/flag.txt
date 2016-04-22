@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<style>
+		div { background: blue; 
+		padding: 10px;
+		width: 100 px; 
+		height: 100px; 
+		margin: 100px;
+		font-size: 120 px;
+		float: left; }
+		.diff {
+			background: green;
+			margin-bottom: 100 px;
+			border: 20 px solid blue; }
+			
+		}
+		body { }
+
+		
+		</style>
+	</head>
+	
+	<body>
+	
+	<h2></h2>
+
+	
+	
+	</body>
+		<div> 
+		<p>hello</p>
+		</div>
+		<div> class="diff"</div>
+		<div> </div>
+		<div> </div>
+	
+</html>
