@@ -10,7 +10,7 @@
 				}
 			
 			.first {
-				background:red;
+				background:#ddd;
 
 				}
 			
@@ -19,7 +19,7 @@
 				}
 				
 			.third {
-				background:yellow;
+				background:lightyellow;
 				}
 				
 			.fourth {
@@ -31,7 +31,7 @@
 				}
 		
 			.lemonsize {
-				transform:scale(.5);
+				transform:scale(.3);
 				float:center;
 				}
 		
@@ -41,12 +41,104 @@
 				overflow:hidden;
 				display:flex;
 				position:absolute;
-				left:100px;}
+				top:-30px;
+				left:100px;
+				z-index:5;}
 	
 			.lemon { width:200%;
 				background: khaki;
 				position:absolute;
-				left:0px;}
+				opacity:.8;
+				top:-30px;
+				left:0px;
+				z-index:5;}
+				
+			.crest{
+			width: 240px;
+			height: 140px;
+			background-color: #345678;
+			position:absolute;
+			margin: 120px;
+			border-top: 20px solid #eeeeee;
+			z-index: 1;
+				}
+
+		.waist_left{
+			background-color: #ddd;
+			width: 100px;
+			height: 160px;
+			border-bottom-right-radius: 50%;
+			position: relative;
+			float: left;
+			left: -20%;
+			top:-30%;
+			transform: rotate(10deg);
+			z-index: 2;
+		}
+
+		.waist_right{
+			background-color: #ddd;
+			width: 100px;
+			height: 160px;
+			border-bottom-left-radius: 50%;
+			position: relative;
+			float: right;
+			right: -20%;
+			top:-30%;
+			transform: rotate(-10deg);
+			z-index: 3;
+
+		}
+		
+		div {border:1px solid white; display:block; overflow:hidden;}
+			.special {
+			background: yellow; 
+			height:250px; 
+			width:250px;  
+			margin-top: 60px; 
+			border-radius:50%;
+			transform:scale(1.5);
+				}
+			
+			.white {
+			background:lightyellow; 
+			border:2px solid white; 
+			height:100px;
+			width:100px;
+			position: absolute;
+			top:-30;
+			left:50;
+			}
+			
+			.white2 {
+			background:lightyellow; 
+			border:2px solid white; 
+			height:100px;
+			width:100px;
+			position: absolute;
+			top:-30;
+			left:270;
+			}
+			
+			.white3{
+			background:lightyellow; 
+			border:2px solid white; 
+			height:100px;
+			width:100px;
+			position: absolute;
+			top:190;
+			left:50;
+			}
+			
+			.white4{
+			background:lightyellow; 
+			border:2px solid white; 
+			height:100px;
+			width:100px;
+			position: absolute;
+			top:190;
+			left:270;
+			}
 				
 			.ring {
 				-webkit-transform:rotate(270deg);
@@ -56,10 +148,11 @@
 				height:105px;
 				width:105px;
 				background:white;
+				opacity:.5;
 	
 				position:absolute;
-				top:67px;
-				left:98px;
+				top:-167px;
+				left:45px;
 				border-radius:100px;
 				}
 				
@@ -69,8 +162,8 @@
 				background:solid transparent;
 
 				position:absolute;
-				top:60px;
-				left:90px;
+				top:-60px;
+				left:45px;
 				border: 10px solid beige;
 
 				-webkit-transform:rotate(45deg);
@@ -80,16 +173,15 @@
 				height:105px;
 				width:105px;
 				background:solid transparent;
+				opacity:.5;
 	
 				position:absolute;
-				top:110px;
-				left:90px;
+				top:40px;
+				left:40px;
 				border-radius:100px;
 				border: 10px solid white;
 				}
 				
-				
-		
 		
 			.twoshapes {
 				background: white;
@@ -140,13 +232,13 @@
 				background: pink;	
 				border-radius:200px;
 
-				border: 7px dashed beige;	
 			}
 			
 			.stripesmiddle {
 				height: 150px;
 				width:15px;
 				background:beige;
+				opacity:.5;
 				border-radius:20px;
 
 				position: absolute;
@@ -161,6 +253,7 @@
 				height: 150px;
 				width:15px;
 				background:beige;
+				opacity:.5;
 				border-radius:20px;
 
 				position: absolute;
@@ -174,6 +267,7 @@
 				height: 150px;
 				width:15px;
 				background:beige;
+				opacity:.5;
 				border-radius:20px;
 
 				position: absolute;
@@ -198,11 +292,10 @@
 				</div>
 			</div>
 			
-			<div class="anna">
-				<div class="meow"> </div>
-				<div class="eye1"> </div>
-				<div class="eye2"> </div>
-				<div class="eye3"> </div>
+			
+			<div class="crest">
+				<div class="waist_left"></div>
+				<div class="waist_right"></div>
 			</div>
 			
 		</div>
@@ -219,7 +312,20 @@
 		
 		</div>
 		
-		<div class="boundary third"<div></div>		
+		<div class="boundary third"<div>
+		
+			<div>
+			<div class="special"></div>
+			<div class="special white"></div>
+			<div class="special white2"></div>
+			<div class="special white3"></div>
+			<div class="special white4"></div>
+
+
+		</div>
+		
+		
+		</div>		
 		
 		<div class="boundary fourth"<div>
 		
