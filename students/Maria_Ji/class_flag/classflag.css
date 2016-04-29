@@ -1,0 +1,11 @@
+
+.flag_container {
+    width: 800px;
+    height: 500px;
+    top:100px;
+    background-color: antiquewhite;
+    position: relative;
+    margin: auto;
+}
+
+
