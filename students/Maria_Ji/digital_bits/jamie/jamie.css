@@ -1,0 +1,71 @@
+.container {
+    position: relative;
+    width: 900px;
+    height: 900px;
+    top: 10px;
+    margin: 0 auto;
+}
+
+.head {
+    width: 600px;
+    position: absolute;
+    margin: auto;
+    z-index: 0;
+    padding: 10px;
+}
+
+.outline {
+    width: 600px;
+    position: absolute;
+    margin: auto;
+    z-index: 1;
+    padding: 10px;
+}
+
+.mouthoutline {
+    width: 600px;
+    position: absolute;
+    margin: auto;
+    z-index: 2;
+    padding: 10px;
+}
+
+.mouth {
+    width: 600px;
+    position: absolute;
+    margin: auto;
+    z-index: 2;
+    padding: 10px;
+}
+
+.eyes {
+    width: 600px;
+    position: absolute;
+    margin: auto;
+    z-index: 2;
+    padding: 10px;
+}
+
+.eyesoutline {
+    width: 600px;
+    position: absolute;
+    margin: auto;
+    z-index: 3;
+    padding: 10px;
+}
+
+.eyebrows {
+    width: 600px;
+    position: absolute;
+    margin: auto;
+    z-index: 3;
+    padding: 10px;
+}
+
+.nose {
+    width: 600px;
+    position: absolute;
+    margin: auto;
+    z-index: 3;
+    padding: 10px;
+}

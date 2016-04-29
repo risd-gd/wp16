@@ -1,0 +1,206 @@
+<html>
+
+<head>
+    <title>Jamie</title>
+    <link rel="stylesheet" type="text/css" href="jamie.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+
+
+        <!--
+        <div class = "head">
+    
+        </div>
+-->
+
+        <!--
+    <div class = "shoulders">
+        
+        
+        
+        </div>
+    
+-->
+        <div class="head">
+            <canvas id="myCanvas" width="500" height="550">
+                <script>
+                    var c = document.getElementById("myCanvas");
+                    var ctx = c.getContext("2d");
+                    var grd = ctx.createLinearGradient(0, 0, 0, 400);
+                    grd.addColorStop(0, "#424242");
+                    grd.addColorStop(1, "white");
+
+                    ctx.strokeStyle = "#afb1b4";
+                    ctx.lineCap = "round";
+                    ctx.lineWidth = 15;
+                    ctx.beginPath();
+                    ctx.moveTo(50, 300);
+                    ctx.bezierCurveTo(50, 20, 400, 20, 400, 300);
+                    ctx.moveTo(400, 300);
+                    ctx.bezierCurveTo(400, 450, 50, 450, 50, 300);
+                    ctx.stroke();
+                    ctx.fillStyle = grd;
+                    ctx.fill();
+                </script>
+
+        </div>
+        <div class="outline">
+            <canvas id="canvas2" width="500" height="550">
+                <script>
+                    var c = document.getElementById("canvas2");
+                    var ctx = c.getContext("2d");
+
+                    ctx.strokeStyle = "#ededee";
+                    ctx.lineWidth = 8;
+                    ctx.beginPath();
+                    ctx.moveTo(50, 300);
+                    ctx.bezierCurveTo(50, 20, 400, 20, 400, 300);
+                    ctx.moveTo(400, 300);
+                    ctx.bezierCurveTo(400, 450, 50, 450, 50, 300);
+                    ctx.stroke();
+                </script>
+
+        </div>
+
+        <div class="mouthoutline">
+            <canvas id="canvas2" width="500" height="550">
+                <script>
+                    var c = document.getElementById("canvas2");
+                    var ctx = c.getContext("2d");
+
+                    ctx.strokeStyle = "white";
+                    ctx.lineCap = "round"
+                    ctx.lineWidth = 13;
+                    ctx.beginPath();
+                    ctx.moveTo(180, 350);
+                    ctx.bezierCurveTo(180, 380, 270, 380, 270, 350);
+                    //                    ctx.moveTo(400, 300);
+                    //                    ctx.bezierCurveTo(400, 450, 50, 450, 50, 300);
+                    ctx.stroke();
+                </script>
+
+        </div>
+
+        <div class="mouth">
+
+            <canvas id="canvas2" width="500" height="550">
+                <script>
+                    var c = document.getElementById("canvas2");
+                    var ctx = c.getContext("2d");
+
+                    ctx.strokeStyle = "#424242";
+                    ctx.lineCap = "round"
+                    ctx.lineWidth = 8;
+                    ctx.beginPath();
+                    ctx.moveTo(180, 350);
+                    ctx.bezierCurveTo(180, 380, 270, 380, 270, 350);
+                    ctx.stroke();
+                </script>
+
+
+        </div>
+
+        <div class="eyes">
+
+            <canvas id="canvas2" width="500" height="550">
+                <script>
+                    var c = document.getElementById("canvas2");
+                    var ctx = c.getContext("2d");
+
+                    ctx.strokeStyle = "#424242";
+                    ctx.lineCap = "round"
+                    ctx.lineWidth = 1;
+                    ctx.beginPath();
+                    ctx.moveTo(155, 240);
+                    ctx.arc(155, 240, 8, 0, Math.PI * 2, true); // Left eye
+                    ctx.moveTo(295, 240);
+                    ctx.arc(295, 240, 8, 0, Math.PI * 2, true); // Right eye
+                    ctx.stroke();
+                    ctx.fillStyle = "#424242";
+                    ctx.fill();
+                </script>
+
+
+        </div>
+
+        <div class="eyesoutline">
+            <canvas id="canvas2" width="500" height="550">
+                <script>
+                    var c = document.getElementById("canvas2");
+                    var ctx = c.getContext("2d");
+
+                    ctx.strokeStyle = "white";
+                    ctx.lineCap = "round"
+                    ctx.lineWidth = 4;
+                    ctx.beginPath();
+                    ctx.moveTo(155, 240);
+                    ctx.arc(155, 240, 9, 0, Math.PI * 2, true); // Left eye
+                    ctx.moveTo(295, 240);
+                    ctx.arc(295, 240, 9, 0, Math.PI * 2, true); // Right eye
+                    ctx.stroke();
+                    ctx.fillStyle = "#424242";
+                    ctx.fill();
+                </script>
+
+
+        </div>
+
+        <div class="eyebrows">
+
+            <canvas id="canvas2" width="500" height="550">
+                <script>
+                    var c = document.getElementById("canvas2");
+                    var ctx = c.getContext("2d");
+
+                    ctx.strokeStyle = "#ededee";
+                    ctx.lineWidth = 30;
+                    ctx.lineCap = "round";
+                    ctx.beginPath();
+                    ctx.moveTo(120, 210);
+                    ctx.lineTo(160, 190);
+                    ctx.moveTo(280, 190);
+                    ctx.lineTo(320, 210);
+                    ctx.stroke();
+                </script>
+
+
+
+
+        </div>
+
+        <div class="nose">
+
+            <canvas id="canvas2" width="500" height="550">
+                <script>
+                    var c = document.getElementById("canvas2");
+                    var ctx = c.getContext("2d");
+
+                    ctx.strokeStyle = "#ededee";
+                    ctx.lineWidth = 2;
+                    ctx.lineCap = "round";
+                    ctx.beginPath();
+                    ctx.moveTo(215, 230);
+                    ctx.bezierCurveTo(210, 230, 200, 245, 200, 310);
+                    ctx.bezierCurveTo(200, 323, 250, 323, 250, 310);
+                    ctx.bezierCurveTo(250, 230, 235, 230, 235, 230);
+                    ctx.bezierCurveTo(235, 227, 215, 227, 215, 230);
+                    ctx.closePath;
+                    ctx.stroke();
+                    ctx.fillStyle = "#ededee";
+                    ctx.fill();
+                </script>
+        </div>
+
+    </div>
+
+</body>
+
+
+
+
+
+</html>
