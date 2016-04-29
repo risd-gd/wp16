@@ -1,0 +1,290 @@
+<html>
+	<head>
+		<title>Flag</title>
+		<style>
+			
+			.flag { width: 800px; height: 500px; 
+			background: none; margin: 20px; position: relative;
+			overflow: hidden;
+			}
+			
+			.pinktop {
+				background: purple;
+				position: absolute;
+				border: none;
+				left: 345px;
+				top: -115px;
+				width: 200px;
+				height: 200px;
+				border-radius: 80px;
+				}
+
+			.yellow {
+				background: lightyellow;
+				position: absolute;
+				border:none;
+				left: 220px;
+				top: -140px;
+				width: 250px;
+				height: 250px;
+				border-radius: 250px;
+				}
+				
+			.pinktop2 {
+				background: purple;
+				position: absolute;
+				border: none;
+				left: 345px;
+				top: 245px;
+				width: 200px;
+				height: 200px;
+				border-radius: 80px;
+				}
+
+			.yellow2 {
+				background: lightyellow;
+				position: absolute;
+				border:none;
+				left: 220px;
+				top: 220px;
+				width: 250px;
+				height: 250px;
+				border-radius: 250px;
+				}
+				
+				
+			.main {
+				position: absolute;
+				border: none;
+				left: 60px;
+				top: 28px;
+				width: 180px;
+				height: 180px;
+				border: 130px solid lightgreen;
+				border-radius: 50%;
+				z-index: 1}
+			
+			.blue {
+				position: absolute;
+				border: 50px solid skyblue;
+				left: 125px;
+				top: 200px;
+				z-index: 2}	
+			
+			.blue2 {
+				position: absolute;
+				border: 50px solid skyblue;
+				left: 325px;
+				top: 200px;
+				z-index: 2}	
+			
+			.blue3 {
+				position: absolute;
+				border: 50px solid skyblue;
+				left: 525px;
+				top: 200px;
+				z-index: 2}	
+			
+			.blue4 {
+				position: absolute;
+				border: 50px solid skyblue;
+				left: 725px;
+				top: 200px;
+				z-index: 2}	
+				
+			.blue5 {
+				position: absolute;
+				border: 50px solid skyblue;
+				left: -70px;
+				top: 200px;
+			z-index: 2}	
+				
+			
+			.atulyagear {
+				height: 600px;
+				top: 50px;
+				left: 90px;
+				position: absolute;
+				width: 600px;
+				background: pink;	
+				border-radius:600px;
+
+				border: 7px dashed white;	
+			}
+			.stripesmiddle {
+				height: 150px;
+				width:15px;
+				background:white;
+				border-radius:20px;
+
+				position: absolute;
+				top:150px;
+				left:230px;
+				border-radius:20px;
+				z-index: 15;	
+				transform: rotate(-45deg);			
+			}
+			.stripesright{
+				height: 150px;
+				width:15px;
+				background:white;
+				border-radius:20px;
+
+				position: absolute;
+				top:130px;
+				left:250px;
+				border-radius:20px;
+				z-index: 15;	
+				transform: rotate(-45deg);			
+			}
+			.stripesleft{
+				height: 150px;
+				width:15px;
+				background:white;
+				border-radius:20px;
+
+				position: absolute;
+				top:170px;
+				left:210px;
+				border-radius:20px;
+				z-index: 15;	
+				transform: rotate(-45deg);			
+			}
+					
+			.circle1 {
+				height:105px;
+				width:105px;
+				background:beige;
+	
+				position:absolute;
+				top:17px;
+				left:338px;
+				border-radius:100px;
+				}
+				
+			.rotatedSquare {
+				height:100px;
+				width:100px;
+				background:solid transparent;
+
+				position:absolute;
+				top:10px;
+				left:330px;
+				border: 10px solid beige;
+
+				-webkit-transform:rotate(45deg);
+				}
+		
+			.circle2 {
+				height:105px;
+				width:105px;
+				background:solid transparent;
+	
+				position:absolute;
+				top:60px;
+				left:330px;
+				border-radius:100px;
+				border: 10px solid beige;
+				}
+			
+			.flagcontainer2 {
+				transform: scale(3);}
+			
+			.flagcontainer {
+				transform: scale(1.5);}
+				
+			.dot{
+				background: #ADD8E6;
+				position: absolute;
+				top: 30px;
+				left: 30px;
+				width: 550PX;
+				height: 550PX;
+				border-radius: 50%;
+				float: left;
+				}
+			#strcontainer1{
+				transform: rotate(-45deg);
+				position: absolute;
+				top: 50px;
+				left: 450px;	
+				}
+
+		.fullstr{
+				background: #fff;
+				width: 140px;
+				height: 70px;
+				margin-bottom: 30px;
+				}
+	
+		.lightyellowback {
+				width: 800px; height: 500px; 
+				background: lightyellow; margin: 20px; position: relative;
+				z-index: -1; position:relative
+				overflow: hidden;
+				}
+				
+		.pinkback {
+				background: pink; 
+				}
+		.lightblueback {
+				background: lightblue;
+				}		
+				
+		</style>
+		</head>
+	
+	<body>
+		
+		<div class="flag nudge lightblueback">
+		<div class = "flagcontainer">
+			<div class="yellow"></div>
+			<div class="pinktop"></div>
+			<div class="yellow2"></div>
+			<div class="pinktop2"></div>
+			</div>
+		</div>
+		
+		<div class="flag nudge lightyellowback">
+			<div class="main"></div>
+			<div class="blue"></div>
+			<div class="blue2"></div>
+			<div class="blue3"></div>
+			<div class="blue4"></div>
+			<div class="blue5"></div>
+		</div>
+
+
+		<div class="flag lightblueback">
+			<div class="atulyagear"></div>
+			<div class="stripesmiddle"></div>
+			<div class="stripesright"></div>
+			<div class="stripesleft"></div>
+		</div>
+
+		<div class="flag pinkback">
+			<div class = "flagcontainer2">
+				<div class="circle1"> </div>
+				<div class="rotatedSquare"></div>
+				<div class="circle2"> </div>
+			</div>
+		</div>
+		
+		<div class="flag">
+		<div class="lightyellowback">
+			<div class="dot"></div>
+		<div id="strcontainer1">
+			<div class="square"></div>
+			<div class="fullstr"></div>
+		<div class="fullstr"></div>
+		</div>
+		</div>
+		
+
+
+	</body>
+
+
+
+
+</html> 
