@@ -1,0 +1,229 @@
+<html>
+	<head>
+		<title>Janice Flag</title>
+		<style>
+
+/* div applies to all tags that has div in it...so just put a "." in front of everything unless you want to change it globally!
+
+there will always be margine, so if you want to get rid of it, you margin: 0
+position: relative is when you just want to nudge the position a little bit */
+
+	.flag {width : 800px; height: 500px;
+		background:	#FF4500;
+		position: relative;
+		margin-bottom: 20px;
+		overflow: hidden;
+		}
+	
+	.dot{
+		background: #ADD8E6;
+		width: 300PX;
+		height: 300PX;
+		border-radius: 50%;
+		position: absolute;
+		left: 8px;
+		top: -88px
+	}
+	#strcontainer1{
+		transform: rotate(-45deg);
+		position: absolute;
+		top: 10px;
+		left: 90px;	
+		overflow: hidden;
+		margin-left:10px;
+	}
+
+	.fullstr{
+		background: #fff;
+		width: 90px;
+		height: 20px;
+		margin-bottom: 30px;
+		overflow: hidden;
+		margin-left:10px;
+	}
+	.square{
+		background: #fff;
+		width: 150px;
+		height: 150px;
+		margin-bottom: 50px;
+		overflow: hidden;
+		margin-left:10px;
+	}
+	.yellow { background: yellow;}
+	.gold { background: #FFD700;}
+	.lavender {background:	#B0C4DE;}
+
+/* 1st*/
+
+		.outer {
+			position: absolute;
+			top: 0px;
+			left: 45px;
+			border: 200px solid gold;
+			border-radius: 50%;
+			}
+		
+			
+		.blue {
+			position: relative;
+			border: 150px solid skyblue;
+			border-radius: 50%;	
+			}
+		
+/* 
+2nd flag
+		svg { transform: scale (.75); }
+ */
+		.circle1 {
+			height:210px;
+			width:210px;
+			background:beige;
+			position:absolute;
+			top:132px;
+			left: 303px;
+			border-radius:50%;
+			}
+			
+		.rotatedSquare {
+			height:200px;
+			width:200px;
+			position:absolute;
+			top:130px;
+			left:300px;
+			border: 10px solid beige;
+			transform: rotate(45deg);
+			}
+	
+		.circle2 {
+			height:210px;
+			width:210px;
+			position:absolute;
+			top: 236px;
+			left:294px;
+			border-radius:50%;
+			border: 10px solid beige;
+			}
+/* 3rd flag */
+
+		.redrectangleblackborder { 
+			position: float left;
+			background: white;
+			top:190px;
+			margin-left:400px;
+			width: 25px; height: 90px;
+			z-index: 0;
+			border-radius:.5px;
+			transform:rotate(190deg);
+		}
+		
+		.blackrectangleblackborder {
+			position: float left;
+			background: black;
+			top:190px;
+			margin-left:410px;
+			width: 25px; height: 90px;
+			z-index: 0;
+			border-radius:.5px;
+			transform:rotate(200deg);
+		}
+		
+/* 4th flag		 */
+
+		.meow {
+			height:320px;
+			width:320px;
+			background:	#00CED1;
+			position: absolute;
+			left: 200px;
+			border-radius:50%;
+			border: 5px solid 	#FFD700;
+			
+			}
+		.eye1 {
+			height:75px;
+			width:75px;
+			background:	#00CED1;
+			border: 15px solid 	#FFD700;
+			position:absolute;
+			top:70px;
+			left:255px;
+			border-radius:50%;
+			z-index: 10;
+			}
+		.eye2 {
+			height:140px;
+			width:140px;
+			background:	#00BFFF;
+			border: 35px solid 	#FFD700;
+			position:absolute;
+			top:120px;
+			left:425px;
+			border-radius:50%;
+			z-index: 10;
+			}
+		.eye3 {
+			height:75px;
+			width:75px;
+			background:	#00BFFF;
+			border: 5px solid	#FFD700;
+
+			position:absolute;
+			top:220px;
+			left:212px;
+			border-radius:50%;
+			z-index: 10;
+			}
+
+		</style>
+	</head>
+	
+	<body>
+		<div class= "flag yellow">
+			<div class= "outer">
+				<div class= "blue"></div>
+			</div>	
+		</div>
+		
+		
+		<div class= "flag">
+			<div class="circle1"> </div>
+			<div class="rotatedSquare"></div>
+			<div class="circle2"> </div>
+		</div>
+		
+		
+		<div class= "flag lavender">
+			<div class="redrectangleblackborder"></div>
+			<div class="blackrectangleblackborder"></div>
+			<div class="redrectangleblackborder"></div>
+			<div class="blackrectangleblackborder"></div>		
+		</div>
+		
+		
+		<div class= "flag gold">
+			<div class="meow"> </div>
+			<div class="eye1"> </div>
+			<div class="eye2"> </div>
+			<div class="eye3"> </div>
+		</div>
+		
+		
+		<div class= "flag">
+			<div class="dot"></div>
+			<div id="strcontainer1">
+				<div class="square"></div>
+				<div class="fullstr"></div>
+				<div class="fullstr"></div>
+				<div class="square"></div>
+				<div class="fullstr"></div>
+				<div class="fullstr"></div>
+				
+			</div>
+		</div>
+
+	</body>
+
+
+
+
+</html> 
