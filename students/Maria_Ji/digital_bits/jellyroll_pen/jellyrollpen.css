@@ -1,0 +1,243 @@
+
+div.cap {
+        position:absolute;
+		background-color: #FF3B3B;
+        width:175px;
+        height:50px;
+        border-radius: 25px;
+		z-index: 0;
+}
+
+.container {
+    position: relative;
+    margin:auto;
+    width:900px;
+    top:300px;
+}
+
+div.cap2 {
+    position:absolute;
+    background-color:#FF3B3B;
+    width: 175px;
+    height: 10px;
+    margin-left: 130px;
+    margin-top:45;
+    border-radius: 10px;
+    z-index: 4;
+}
+
+div.pen {
+    position: absolute;
+    background-color: lightgray;
+    width: 700px;
+    height: 50px;
+    margin-left: 150px;
+    border-radius: 10px;
+    z-index: ;
+    
+    
+}
+
+div.pen2 {
+    position: absolute;
+    background-color: #FF3B3B;
+    width: 300px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    height: 25px;
+    margin-left: 150px;
+    margin-top: 10.5px;
+    z-index: 2;
+}
+
+div.pen3 {
+    position: absolute;
+    background-color: lightgray;
+    width: 700px;
+    height: 50px;
+    margin-left: 150px;
+    border-radius: 10px;
+    z-index: 3;
+    opacity: .5;
+    border-left: 2px solid gray;
+
+}
+
+div.pen4 {
+    position: absolute;
+    background-color: darkgray;
+    width: 600px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    height: 25px;
+    margin-left: 150px;
+    margin-top: 10.5px;
+    z-index: 1;
+}
+
+div.end {
+    position: absolute;
+    background-color: #FF3B3B;
+    width: 90px;
+    height: 25px;
+    margin-left: 760px;
+    margin-top: 12.5px;
+    z-index: 2;
+}
+
+div.line {
+    position: absolute;
+    background-color: transparent;
+    width: 200px;
+    height: 50px;
+    margin-left: 600px;
+    z-index: 5; 
+    border-right: 2px solid #FF3B3B;
+    border-radius: 10px;
+    
+}
+
+div.line2 {
+    position: absolute;
+    background-color: transparent;
+    width: 200px;
+    height: 50px;
+    margin-left: 610px;
+    z-index: 5; 
+    border-right: 2px solid #FF3B3B;
+    border-radius: 10px;
+}
+
+div.line3 {
+   position: absolute;
+    background-color: transparent;
+    width: 200px;
+    height: 50px;
+    margin-left: 620px;
+    z-index: 5; 
+    border-right: 4px solid #FF3B3B;
+    border-radius: 10px; 
+}
+
+div.line4 {
+    position: absolute;
+    background-color: transparent;
+    width: 200px;
+    height: 50px;
+    margin-left: 632px;
+    z-index: 5; 
+    border-right: 2px solid #FF3B3B;
+    border-radius: 10px;
+}
+
+div.endcap {
+    position: absolute;
+    background-color: transparent;
+    width: 13px;
+    height: 50px;
+    margin-left: 830px;
+    z-index: 7; 
+    border-right: 10px solid #FF3B3B;
+    border-radius: 10px;
+}
+
+
+
+div.capshadow {
+     position:absolute;
+		background-color: transparent;
+        width:175px;
+        height:50px;
+        border-radius: 25px;
+        border-bottom: 5px solid #9B2626;
+		z-index: 0;
+        margin-top: -5;
+}
+
+div.cap2shadow {
+    position:absolute;
+    background-color:#FF3B3B;
+    width: 175px;
+    height: 10px;
+    margin-left: 130px;
+    margin-top:45;
+    border-radius: 10px;
+    border-bottom: 3px solid #9B2626;
+    z-index: 4;
+    
+}
+
+div.penshadow {
+    
+    position: absolute;
+    background-color: transparent;
+    width: 700px;
+    height: 50px;
+    margin-left: 150px;
+    margin-top: -5px;
+    border-radius: 10px;
+    z-index: 1;
+    border-bottom: 5px solid #353535;
+}
+
+div.caphighlight {
+        position:absolute;
+		background-color: white;
+        width:90px;
+        height:10px;
+        border-radius: 50px;
+		z-index: 0;
+        margin-top: 10px;
+        margin-left: 15px;
+        opacity: .9;
+        
+}
+
+div.caphighlight2 {
+    position:absolute;
+		background-color: white;
+        width:10px;
+        height:10px;
+        border-radius: 50px;
+		z-index: 0;
+        margin-top: 10px;
+        margin-left: 110px;
+        opacity: .9;
+}
+
+div.highlight {
+        position:absolute;
+		background-color: white;
+        width:560px;
+        height:13px;
+        border-radius: 50px;
+		z-index: 7;
+        margin-top: 7px;
+        margin-left: 160px;
+        opacity: .6;
+}
+
+div.highlight2 {
+        position:absolute;
+		background-color: white;
+        width:630px;
+        height:4px;
+        border-radius: 70px;
+		z-index: 7;
+        margin-top: 28px;
+        margin-left: 160px;
+        opacity: .3;
+}
+
+div.highlight3 {
+    position:absolute;
+		background-color: white;
+        width:50px;
+        height:13px;
+        border-radius: 50px;
+		z-index: 7;
+        margin-top: 7px;
+        margin-left: 740px;
+        opacity: .6;
+}
