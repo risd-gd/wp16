@@ -1,0 +1,146 @@
+
+.pill1 {
+    position:absolute;
+    width: 150px;
+    height:80px;
+    background-color:red;
+    border-radius: 50px;
+    border-bottom: 3px solid #8f0000;
+    z-index:2 ;
+    
+}
+
+.container {
+    width:600px;
+    height:800px;
+    position:relative;
+    align-items: center;
+    margin:auto;
+    top:200px;
+}
+
+.pill1white {
+    position:absolute;
+    width: 60px;
+    height:79px;
+/*    top: px;*/
+    margin-left:110px;
+    background-color:#ededee;
+/*    border-radius: 50px;*/
+    border-bottom: 3px solid gray;
+    border-top:1px solid lightgray;
+    z-index: 2;
+}
+
+.pill1white2 {
+    position:absolute;
+    width: 150px;
+    height:79px;
+    margin-left:60px;
+    background-color:#ededee;
+    border-radius: 50px;
+    border-bottom: 3px solid gray;
+    border-right: 3px solid gray;
+    border-top:1px solid lightgray;
+    z-index: 1;
+    
+}
+
+.line {
+    position:absolute;
+    width:1px;
+    height:80px;
+    margin-left: 110px;
+    background-color: #8f0000;
+    z-index: 2
+    
+}
+
+.highlight {
+    position:absolute;
+    width: 140px;
+    height:13px;
+    top: 10px;
+    left: 48px;
+    background-color:white;
+    border-radius: 50px;
+/*    border-bottom: 3px solid #8f0000;*/
+    z-index: 4;
+    opacity: .8;
+}
+
+.highlight2 {
+    position:absolute;
+    width: 17px;
+    height:13px;
+    top: 12px;
+    left: 20px;
+    background-color:white;
+    border-radius: 50px;
+    z-index: 5;
+    opacity: .8;
+}
+
+.highlight3 {
+    position:absolute;
+    width: 180px;
+    height:30px;
+    top: 49px;
+    left: 15px;
+    background-color:white;
+    border-radius: 80px/50px;
+    z-index: 4;
+    opacity: .4;
+}
+
+.highlight4 {
+    position:absolute;
+    width: 210px;
+    height:15px;
+    top: 30px;
+    left: 0px;
+    background-color:transparent;
+    border-radius: 80px/50px;
+    border-bottom: 2px solid white;
+    z-index: 4;
+    opacity: .8;
+}
+
+.highlight5 {
+    position:absolute;
+    width: 210px;
+    height:15px;
+    top: 36px;
+    left:0px;
+    background-color:transparent;
+    border-radius: 130px/20px;
+    border-bottom: 12px solid white;
+    z-index: 5;
+    opacity: .5;
+}
+
+.highlight6 {
+    position:absolute;
+    width: 35px;
+    height:26px;
+    transform: rotate(10deg);
+    top: 50px;
+    left: 15px;
+    background-color:white;
+    border-radius: 50px;
+    z-index: 4;
+    opacity: .5;
+}
+
+.shadow {
+    position:absolute;
+    width: 200px;
+    height:31px;
+/*    transform: rotate(10deg);*/
+    top: 60px;
+    left: 70px;
+    background-color:black;
+    border-radius: 90px/20px;
+    z-index: 0;
+    opacity: .7;
+}
