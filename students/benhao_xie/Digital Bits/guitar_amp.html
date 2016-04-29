@@ -1,0 +1,596 @@
+<html>
+	<head>
+		<title>portable_guitar_amplifier</title>
+		<style>
+			
+		.Body {
+			height:100px;
+			width:260px;
+			background:beige;
+
+			position:absolute;
+			top:180px;
+			left:120px;
+			border-radius:10px;
+			z-index:1;
+			}
+			
+		.Handle {
+			height:50px;
+			width:100px;
+			background:#f2f2f2;
+
+			position:absolute;
+			top:150px;
+			left:200px;
+			border-radius:10px;
+			z-index:-1;
+			}
+			
+		.HandleTwo {
+			height:45px;
+			width:90px;
+			background:lightgrey;
+
+			position:absolute;
+			top:155px;
+			left:205px;
+			border-radius:10px;
+			z-index:-1;
+			}
+		
+		.ButtonOne {
+			height:13px;
+			width:13px;
+			background:black;
+
+			position:absolute;
+			top:170px;
+			left:165px;
+			border-radius:5px;
+			}
+			
+		.ButtonTwo {
+			height:13px;
+			width:13px;
+			background:black;
+
+			position:absolute;
+			top:170px;
+			left:192px;
+			border-radius:5px;
+			}
+		
+		.ButtonThree {
+			height:13px;
+			width:13px;
+			background:black;
+
+			position:absolute;
+			top:170px;
+			left:212px;
+			border-radius:5px;
+			}
+		
+		.ButtonFour {
+			height:13px;
+			width:13px;
+			background:black;
+
+			position:absolute;
+			top:170px;
+			left:232px;
+			border-radius:5px;
+			}
+		
+		.ButtonFive {
+			height:13px;
+			width:13px;
+			background:black;
+
+			position:absolute;
+			top:170px;
+			left:252px;
+			border-radius:5px;
+			}
+		
+		.ButtonSix {
+			height:13px;
+			width:13px;
+			background:black;
+
+			position:absolute;
+			top:170px;
+			left:272px;
+			border-radius:5px;
+			}
+		
+		.ButtonSeven {
+			height:13px;
+			width:13px;
+			background:black;
+
+			position:absolute;
+			top:170px;
+			left:292px;
+			border-radius:5px;
+			}
+			
+		.ButtonEight {
+			height:13px;
+			width:13px;
+			background:black;
+
+			position:absolute;
+			top:170px;
+			left:319px;
+			border-radius:5px;
+			}
+			
+		.ButtonNine {
+			height:13px;
+			width:13px;
+			background:black;
+
+			position:absolute;
+			top:170px;
+			left:339px;
+			border-radius:5px;
+			}
+		
+		.Logo {
+			height:18px;
+			width:18px;
+			background:black;
+
+			position:absolute;
+			top:192px;
+			left:242px;
+			border-radius:50px;
+			z-index:1;
+
+			}
+		
+		.GrillOne {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:200px;
+			left:140px;
+			z-index:1;
+			}
+		
+		.GrillTwo {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:210px;
+			left:140px;
+			z-index:1;
+			}
+			
+		.GrillThree {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:220px;
+			left:140px;
+			z-index:1;
+			}
+			
+		.GrillFour {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:230px;
+			left:140px;
+			z-index:1;
+			}
+		
+		.GrillFive {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:240px;
+			left:140px;
+			z-index:1;
+			}
+			
+		.GrillSix {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:250px;
+			left:140px;
+			z-index:1;
+			}
+		
+		.GrillSeven {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:260px;
+			left:140px;
+			z-index:1;
+			}
+		
+		.GrillEight {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:200px;
+			left:185px;
+			z-index:1;
+			}
+		
+		.GrillNine {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:210px;
+			left:185px;
+			z-index:1;
+			}
+			
+		.GrillTen {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:220px;
+			left:185px;
+			z-index:1;
+			}
+			
+		.GrillEleven {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:230px;
+			left:185px;
+			z-index:1;
+			}
+		
+		.GrillTwelve {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:240px;
+			left:185px;
+			z-index:1;
+			}
+			
+		.GrillThirteen {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:250px;
+			left:185px;
+			z-index:1;
+			}
+		
+		.GrillFourteen {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:260px;
+			left:185px;
+			z-index:1;
+			}
+		
+			
+		.Grill15 {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:220px;
+			left:230px;
+			z-index:1;
+			}
+			
+		.Grill16 {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:230px;
+			left:230px;
+			z-index:1;
+			}
+		
+		.Grill17 {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:240px;
+			left:230px;
+			z-index:1;
+			}
+			
+		.Grill18 {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:250px;
+			left:230px;
+			z-index:1;
+			}
+		
+		.Grill19 {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:260px;
+			left:230px;
+			z-index:1;
+			}
+		
+		.Grill20 {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:200px;
+			left:275px;
+			z-index:1;
+			}
+		
+		.Grill21 {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:210px;
+			left:275px;
+			z-index:1;
+			}
+			
+		.Grill22 {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:220px;
+			left:275px;
+			z-index:1;
+			}
+			
+		.Grill23 {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:230px;
+			left:275px;
+			z-index:1;
+			}
+		
+		.Grill24 {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:240px;
+			left:275px;
+			z-index:1;
+			}
+			
+		.Grill25 {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:250px;
+			left:275px;
+			z-index:1;
+			}
+		
+		.Grill26 {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:260px;
+			left:275px;
+			z-index:1;
+			}
+			
+		.Grill27 {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:200px;
+			left:320px;
+			z-index:1;
+			}
+		
+		.Grill28 {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:210px;
+			left:320px;
+			z-index:1;
+			}
+			
+		.Grill29 {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:220px;
+			left:320px;
+			z-index:1;
+			}
+			
+		.Grill30 {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:230px;
+			left:320px;
+			z-index:1;
+			}
+		
+		.Grill31 {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:240px;
+			left:320px;
+			z-index:1;
+			}
+			
+		.Grill32 {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:250px;
+			left:320px;
+			z-index:1;
+			}
+		
+		.Grill33 {
+			height:5px;
+			width:40px;
+			background:black;
+
+			position:absolute;
+			top:260px;
+			left:320px;
+			z-index:1;
+			}
+			
+		.Switch {
+			height:14px;
+			width:5px;
+			background:#f2f2f2;
+
+			position:absolute;
+			top:167px;
+			left:140px;
+			border-radius:5px;
+			}
+		
+		body {
+			background: lightgrey
+			}
+			
+		
+			
+		</style>
+		
+	</head>
+	
+	<body>
+		<div class="Body"></div>
+		<div class="Handle"></div>
+		<div class="HandleTwo"></div>
+		<div class="ButtonOne"></div>
+		<div class="ButtonTwo"></div>
+		<div class="ButtonThree"></div>
+		<div class="ButtonFour"></div>
+		<div class="ButtonFive"></div>
+		<div class="ButtonSix"></div>
+		<div class="ButtonSeven"></div>
+		<div class="ButtonEight"></div>
+		<div class="ButtonNine"></div>
+		<div class="Logo"></div>
+		<div class="GrillOne"></div>
+		<div class="GrillTwo"></div>
+		<div class="GrillThree"></div>
+		<div class="GrillFour"></div>
+		<div class="GrillFive"></div>
+		<div class="GrillSix"></div>
+		<div class="GrillSeven"></div>
+		<div class="GrillEight"></div>
+		<div class="GrillNine"></div>
+		<div class="GrillTen"></div>
+		<div class="GrillEleven"></div>
+		<div class="GrillTwelve"></div>
+		<div class="GrillThirteen"></div>
+		<div class="GrillFourteen"></div>
+		<div class="Grill15"></div>
+		<div class="Grill16"></div>
+		<div class="Grill17"></div>
+		<div class="Grill18"></div>
+		<div class="Grill19"></div>
+		<div class="Grill20"></div>
+		<div class="Grill21"></div>
+		<div class="Grill22"></div>
+		<div class="Grill23"></div>
+		<div class="Grill24"></div>
+		<div class="Grill25"></div>
+		<div class="Grill26"></div>
+		<div class="Grill27"></div>
+		<div class="Grill28"></div>
+		<div class="Grill29"></div>
+		<div class="Grill30"></div>
+		<div class="Grill31"></div>
+		<div class="Grill32"></div>
+		<div class="Grill33"></div>
+		<div class="Switch"></div>
+
+
+
+	
+		
+	</body>
+
+	
+
+</html>
