@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<style>
+			div {
+				background: #006699; 
+				width: 100px;
+				height: 100px;
+				margin: 10px;
+				float: left;
+			}
+			.anything {
+				background: green;
+			}
+		</style>
+		<title>CSS</title>
+	</head>
+	<body>
+		<div></div>
+		<div class="anything"></div>
+		<div></div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</body>
+	
+</html>
