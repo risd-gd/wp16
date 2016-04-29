@@ -1,0 +1,61 @@
+<html>
+	<head> 
+		<style>
+			.atulyagear {
+				height: 200px;
+				width: 200px;
+				background: pink;	
+				border-radius:200px;
+
+				border: 7px dashed white;	
+			}
+			.stripesmiddle {
+				height: 150px;
+				width:15px;
+				background:white;
+				border-radius:20px;
+
+				position: absolute;
+				top:100px;
+				left:140px;
+				border-radius:20px;
+				z-index: 15;	
+				transform: rotate(-45deg);			
+			}
+			.stripesright{
+				height: 150px;
+				width:15px;
+				background:white;
+				border-radius:20px;
+
+				position: absolute;
+				top:80px;
+				left:160px;
+				border-radius:20px;
+				z-index: 15;	
+				transform: rotate(-45deg);			
+			}
+			.stripesleft{
+				height: 150px;
+				width:15px;
+				background:white;
+				border-radius:20px;
+
+				position: absolute;
+				top:120px;
+				left:120px;
+				border-radius:20px;
+				z-index: 15;	
+				transform: rotate(-45deg);			
+			}
+			</style>
+	</head>
+	
+	<body>
+		<div class="atulyagear"></div>
+		<div class="stripesmiddle"></div>
+		<div class="stripesright"></div>
+		<div class="stripesleft"></div>
+
+	</body>
+</html>
