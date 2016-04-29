@@ -4,11 +4,133 @@
 		<style>
 			
 			.flag { width: 800px; height: 500px; 
-			background: blue; margin: 20px; position: relative;
+			margin: 20px; position: relative;
+			overflow:hidden;}
 			
+			.coral {background:coral;}
+			
+			.green {background:#98FF50;}
+			
+			.pink {background:#D797DA;}
+			
+			.wht {background:white;}
+			
+			.base {
+				height:100px;
+				width:100px;
+				background:#55B1A2;
+				
+				position:absolute;
+				top:125px;
+				left:50px;
+				}
+			.bigr { transform: scale(1.25)}
+			
+			.cutleft {
+				height:100px;
+				width:100px;
+				
+				position:absolute;
+				top:150px;
+				left:-20px;
+				
+				-webkit-transform:rotate(45deg);
+				}
+		
+			.cutright {
+				height:100px;
+				width:100px;
+				
+				position:absolute;
+				top:115px;
+				left:135px;
+				
+				-webkit-transform:rotate(45deg);
+				}
+				
+			.dot{
+				background: #ADD8E6;
+				width: 350PX;
+				height: 350PX;
+				border-radius: 50%;
+				float: left;
+			    position: absolute;
+    			top: 20px;
+		    	left: 200px;
+				z-index:2}
+			#strcontainer1{
+				transform: rotate(-70deg);
+				position: absolute;
+				top: 60px;
+				left: 300px;	
+				z-index:3}
+
+			.fullstr{
+				background: #fff;
+				width: 90px;
+				height: 20px;
+				margin-bottom: 30px;
+				z-index:3}
+			.square{
+				width: 150px;
+				height: 150px;
+				margin-bottom: 50px;
+				z-index:3
+				overflow:hidden;}
+			
+			
+			
+			
+			.meow {
+				height:80px;
+				width:120px;
+				background:darksalmon;
+			
+
+				position:absolute;
+				top:100px;
+				left:245px;
+				border-radius:50%;
+				border: 5px solid #98FF50;
+			
+				}
+			.eye1 {
+				height:50px;
+				width:75px;
+				background:darksalmon;
+				border: 5px solid #98FF50;
+
+				position:absolute;
+				top:70px;
+				left:255px;
+				border-radius:50%;
+				z-index: 10;
+				}
+			.eye2 {
+				height:50px;
+				width:70px;
+				background:darksalmon;
+				border: 5px solid #98FF50;
+
+				position:absolute;
+				top:120px;
+				left:325px;
+				border-radius:50%;
+				z-index: 10;
+				}
+			.eye3 {
+				height:50px;
+				width:75px;
+				background:darksalmon;
+				border: 5px solid #98FF50;
+
+				position:absolute;
+				top:140px;
+				left:225px;
+				border-radius:50%;
+				z-index: 10;
 			}
-			.circle { border-radius: 50%; position: absolute; right: 0; 
-			bottom: 0; background: red; width: 110px; height: 110px; }
+			
 			
 			svg { transform: scale(.25); }
 		</style>
@@ -16,11 +138,15 @@
 	
 	<body>
 		
-		<div class="flag nudge">
-			<div class="circle"></div>
-		</div>
+		<div class="flag coral">
+				<div class="base "></div>
+				<div class="cutleft coral"></div>
+				<div class="cutright coral"></div>
+				
 
 
+
+<<<<<<< Updated upstream
 		<div class="flag">
 						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 				 viewBox="0 0 262.4 268.8" enable-background="new 0 0 262.4 268.8" xml:space="preserve">
@@ -28,9 +154,32 @@
 				14.3,39.3 104.8,62.5 175.2,1 181.1,94.3 "/>
 			</svg>
 
+=======
+				<div class="dot bigr">
+				<div id="strcontainer1 bigr">
+				<div class="square coral bigr"> </div>
+				<div class="fullstr bigr"></div>
+				<div class="fullstr" bigr></div>
+			</DIV>
+			</div>
+		
+	</div>
+			
+			</div>
+		
+			
+>>>>>>> Stashed changes
 		</div>
 
-		<div class="flag">
+
+		<div class="flag green">
+				<div class="meow"> </div>
+				<div class="eye1"> </div>
+				<div class="eye2"> </div>
+				<div class="eye3"> </div>
+		</div>
+
+		<div class="flag pink">
 			
 		</div>
 
