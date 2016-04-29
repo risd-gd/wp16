@@ -1,0 +1,95 @@
+<html>
+	<head>
+		<style>
+			
+			
+			.earlt
+				{
+				background: #3aa71c;
+				height: 100px;
+				width: 50px;
+				
+				position:absolute;
+				top:320px;
+				left:200px;
+				border-radius:25px;
+				transform:rotate(-20deg);
+				z-index: 2;
+				}
+				
+			.earrt
+				{
+				background: #3aa71c;
+				height: 100px;
+				width: 50px;
+				
+				position:absolute;
+				top:320px;
+				left:300px;
+				border-radius:25px;
+				transform:rotate(20deg);
+				z-index: 2;
+				}
+			.circle
+				{
+				height: 200px;
+				width: 200px;
+				border: 10px;
+				border-style: solid;
+				border-color: #3aa71c;
+				
+				position:absolute;
+				top:190px;
+				left:165px;
+				border-radius:150px;
+				z-index: -1;}
+				
+			.white
+				{
+				background: #ffffff;
+				height: 100px;
+				width: 50px;
+				
+				position:absolute;
+				top:350px;
+				left:250px;
+				border-radius:25px;
+				z-index:1;}
+					
+		</style>
+		<title>Headphone</title>
+	</head>
+	<body>
+			
+			<div class="earlt"></div>
+			<div class="earrt"></div>
+
+			<div class="circle"></div>
+			<div class="white"></div>
+
+	<canvas id="myCanvas" width="535" height="560"></canvas>
+    <script>
+      var canvas = document.getElementById('myCanvas');
+      var context = canvas.getContext('2d');
+      var x = canvas.width / 2;
+      var y = canvas.height / 2;
+      var radius = 100;
+      var startAngle = 1.1 * Math.PI;
+      var endAngle = 1.9 * Math.PI;
+      var counterClockwise = false;
+
+      context.beginPath();
+      context.arc(x, y, radius, startAngle, endAngle, counterClockwise);
+      context.lineWidth = 25;
+
+      // line color
+      context.strokeStyle = '#3aa71c';
+      context.stroke();
+      
+      
+    </script>
+    
+	</body>
+		
+	
+</html> 
