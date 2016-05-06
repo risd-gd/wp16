@@ -278,6 +278,18 @@
 				transform: rotate(-45deg);			
 			}
 		
+			.shrink {
+				transform:scale(.5);
+				}
+				
+			.gray {
+				background:gray;
+				}
+				
+			.turn {
+				transform:rotate(90deg);
+				}
+		
 		</style>
 	
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -352,6 +364,14 @@
 		
 		</div>
 		
+		<script>
+			$(".crest, .stripesleft, .stripesright, .stripesmiddle, .special, .twoshapes, .rotatedSquare").click(function() {
+				$(this).toggleClass("shrink");
+				$(this).toggleClass("gray");
+				$(this).toggleClass("turn");
+			});
+		</script>
+
 		
 	</body>
 
