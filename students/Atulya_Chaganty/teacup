@@ -1,0 +1,71 @@
+<html>
+	<head> 
+		<style>
+			.cup {
+				height: 200px;
+				width: 200px;
+				background: green;
+
+				position: absolute;
+				top:190px;
+				left:110px;
+				border-radius:250px;
+				z-index: 5;				
+			}
+			.cup1 {
+				height: 100px;
+				width: 300px;
+				background: white;
+
+				position: absolute;
+				top: 185px;
+				left:65px;
+				border-radius:250px;
+				z-index: 5;	
+			}
+			
+			.saucer {
+
+				height: 10px;
+				width: 300px;
+				background: green;
+
+				position: absolute;
+				top: 390px;
+				left:65px;
+				border-radius:250px;
+				z-index: 5;	
+}
+			.handle {
+				height: 60px;
+				width: 60px;
+				background: green;
+
+				position: absolute;
+				top: 289px;
+				left: 270px;
+				border-radius:75px;	
+			}
+				.handle2 {
+				height:45px;
+				width: 45px;
+				background: white;
+
+				position: absolute;
+				top: 296px;
+				left: 275px;
+				border-radius:65px;	
+
+			
+					</style>
+	</head>
+	
+	<body>
+		<div class="cup"></div>
+		<div class="cup1"></div>
+		<div class="saucer"></div>
+		<div class="handle"></div>
+		<div class="handle2"></div>
+		
+	</body>
+</html>

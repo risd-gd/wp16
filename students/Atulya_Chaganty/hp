@@ -1,0 +1,128 @@
+<html>
+	<head> 
+		<style>
+			.glassesl {
+				height: 200px;
+				width: 200px;
+				background: green;
+
+				position: absolute;
+				top:190px;
+				left:110px;
+				border-radius:250px;
+				z-index: 5;				
+			}
+			.glassesr {
+				height: 200px;
+				width: 200px;
+				background: green;
+
+				position: absolute;
+				top:190px;
+				left:410px;
+				border-radius:250px;
+				z-index: 5;	
+			}
+			.whitecirclesl {
+				height: 180px;
+				width: 180px;
+				background: white;
+
+				position: absolute;
+				top: 200px;
+				left:120px;
+				border-radius:250px;
+				z-index: 5;	
+			}
+			.whitecirclesr {
+				height: 180px;
+				width: 180px;
+				background: white;
+
+				position: absolute;
+				top: 200px;
+				left:420px;
+				border-radius:250px;
+				z-index: 5;	
+			}
+			
+			.leftflange {
+
+				height: 10px;
+				width: 140px;
+				background: green;
+
+				position: absolute;
+				top: 250px;
+				left:290px;
+				border-radius:250px;
+				z-index: 10
+				;	
+}
+
+		.scar1 {
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+			border-bottom: 100px solid green;
+
+			position:absolute;
+			top:40px;
+			left:310px;
+		}
+		.scar2 {
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+			border-bottom: 100px solid white;
+
+			position:absolute;
+			top:40px;
+			left:317px;
+		}
+			.across {
+
+				height: 10px;
+				width: 78px;
+				background: green;
+
+				position: absolute;
+				top: 138px;
+				left:310px;
+				border-radius:250px;
+				z-index: 5;	
+}
+.scarbottom {
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+			border-bottom: 100px solid green;
+
+			position:absolute;
+			top:139px;
+			left:330px;
+		}
+		.scarbottom2 {
+			border-left: 50px solid transparent;
+			border-right: 50px solid transparent;
+			border-bottom: 100px solid white;
+
+			position:absolute;
+			top:139px;
+			left:340px;
+		
+			
+					</style>
+	</head>
+	
+	<body>
+		<div class="glassesl"></div>
+		<div class="glassesr"></div>
+		<div class="leftflange"></div>
+		<div class="whitecirclesl"></div>
+		<div class="whitecirclesr"></div>
+		<div class="scar1"></div>
+		<div class="scar2"></div>
+		<div class="across"></div>
+		<div class="scarbottom"></div>
+		<div class="scarbottom2"></div>
+		
+	</body>
+</html>

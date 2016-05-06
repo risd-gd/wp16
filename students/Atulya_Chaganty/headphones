@@ -1,0 +1,58 @@
+<html>
+	<head> 
+		<style>
+			.circle1 {
+				height: 185px;
+				width: 80px;
+				background: green;
+
+				position: absolute;
+				top:210px;
+				left:115px;
+				border-radius:250px;
+				z-index: 10;				
+			}
+.circle2 {
+				height: 185px;
+				width: 80px;
+				background: green;
+
+				position: absolute;
+				top:210px;
+				left:415px;
+				border-radius:250px;
+				z-index: 10;				
+			}
+			.connector1 {
+				height: 400px;
+				width: 300px;
+				background: green;
+
+				position: absolute;
+				top:100px;
+				left:160px;
+				border-radius:250px;
+				z-index: 5;				
+			}
+			.connector2 {
+				height: 400px;
+				width: 300px;
+				background: white;
+
+				position: absolute;
+				top:130px;
+				left:160px;
+				border-radius:250px;
+				z-index: 5;				
+			}
+					</style>
+	</head>
+	
+	<body>
+		<div class="connector1"></div>
+		<div class="circle1"></div>
+		<div class="circle2"></div>
+		<div class="connector2"></div>
+		
+	</body>
+</html>

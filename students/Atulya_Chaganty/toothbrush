@@ -1,0 +1,181 @@
+<html>
+	<head> 
+		<style>
+					
+			.stick {
+
+				height: 20px;
+				width: 600px;
+				background: green;
+
+				position: absolute;
+				top: 395px;
+				left:65px;
+				border-radius:250px;
+				z-index: 5;	
+}
+.brisle1 {
+
+				height: 70px;
+				width: 8px;
+				background: green;
+
+				position: absolute;
+				top: 340px;
+				left:80px;
+				border-radius:20px;
+				z-index: 5;	
+}
+.brisle2
+{
+				height: 70px;
+				width: 8px;
+				background: green;
+
+				position: absolute;
+				top: 340px;
+				left:90px;
+				border-radius:20px;
+				z-index: 5;	
+}
+.brisle3
+{
+				height: 70px;
+				width: 8px;
+				background: green;
+
+				position: absolute;
+				top: 340px;
+				left:100px;
+				border-radius:20px;
+				z-index: 5;	
+}
+.brisle4
+{
+				height: 70px;
+				width: 8px;
+				background: green;
+
+				position: absolute;
+				top: 340px;
+				left:110px;
+				border-radius:20px;
+				z-index: 5;	
+}	
+.brisle5
+{
+				height: 70px;
+				width: 8px;
+				background: green;
+
+				position: absolute;
+				top: 340px;
+				left:120px;
+				border-radius:20px;
+				z-index: 5;	
+}		
+.brisle5
+{
+				height: 70px;
+				width: 8px;
+				background: green;
+
+				position: absolute;
+				top: 340px;
+				left:120px;
+				border-radius:20px;
+				z-index: 5;	
+}		
+.brisle6
+{
+				height: 70px;
+				width: 8px;
+				background: green;
+
+				position: absolute;
+				top: 340px;
+				left:130px;
+				border-radius:20px;
+				z-index: 5;	
+}		
+.brisle7
+{
+				height: 70px;
+				width: 8px;
+				background: green;
+
+				position: absolute;
+				top: 340px;
+				left:140px;
+				border-radius:20px;
+				z-index: 5;	
+}		
+		
+.brisle8
+{
+				height: 70px;
+				width: 8px;
+				background: green;
+
+				position: absolute;
+				top: 340px;
+				left:150px;
+				border-radius:20px;
+				z-index: 5;	
+}		
+		
+.brisle9
+{
+				height: 70px;
+				width: 8px;
+				background: green;
+
+				position: absolute;
+				top: 340px;
+				left:160px;
+				border-radius:20px;
+				z-index: 5;	
+}		
+	
+.brisle10
+{
+				height: 70px;
+				width: 8px;
+				background: green;
+
+				position: absolute;
+				top: 340px;
+				left:170px;
+				border-radius:20px;
+				z-index: 5;	
+}		
+.handle {
+				height: 40px;
+				width: 400px;
+				background: green;
+
+				position: absolute;
+				top:380px;
+				left: 270px;
+				border-radius:250px;
+				z-index: 5;				
+			}
+					</style>
+	</head>
+	
+	<body>
+		<div class="stick"></div>
+		<div class="brisle1"></div>
+		<div class="brisle2"></div>
+		<div class="brisle3"></div>
+		<div class="brisle4"></div>	
+		<div class="brisle5"></div>
+		<div class="brisle6"></div>
+		<div class="brisle7"></div>
+		<div class="brisle8"></div>
+		<div class="brisle9"></div>
+		<div class="brisle10"></div>
+		<div class="handle"></div>
+		
+	</body>
+</html>
