@@ -1,0 +1,272 @@
+<html>
+	<head>
+		<title>Flag</title>
+		<style>
+			.skew{ 
+			  border-radius: 50%; border-style: dotted dashed  double; border-color: red blue yellow;border-width: 50px;
+			  transition: 1s all;}
+			
+			.overflow {overflow:visible;}
+			
+			.flag { width: 800px; height: 500px; 
+			margin: 20px; margin-bottom: 200px;
+			position: relative;
+			overflow:hidden;}
+			
+			.coral {background:coral;}
+			
+			.green {background:#98FF50;}
+			
+			.pink {background:#D797DA;}
+			
+			.wht {background:white;}
+			
+			.red {background:red;}
+			
+			.base {
+				height:100px;
+				width:100px;
+				background:#55B1A2;
+				
+				position:absolute;
+				top:125px;
+				left:50px;
+				}
+			.bigr { transform: scale(1.25)}
+			
+			.float {float:left;
+				position:absolute;
+				top:2px;
+				left:10px;
+				margin:20px;}
+			
+			.contain{transform: rotate(-70deg);
+				position:relative;
+				bottom:0px;
+				right:0px;
+				z-index:3}
+
+			
+			.cutleft {
+				height:100px;
+				width:100px;
+				
+				position:absolute;
+				top:150px;
+				left:-20px;
+				
+				-webkit-transform:rotate(45deg);
+				}
+		
+			.cutright {
+				height:100px;
+				width:100px;
+				
+				position:absolute;
+				top:115px;
+				left:135px;
+				
+				-webkit-transform:rotate(45deg);
+				}
+				
+			.dot{
+				background: #ADD8E6;
+				width: 350PX;
+				height: 350PX;
+				border-radius: 50%;
+				float: left;
+			    position: absolute;
+    			top: 20px;
+		    	left: 200px;
+				z-index:2}
+			.strcontainer1{
+				transform: rotate(-70deg);
+				position: absolute;
+				top: 60px;
+				left: 300px;	
+				z-index:3}
+
+			.fullstr{
+				background: #fff;
+				width: 90px;
+				height: 20px;
+				margin-bottom: 30px;
+				z-index:3}
+			.square{
+				width: 150px;
+				height: 150px;
+				margin-bottom: 50px;
+				z-index:3
+				overflow:hidden;}
+			
+			
+			
+			
+			.meow {
+				height:80px;
+				width:120px;
+				background:darksalmon;
+			
+
+				position:absolute;
+				top:100px;
+				left:245px;
+				border-radius:50%;
+				border: 5px solid #98FF50;
+			
+				}
+			.eye1 {
+				height:50px;
+				width:75px;
+				background:#D797DA;
+				border: 5px solid #98FF50;
+
+				position:absolute;
+				top:70px;
+				left:255px;
+				border-radius:50%;
+				z-index: 10;
+				}
+			.eye2 {
+				height:50px;
+				width:70px;
+				background:#D797DA;
+				border: 5px solid #98FF50;
+
+				position:absolute;
+				top:120px;
+				left:325px;
+				border-radius:50%;
+				z-index: 10;
+				}
+			.eye3 {
+				height:50px;
+				width:75px;
+				background:#D797DA;
+				border: 5px solid #98FF50;
+
+				position:absolute;
+				top:140px;
+				left:225px;
+				border-radius:50%;
+				z-index: 10;
+				}
+				
+				.crest{
+			width: 240px;
+			height: 140px;
+			background-color: #345678;
+			margin: 0px;
+			border-top: 20px solid #eeeeee;
+			z-index: 1;
+			}
+
+		.waist_left{
+			background-color: white;
+			width: 100px;
+			height: 160px;
+			border-bottom-right-radius: 50%;
+			position: relative;
+			float: left;
+			left: -20%;
+			top:-30%;
+			transform: rotate(10deg);
+			z-index: 2;
+			}
+
+		.waist_right{
+			background-color: white;
+			width: 100px;
+			height: 160px;
+			border-bottom-left-radius: 50%;
+			position: relative;
+			float: right;
+			right: -20%;
+			top:-30%;
+			transform: rotate(-10deg);
+			z-index: 3;
+			}
+
+			
+		</style>
+		
+		
+		
+			<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		
+		
+		
+	</head>
+	
+	<body>
+		
+		<div class="flag coral">
+				<div class="base "></div>
+				<div class="cutleft coral"></div>
+				<div class="cutright coral"></div>
+				
+				<div class="dot bigr">
+				<div id="strcontainer1 bigr">
+				<div class="square coral bigr"> </div>
+				<div class="fullstr bigr"></div>
+				<div class="fullstr" bigr></div>
+				</DIV>
+				</div>
+		</div>
+
+
+		<div class="flag green">
+				<div class="contain"><div class="meow bigr float"> </div>
+				<div class="eye1  float"> </div>
+				<div class="eye2 bigr float"> </div>
+				<div class="eye3 bigr float"> </div>	
+				</div>
+				<div class="fullstr bigr"></div>
+				<div class="fullstr" bigr></div>
+				<div class="fullstr bigr"></div>
+				<div class="fullstr" bigr></div>
+				<div class="fullstr bigr"></div>
+				<div class="fullstr" bigr></div>
+				<div class="fullstr bigr"></div>
+				<div class="fullstr" bigr></div>
+				<div class="fullstr bigr"></div>
+				<div class="fullstr" bigr></div>
+				<div class="fullstr bigr"></div>
+				<div class="fullstr" bigr></div>
+		</div>
+
+		<div class="flag pink">
+			<div class="crest">
+			<div class="waist_left"></div>
+			<div class="strcontainer1"><div class="waist right">
+			<div class="waist_left"></div>
+			</div>
+			</div>
+			
+		</div>
+		<div class="flag red">
+		</div>
+		<div class="flag red">
+		</div>
+
+
+
+
+			<script>
+			$(".flag").mouseenter(function() {
+				$(this).toggleClass("skew");
+			});
+		</script>
+		
+		<script>
+			$("flag").mouseenter(function() {
+				$(this).toggleClass("overflow");
+			});
+		</script>
+	
+	</body>
+
+
+
+
+</html>
