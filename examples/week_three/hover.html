@@ -22,7 +22,7 @@
 			.animate {
 			 animation-name: buffalo;
 			 animation-duration: 4s;
-			 animation-iteration-count: 10;
+			 animation-iteration-count: infinite;
 			 animation-direction: alternate;
 			 animation-timing-function: ease-out;
 			 animation-fill-mode: forwards;
@@ -55,7 +55,7 @@
 
 		<script>
 			$(".different").click(function() {
-				$(this).toggleClass("hello");
+				$(this).toggleClass("animate");
 			});
 			
 	// stuff

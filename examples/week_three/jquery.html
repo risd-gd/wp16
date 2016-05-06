@@ -7,6 +7,8 @@
 				transition: 1s all; 
 			}
 			.blueDiv { background: blue; }
+			.grow { transform: scale(1.2);
+			background: blue; }
 		</style>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -15,11 +17,11 @@
 		
 		<div class="box" id="nav"></div>
 		<div class="box"></div>
-		<div class="box"></div>
+		<div class="box "></div>
 		
 		<script>
 			$(".box").click(function() {
-				$(this).toggleClass("blueDiv");
+				$(this).toggleClass("grow");
 			});
 		</script>
 
