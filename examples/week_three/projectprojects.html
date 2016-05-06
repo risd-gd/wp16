@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project Projects</title>
+	<style type="text/css">
+		body{
+			font-family: Helvetica, Arial, sans-serif;
+			margin: 0 80px;
+			font-weight: 700;
+			font-size: 15px;
+		}
+
+		a {
+		    text-decoration: none;
+		    color: #000;
+		}
+
+		a:hover{
+			color: #1F9C67;
+		}
+
+		a.active{
+			color: #1F9C67;
+		}
+
+		header{
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			padding: 20px 80px;
+			box-sizing: border-box;
+			background: #ffffff;
+		}
+
+		h1{
+			font-size: 1.3em;
+			float: left;
+			margin: 0;
+		}
+		.subnav{
+			font-size: 1.3em;
+			float: right;
+		}
+
+		.tophead{
+			overflow: hidden;
+		}
+
+		nav{
+			padding: 14px 0;
+		}
+		
+		/* hack for justifying list items
+		ul:after {
+		    content: "";
+		    display: inline-block;
+		    width: 100%;
+		    visibility: hidden;
+		}*/
+
+		nav ul{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		/*	display: flex;
+			justify-content: space-between;*/
+			text-align: center;
+		}
+
+		nav ul li{
+			display: inline;
+			margin: 0;
+			margin-right: 1.3em; /* spaced right margin, not actually justified */
+			font-weight: bold;
+			font-size: 1.3em;
+		}
+
+		nav ul li:last-child{
+			margin-right: 0;
+		}
+
+		main{
+			margin-top: 115px;
+		}
+
+		.projectItems{
+			margin-left: -2em;
+			overflow: hidden;
+		}
+
+		.item {
+			width: 50%;
+			box-sizing: border-box;
+			padding-left: 2em;
+			float: left;
+			margin-bottom: 3em;
+		}
+
+		.projectImage{
+			max-height: 250px;
+			overflow: hidden;
+		}
+
+		.item img{
+			width: 100%;
+		}
+
+
+		footer{
+			margin: 3em 0;
+			overflow: auto;
+		}
+
+		.caption{
+			text-align: center;
+			margin-top: 1em;
+		}
+
+		.address{
+			float: left;
+			width: 50%;
+		}
+
+		.socialLinks{
+			float: left;
+			width: 25%;
+		}
+
+	</style>
+</head>
+<body>
+<header>
+	<div class="tophead">
+		<h1>Project Projects</h1>
+		<div class="subnav">Profile</div>
+	</div>
+	<nav>
+		<ul>
+			<li><a href="/projects/">All </a></li>
+			<li><a href="/projects/types/books">Books </a></li>
+			<li><a href="/projects/types/exhibitions">Exhibitions </a></li>
+			<li><a href="/projects/types/identities">Identities </a></li>
+			<li><a href="/projects/types/print">Print </a></li>
+			<li><a class="active" href="/projects/selected">Selected </a></li>
+			<li><a href="/projects/types/signage">Signage </a></li>
+			<li><a href="/projects/types/web">Web</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main>
+	<p><a class="active">Grid</a> / List</p>
+	<div class="projectItems">
+		<div class="item">
+			<div class="projectImage">
+				<img src="http://www.projectprojects.com/media/files/tn_elephant_child_dsf7511_web.jpg?w=687&h=422">
+			</div>
+			<div class="caption">Elephant Child</div>
+		</div>
+
+		<div class="item">
+			<div class="projectImage">
+				<img src="http://www.projectprojects.com/media/files/2tb_iksv_sahirugureren_001.jpg?w=687&h=422">
+			</div>
+			<div class="caption">The 2nd Instanbul Design Biennial exhibition</div>
+		</div>
+
+		<div class="item">
+			<div class="projectImage">
+				<img src="http://www.projectprojects.com/media/files/screen-shot-2015-10-09-at-123635-pm.png?w=687&h=422">
+			</div>
+			<div class="caption">Commercial Type website</div>
+		</div>
+
+		<div class="item">
+			<div class="projectImage">
+				<img src="http://www.projectprojects.com/media/files/projectprojects-13869_edit.jpg?w=687&h=422">
+			</div>
+			<div class="caption">Graphic Design—Now in Production</div>
+		</div>
+
+		<div class="item">
+			<div class="projectImage">
+				<img src="http://www.projectprojects.com/media/files/pye-shirts-source-7613-1-1.jpg?w=687&h=422">
+			</div>
+			<div class="caption">PYE</div>
+		</div>
+
+		<div class="item">
+			<div class="projectImage">
+				<img src="http://www.projectprojects.com/media/files/hereandelsewhere03-3.jpg?w=687&h=422">
+			</div>
+			<div class="caption">Here and Elsewhere</div>
+		</div>
+	</div>
+</main>
+
+<footer>
+	<div class="address">
+		167 Bowery, 3rd Floor<br>
+		New York, NY 10002<br>
+		+1 212 509 0636<br>
+		project@projectprojects.com
+	</div>
+
+	<div class="socialLinks">
+		Facebook<br>
+		Instagram<br>
+		Newsletter<br>
+		Twitter
+	</div>
+
+	<div class="subnav">
+		Search
+	</div>
+
+</footer>
+
+</body>
+</html>
