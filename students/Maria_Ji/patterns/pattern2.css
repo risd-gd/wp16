@@ -1,0 +1,25 @@
+.layer1 {
+    background: none;
+    width: 120%;
+}
+
+.layer1 div {
+    background-color: lightgray;
+    margin: 0px;
+    width: 90px;
+    height: 90px;
+    float: left;
+    mix-blend-mode: multiply;
+    border-radius: 50%;
+}
+
+
+.layer1 div:nth-child(even) {
+border: 10px solid lightblue;
+    background-color: transparent;
+    border-radius: 50%;
+    margin:-10%;
+     width: 200px;
+    height: 200px;
+    
+}
