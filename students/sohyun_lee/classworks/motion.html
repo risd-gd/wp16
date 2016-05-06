@@ -1,29 +1,60 @@
 <html>
 	<head>
 		<style>
+		
 			div {
-				width: 600px;
+				width: 200px;
 				height:400px;
+				float: left;
+				display: inline-block;
 				background: yellow;
-				font-size: 100px;
-				transition:2s all;
+				transition:0s all;
 				}
 				
 				div:hover {background: blue;
-				width:300px;
-				transform: rotate(40deg);
+				width:200px;
+				transform: rotate(20deg);
 				}
+				
+			.middle {
+				background: white;
+				transition:0s all;
+				display: block;
+				}
+				
+			.middle:hover {
+				background: white;
+				width:200px;
+				transform: rotate(20deg);
+				}
+				
+			.last {
+				width: 200px;
+				height:400px;
+				background: green;
+				transition:0s all;	
+				display: block;
+				}
+				
+			.last:hover {
+				background: red;
+				width:200px;
+				transform: rotate(-20deg);
+				}	
+				
+				
 		</style>
 		
-		<script src=https://www.google.com/logos/doodles/2016/sigmund-freuds-160th-birthday-4918124856999936-hp.jpg>
+		
 		
 	</head>
 	
 	<body>
 	
 		<div> </div>
-		
-		<div class="box" id="nav"> </div>
+		<div class="middle"> </div>
+		<div class="last"> </div>
+
 		
 	
 	</body>

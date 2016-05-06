@@ -18,6 +18,11 @@
 				height: 200px;
 				border-radius: 80px;
 				}
+			
+			.pinktop:hover {background: blue;
+				width:200px;
+				transform: rotate(20deg);
+				}
 
 			.yellow {
 				background: lightyellow;
@@ -40,6 +45,11 @@
 				height: 200px;
 				border-radius: 80px;
 				}
+			.pinktop2:hover {background: blue;
+				width:200px;
+				transform: rotate(20deg);
+				}
+
 
 			.yellow2 {
 				background: lightyellow;
@@ -63,6 +73,7 @@
 				border: 130px solid lightgreen;
 				border-radius: 50%;
 				z-index: 1}
+				
 			
 			.blue {
 				position: absolute;
@@ -124,6 +135,10 @@
 				z-index: 15;	
 				transform: rotate(-45deg);			
 			}
+				.stripesmiddle:hover {background: blue;
+				transform: rotate(20deg);
+				}
+				
 			.stripesright{
 				height: 150px;
 				width:15px;
@@ -137,6 +152,10 @@
 				z-index: 15;	
 				transform: rotate(-45deg);			
 			}
+				.stripesright:hover {background: blue;
+				transform: rotate(20deg);
+				}
+				
 			.stripesleft{
 				height: 150px;
 				width:15px;
@@ -150,6 +169,9 @@
 				z-index: 15;	
 				transform: rotate(-45deg);			
 			}
+					.stripesleft:hover {background: blue;
+				transform: rotate(20deg);
+				}
 					
 			.circle1 {
 				height:105px;
@@ -161,6 +183,13 @@
 				left:338px;
 				border-radius:100px;
 				}
+				.circle1:hover {
+			background: light green;
+			-webkit-transform: rotate(360deg);
+			transform: rotate(360deg);
+			transition: 5s all;
+			size: 2px;
+					}
 				
 			.rotatedSquare {
 				height:100px;
@@ -174,18 +203,31 @@
 
 				-webkit-transform:rotate(45deg);
 				}
+			.rotatedSquare:hover {
+			background: lightblue;
+			-webkit-transform: rotate(400deg);
+			transform: rotate(400deg);
+			transition: 0.5s all;
+					}
 		
 			.circle2 {
 				height:105px;
 				width:105px;
 				background:solid transparent;
-	
 				position:absolute;
 				top:60px;
 				left:330px;
 				border-radius:100px;
-				border: 10px solid beige;
+				border: 10px beige;
 				}
+			.circle2:hover {
+			background: red;
+			left: 0.5px;
+			-webkit-transform: rotate(300deg);
+			transform: rotate(300deg);
+			transition: 0.5s all;
+			scale(0.2);
+					}
 			
 			.flagcontainer2 {
 				transform: scale(3);}
@@ -223,6 +265,10 @@
 				z-index: -1; position:relative
 				overflow: hidden;
 				}
+			.lightyellowback:hover
+				{background: red;
+				}
+			
 				
 		.pinkback {
 				background: pink; 
@@ -283,8 +329,6 @@
 
 
 	</body>
-
-
 
 
 </html> 
