@@ -6,9 +6,33 @@
 	<title>Project Prijects</title>
 	
 	<style>
+	body {font-family:arial;}
 	
-	h1 {font-family:arial;}
+	h1 { float:left; padding-left:50px; padding-right:50px;}
 	
+	.clear {clear: both;}
+	
+	.red {color:red;}
+	
+	#fixedhead {position:fixed; top:-10px; left:0px; height:150px; 
+	background:white; width:100vw; z-index:2; overflow:hidden;}
+	
+	.txtright {text-align:right;}
+	
+	.fltright {float:right;}
+	
+	.nav {width:10.5vw; height:50px; text-align:center; float:left;}
+	
+	.txtleft {text-align:left;}
+	
+	img {width:275px; margin:20px;
+	margin-bottom:50px}
+	
+	ul {list-style-type:none
+	}
+	
+	.grid{width:80vw; position:absolute;
+	top:150px; left:50px;}
 	
 	</style>
 	
@@ -16,8 +40,29 @@
 	</head>
 	
 	<body>
-	<div><h1>Project Projects</h1></div>
-	
+		<div id="fixedhead" ><h1 class="clear">Project Projects</h1>
+		<h1 class="txtright fltright">Profile</h1>
+		<ul class="clear">
+			<li class="nav"> All </li>
+			<li class="nav"> Books </li>
+			<li class="nav"> Exhibitions </li>
+			<li class="nav"> Identities </Li>
+			<li class="nav"> Print </li>
+			<li class="nav"> Selected </li>
+			<li class="nav"> Sineage </li>
+			<li class="nav"> Web </li>
+		</ul>
+		</div>
+		
+		<div class="grid">
+		<h3>Grid/List</h3>
+		<img src=https://pbs.twimg.com/profile_images/562466745340817408/_nIu8KHX.jpeg>
+		<img src=https://i.ytimg.com/vi/NtgtMQwr3Ko/maxresdefault.jpg>
+		<img src=http://images4.fanpop.com/image/photos/16100000/Cute-Kitten-kittens-16123796-1280-800.jpg>
+		<img src=http://image.shutterstock.com/z/stock-photo-six-cute-kittens-sitting-inside-in-pastel-containers-97506335.jpg>
+		<img src=https://i.ytimg.com/vi/OtRRUEs3o0c/hqdefault.jpg>
+		<img src=http://images6.fanpop.com/image/photos/34800000/Kittens-3-animals-34865509-1680-1050.jpg>
+		</div>
 	
 	
 	</body>
