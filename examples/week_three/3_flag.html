@@ -1,0 +1,41 @@
+<html>
+	<head>
+		<title>Flag</title>
+		<style>
+			body { background: grey; }
+			.flag { background: white; 
+				width: 450px; height: 250px; overflow: hidden;
+			}
+			.flag div {
+				transition: 1s all; 
+			}
+			.stripe { margin: -100px auto; background: rgba(0,255,0,.7); width: 120px; height: 600px; 
+			transform: rotate(40deg); }
+			.circle { width: 60px; margin: 20px; 
+			background: rgba(255,0,0,.9); height: 1000px;}
+			.rotate { transform: rotate(-20deg); }
+		</style>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	</head>
+	<body>
+		
+		<div class="flag">
+			<div class="stripe">
+				<div class="circle">
+					<div class="stripe"><div class="circle"><div class="circle"></div></div></div>
+				</div>
+			</div>
+		</div>
+		
+		<script>
+			$("div div").click(function() {
+				$(this).toggleClass("rotate");
+			});
+		</script>
+
+
+
+	</body>
+
+</html>
