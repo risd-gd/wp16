@@ -1,0 +1,56 @@
+body{
+	width: 90%;
+}
+header{
+	margin: 20px;
+	background-color: white;
+	height: 30px;
+	clear: both;
+}
+
+header h1{
+	font-size: 28px;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+li{
+	justify-content: space-between;
+	font-size: 22px;
+}
+
+#pp{
+	text-align: left;
+	float: left;
+}
+
+#profile{
+	text-align: right;
+	float: right;
+}
+
+#sub_header{
+	margin: 20px;
+	clear: both;
+}
+
+#display_option{
+	clear: both;
+	margin: 20px;
+	font-size: 16px;
+}
+
+.img_container{
+	margin: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+img
