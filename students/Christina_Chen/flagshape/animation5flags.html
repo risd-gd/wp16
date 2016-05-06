@@ -1,0 +1,369 @@
+<html>
+	<head>
+		<style>
+		
+			.boundary {
+				height:300px;
+				width:500px;
+				position:relative;
+				margin:20px;
+				}
+			
+			.first {
+				background:#ddd;
+
+				}
+			
+			.second {
+				background:lightblue;
+				}
+				
+			.third {
+				background:lightyellow;
+				}
+				
+			.fourth {
+				background:lightgreen;
+				}
+				
+			.fifth {
+				background:beige;
+				}
+		
+			.lemonsize {
+				transform:scale(.3);
+				float:center;
+				}
+		
+			.lemon2 { border-radius: 50%;
+				width: 252px; height: 433px;
+				-webkit-transform:rotate(60deg);
+				overflow:hidden;
+				display:flex;
+				position:absolute;
+				top:-30px;
+				left:100px;
+				z-index:5;}
+	
+			.lemon { width:200%;
+				background: khaki;
+				position:absolute;
+				opacity:.8;
+				top:-30px;
+				left:0px;
+				z-index:5;}
+				
+			.crest{
+			width: 240px;
+			height: 140px;
+			background-color: #345678;
+			position:absolute;
+			margin: 120px;
+			border-top: 20px solid #eeeeee;
+			z-index: 1;
+				}
+
+		.waist_left{
+			background-color: #ddd;
+			width: 100px;
+			height: 160px;
+			border-bottom-right-radius: 50%;
+			position: relative;
+			float: left;
+			left: -20%;
+			top:-30%;
+			transform: rotate(10deg);
+			z-index: 2;
+		}
+
+		.waist_right{
+			background-color: #ddd;
+			width: 100px;
+			height: 160px;
+			border-bottom-left-radius: 50%;
+			position: relative;
+			float: right;
+			right: -20%;
+			top:-30%;
+			transform: rotate(-10deg);
+			z-index: 3;
+
+		}
+		
+		div {border:1px solid white; display:block; overflow:hidden;}
+			.special {
+			background: yellow; 
+			height:250px; 
+			width:250px;  
+			margin-top: 60px; 
+			border-radius:50%;
+			transform:scale(1.5);
+				}
+			
+			.white {
+			background:lightyellow; 
+			border:2px solid white; 
+			height:100px;
+			width:100px;
+			position: absolute;
+			top:-30;
+			left:50;
+			}
+			
+			.white2 {
+			background:lightyellow; 
+			border:2px solid white; 
+			height:100px;
+			width:100px;
+			position: absolute;
+			top:-30;
+			left:270;
+			}
+			
+			.white3{
+			background:lightyellow; 
+			border:2px solid white; 
+			height:100px;
+			width:100px;
+			position: absolute;
+			top:190;
+			left:50;
+			}
+			
+			.white4{
+			background:lightyellow; 
+			border:2px solid white; 
+			height:100px;
+			width:100px;
+			position: absolute;
+			top:190;
+			left:270;
+			}
+				
+			.ring {
+				-webkit-transform:rotate(270deg);
+				}
+							
+			.circle1 {
+				height:105px;
+				width:105px;
+				background:white;
+				opacity:.5;
+	
+				position:absolute;
+				top:-167px;
+				left:45px;
+				border-radius:100px;
+				}
+				
+			.rotatedSquare {
+				height:100px;
+				width:100px;
+				background:solid transparent;
+
+				position:absolute;
+				top:-60px;
+				left:45px;
+				border: 10px solid beige;
+
+				-webkit-transform:rotate(45deg);
+				}
+		
+			.circle2 {
+				height:105px;
+				width:105px;
+				background:solid transparent;
+				opacity:.5;
+	
+				position:absolute;
+				top:40px;
+				left:40px;
+				border-radius:100px;
+				border: 10px solid white;
+				}
+				
+		
+			.twoshapes {
+				background: white;
+				position: absolute;
+				border:none;
+				left: 120px;
+				top: 30px;
+				width: 250px;
+				height: 250px;
+				border-radius: 250px;
+				overflow: hidden;
+				-webkit-transform:rotate(320deg);
+				}
+				
+			.pinktop {
+				background: lightpink;
+				position: absolute;
+				border: none;
+				left: 50px;
+				top: 50px;
+				width: 200px;
+				height: 200px;
+				border-radius: 50px;
+				}
+
+			.yellow {
+				background: lightyellow;
+				position: absolute;
+				border:none;
+				left: 20px;
+				top: 20px;
+				width: 250px;
+				height: 250px;
+				border-radius: 250px;
+				overflow: hidden;
+				
+				}			
+			
+			.atutu {
+				-webkit-transform:rotate(315deg);
+				position:relative;
+				top:-30px;
+				transition:1s all;
+				}
+			
+			.atulyagear {
+				height: 200px;
+				width: 200px;
+				background: pink;	
+				border-radius:200px;
+
+			}
+			
+			.stripesmiddle {
+				height: 150px;
+				width:15px;
+				background:beige;
+				opacity:.5;
+				border-radius:20px;
+
+				position: absolute;
+				top:100px;
+				left:140px;
+				border-radius:20px;
+				z-index: 15;	
+				transform: rotate(-45deg);			
+			}
+			
+			.stripesright{
+				height: 150px;
+				width:15px;
+				background:beige;
+				opacity:.5;
+				border-radius:20px;
+
+				position: absolute;
+				top:80px;
+				left:160px;
+				border-radius:20px;
+				z-index: 15;	
+				transform: rotate(-45deg);			
+			}
+			.stripesleft{
+				height: 150px;
+				width:15px;
+				background:beige;
+				opacity:.5;
+				border-radius:20px;
+
+				position: absolute;
+				top:120px;
+				left:120px;
+				border-radius:20px;
+				z-index: 15;	
+				transform: rotate(-45deg);			
+			}
+			
+			.black {
+				background: black;	
+				}
+		
+		</style>
+	
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		
+	</head>
+	
+	<body>
+	
+		<div class="boundary first">
+		
+			<div class="lemonsize">
+				<div class="lemon2">
+					<div class="lemon lemon2"></div>
+				</div>
+			</div>
+			
+			
+			<div class="crest">
+				<div class="waist_left"></div>
+				<div class="waist_right"></div>
+			</div>
+			
+		</div>
+		
+			
+		
+		<div class="boundary second"<div>
+			
+			<div class="ring">
+				<div class="circle1"> </div>
+				<div class="rotatedSquare"></div>
+				<div class="circle2"> </div>
+			</div>
+		
+		</div>
+		
+		<div class="boundary third"<div>
+		
+			<div>
+			<div class="special"></div>
+			<div class="special white"></div>
+			<div class="special white2"></div>
+			<div class="special white3"></div>
+			<div class="special white4"></div>
+
+
+		</div>
+		
+		
+		</div>		
+		
+		<div class="boundary fourth"<div>
+		
+			
+				<div class="twoshapes"> 
+					<div class = "pinktop"> 
+						<div class = "yellow"> 
+						</div>
+					</div>
+		
+				</div>
+		</div>
+		
+		<div class="boundary fifth"<div>
+			
+			<div class="atutu">
+				<div class="atulyagear"></div>
+				<div class="stripesmiddle"></div>
+				<div class="stripesright"></div>
+				<div class="stripesleft"></div>
+			</div>
+		
+		</div>
+		
+		
+		<script>
+			$(".atutu, .twoshapes, div, .second, .lemon").click(function() {
+				$(this).toggleClass("black");
+			});
+		</script>
+		
+	</body>
+
+</html>
