@@ -1,0 +1,308 @@
+<html>
+	<head>
+		<title>Collaborative Flags</title>
+	
+	
+
+<style>
+
+div {overflow: hidden; }
+
+
+	.firstflagbackground {
+		position: relative;
+		background: lightgreen;
+		top:190px;
+		left:40px;
+		width: 800px; height: 500px;
+		z-index: 0;
+		border-radius:0px;
+		overflow: hidden;
+		}
+	
+		
+	.secondflagbackground {
+		position: relative;
+		background: orange;
+		top:200px;
+		left:40px;
+		width: 800px; height: 500px;
+		z-index: 0;
+		border-radius:0px;
+		overflow: hidden;
+		}
+		
+	.thirdflagbackground {
+		position: relative;
+		background: red;
+		top:210px;
+		left:40px;
+		width: 800px; height: 500px;
+		z-index: 0;
+		border-radius:0px;
+		overflow: hidden;
+		}
+	
+	.fourthflagbackground {
+		position: relative;
+		background: black;
+		top:220px;
+		left:40px;
+		width: 800px; height: 500px;
+		z-index: 0;
+		border-radius:0px;
+		overflow:hidden;
+		}
+		
+	.fifthflagbackground {
+		position: relative;
+		background: purple;
+		top:230px;
+		left:40px;
+		width: 800px; height: 500px;
+		z-index: 0;
+		border-radius:0px;
+		overflow:hidden;
+		}
+		
+					.sohyun {
+				background: white;
+				position: absolute;
+				border:none;
+				left: 270px;
+				top: 125px;
+				width: 250px;
+				height: 250px;
+				border-radius: 250px;
+				overflow: hidden;
+				transform:scale(2);
+			
+				}
+				
+			.sohyunpinktop {
+				background: lightpink;
+				position: absolute;
+				border: none;
+				left: 150px;
+				top: 50px;
+				width: 200px;
+				height: 200px;
+				border-radius: 50px;
+				transform:rotate(40deg);
+				/* transform:scale(2); */
+				
+				}
+
+			.sohyunyellow {
+				background: lightyellow;
+				position: absolute;
+				border:none;
+				left: 20px;
+				top: 20px;
+				width: 250px;
+				height: 250px;
+				border-radius: 250px;
+				overflow: hidden;
+				/* transform:scale(2); */
+				
+				}
+				
+	
+					.stripesmiddle {
+						height: 150px;
+						width:15px;
+						background:white;
+						border-radius:20px;
+
+						position: relative;
+						top:185px;
+						left:700px;
+						border-radius:20px;
+						z-index: 15;	
+					
+						transform:scale(7);			
+					}
+							
+							.benhao1 {
+								height:105px;
+								width:105px;
+								background:beige;
+	
+								position:absolute;
+								top:60px;
+								left:58px;
+								border-radius:100px;
+								
+					}
+					
+			
+			.benhaorotatedSquare1 {
+				height:100px;
+				width:100px;
+				background:solid transparent;
+
+				position:relative;
+				top:230px;
+				left:350px;
+				border: 50px solid beige;
+
+				-webkit-transform:rotate(45deg);
+				}
+					
+				.benhaoSquare2 {
+				height:100px;
+				width:100px;
+				background:solid transparent;
+
+				position:relative;
+				top:-100px;
+				left:300px;
+				border: 5px solid beige;
+
+				-webkit-transform:rotate(45deg);
+				transform:scale(2);
+				}
+
+					
+					
+	.benhaocircle2 {
+		height:105px;
+		width:105px;
+		background:solid transparent;
+	
+		position:relative;
+		top:90px;
+		left:20px;
+		border-radius:100px;
+		border: 10px solid beige;
+		transform:scale(6);
+		
+			
+				}
+				
+	.yoojean1 {
+			position: absolute;
+			border: 50px solid skyblue;
+			left: 400px;
+			top: 50px;
+					z-index: 2
+			
+			}
+			
+		.shapealec {
+			height:400px;
+			width:600px;
+			background:red;
+			position:absolute;
+			top:100px;
+			left:100px;
+			border-radius:1px;
+			}
+				
+		.joanne1 {
+					height:200px;
+					width:200px;
+					background:pink;
+	
+					position:absolute;
+					top:600px;
+					left:210px;
+					border-radius:200px;
+					}
+
+
+		
+		.e1 {
+			height:60px;
+			width:60px;
+			background:red;
+
+			position:absolute;
+			top:0px;
+			left:100px;
+			border-radius:100px;
+
+		}
+		
+		.e2 {
+			height:55px;
+			width:55px;
+			background:yellow;
+			
+			position:absolute;
+			top:55px;
+			left:94px;
+			transform:rotate(45deg);
+		}
+		
+	.grow { transform: scale(1.2);}
+	
+	div div:hover { border-radius: 50%; }
+	
+	
+</style>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		
+	</head>
+<body>
+	
+	<div class="firstflagbackground">
+		<div class="sohyun"> 
+			<div class = "sohyunpinktop"> 
+				<div class = "sohyunyellow"> </div>
+			</div>
+		</div>
+		<div class="stripesmiddle"></div>
+		<div class="benhao1"></div>
+	</div>
+	
+	<div class="secondflagbackground">
+		<div class="benhaorotatedSquare1"></div>
+		<div class="benhaoSquare2"></div>
+	</div>
+		
+		
+	<div class="thirdflagbackground">
+		<div class="benhaocircle2"></div>
+	</div>
+		
+	<div class="fourthflagbackground">
+		<div class="yoojean1"></div>
+		<div class="shapealec"></div>
+	</div>
+		
+	<div class="fifthflagbackground">
+		<div class="joanne1"></div>
+		<div class="e1"></div>
+		<div class="e2"></div>	
+	</div>
+	
+	
+	
+	<script>
+			$(".firstflagbackground").click(function() {
+				$(this).toggleClass("grow");
+			});
+	</script>
+	<script>
+			$(".benhaorotatedSquare1").click(function() {
+				$(this).toggleClass("grow");
+			});
+	</script>
+	<script>
+			$(".benhaocircle2").click(function() {
+				$(this).toggleClass("animate");
+			});
+			
+	// stuff
+			
+		</script>
+	
+	
+</body
+
+
+
+</html>
