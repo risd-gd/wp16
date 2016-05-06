@@ -5,7 +5,7 @@
         Class Flag
     </title>
     <link rel="stylesheet" type="text/css" href="classflag.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 </head>
 
 <body>
@@ -67,6 +67,49 @@
             <div class="circle2"> </div>
         </div>
     </div>
+
+    <div class="flag4_container">
+        <div class="mj_container">
+
+            <div class="mj_middle">
+            </div>
+
+            <div class="mj_right45_2">
+            </div>
+
+            <div class="mj_left45">
+            </div>
+
+            <div class="mj_horizontal">
+            </div>
+
+            <div class="mj_middleinside">
+            </div>
+            <div class="simplecontainer2">
+                <div class="circle3"> </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        $(".lemon_container").on({
+            click: function () {
+                $(".lemon2" && ".lemon").toggleClass("lemon_white", "lemon2_white")
+            }
+
+        });
+    </script>
+    <script>
+    $(".mj_container").hover(function(){
+            $(".mj_middle").toggleClass("middlerotate");
+            $(".mj_right45").toggleClass("rightrotate");
+            $(".mj_left45").toggleClass("leftrotate");
+            $(".mj_horizontal").toggleClass("horrotate");
+        });
+
+    
+    </script>
 
 
 </body>
