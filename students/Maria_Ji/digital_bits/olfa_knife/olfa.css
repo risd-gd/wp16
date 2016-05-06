@@ -1,0 +1,32 @@
+
+.yellow {
+    width:600px;
+    height: 150px;
+    position:absolute;
+    margin:auto;
+    top:50px;
+    background-color:#FFB600;
+    border-radius: 40px;
+    
+    
+}
+
+.container {
+    width: 800px;
+    height: 600px;
+    position: relative;
+    margin:auto;
+    
+    
+}
+
+.yellowtriangle {
+            width:100px;
+            border-left: 0px solid transparent;
+			border-right: 100px solid transparent;
+			border-bottom: 150px solid #FFB600;
+            
+			position:absolute;
+			top:50px;
+			left:500px;
+}
