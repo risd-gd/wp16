@@ -1,0 +1,137 @@
+
+div {
+    
+}
+
+.logo {
+    position: fixed;
+    float: left;
+    margin-top: -10px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    z-index: 2;
+    top: 0;
+}
+
+.profile {
+    position: fixed;
+    text-align: right;
+  margin-left: auto;
+    margin-right: auto;
+    margin-top:-10px;
+    width:750px;
+    font-family: sans-serif;
+    z-index: 2;
+    top:0;
+}
+
+ul {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    background: none;
+    margin:0;
+    padding:0;
+}
+
+li {
+    display:block;
+    flex:0 1 auto;
+    list-style-type: none;
+    background:none;
+    
+}
+
+.list {
+    position: fixed;
+    width: 750px;
+    margin: auto;
+    font-family: sans-serif;
+    background-color: white;
+    height:60px;
+    padding-top: 25px;
+    z-index: 1;
+    top:0;
+}
+
+.container {
+  width: 750px;
+    margin: auto;
+    position: relative;
+    top:0;
+
+    
+}
+
+
+
+ul {
+    
+}
+
+.container-list {
+
+}
+
+.listcontainer {
+    width: 750px;
+    margin: auto;
+    position: relative;
+    top:0;
+}
+
+.images {
+    
+    width: auto;
+    height:auto;
+    margin-top: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 0;
+}   
+
+.grid {
+    display: block;
+    flex:0 1 auto;
+    list-style-type: none;
+    background:none;
+    width:100%;
+    height:900px;
+    margin: auto;
+    padding: 0;
+    overflow:hidden;
+
+    
+}
+
+
+
+img {
+    width: 190%;
+    height: auto;
+}
+
+.catlist {
+    display:block;
+    flex:0 1 auto;
+    width: 400px;
+  list-style-image: none;
+    background:none;
+    margin: 10px;
+    overflow: hidden;
+    
+}
+
+
+.grid li {
+    width: 40%;
+    height:40%;
+    margin:10px !important;
+    padding: 0px !important;
+    display: inline-block;
+    overflow: hidden;
+}
