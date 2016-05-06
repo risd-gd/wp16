@@ -1,0 +1,87 @@
+<html>
+	<head>
+		<title>Pattern3</title>
+		<style>
+
+				  
+	.layer2 div {
+			transform:rotate(390deg);
+			border: 0px solid transparent;
+			margin: 0px;
+			width: 50px; height: 52px;
+			float: left;
+			mix-blend-mode: multiply;
+			border-radius:100px;
+			background: rgb(255, 97, 122);
+			border-right:0px solid rgb(255, 97, 122);
+			}
+	.layer2 div:nth-child(even) {
+				 border: 80px solid rgb(255, 97, 122);
+				 border-left: 80px solid transparent;
+			}
+			
+			
+		.curve div{
+            
+            float: left;
+            width:200px;
+            height:200px;
+            mix-blend-mode: multiply;
+            border-top:1px solid gray;
+            border-left:1px solid gray;
+            border-top-left-radius:200px;
+            float:left;
+            margin-left:0px;
+            box-shadow:inset 0 1px 0 black;
+            
+            }
+    
+        .curve div:after{
+            content:"cubicle";
+            float: left;
+            width:196px;
+            height:196px;
+            mix-blend-mode: multiply;
+            border-top:1px solid gray;
+            border-left:1px solid gray;
+            border-top-left-radius:196px;
+            left:4px;
+            top:4px;
+        
+            }
+            
+        .curve div:nth-child(even) {
+        	border: 80px solid gray;
+        	border-left:80px solid transparent;
+        	}
+				  
+		</style>
+	</head>
+	
+	<body>
+
+		
+		<div class="layer2">
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+			<div></div><div></div><div></div><div></div>
+		</div>
+		
+		
+		<div class="curve">
+			<div></div><div></div><div></div>
+			<div></div><div></div><div></div>
+			<div></div><div></div><div></div>
+		</div>
+		
+		</body>
+</html>
