@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>New</title>
+			<style>
+			
+				div {
+				width: 100px;
+				height: 100px;
+				background: blue;
+				padding: 10px;
+				transition: 2s all;
+				
+			
+			}
+			div:hover { 
+				width:200px;
+				margin-top: 100px;
+				transform: rotate(90deg);
+				background: red; }
+			
+			.blueDiv {background: blue}
+			.grow {transform: scale(1.2);
+			background: blue;}
+		
+		</style>
+	</head>
+	
+	<body>
+		
+		<div class="logo"></div>
+		<div class="box"></div>
+		<div class="box grow"></div>
+		
+			
+		<script>
+			$("div").click(function() {
+					$("div").toggleClass("blueDiv');
+			}0;
+				
+		
+		</script>
+		
+	</body>
+</html>
