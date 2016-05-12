@@ -5,71 +5,102 @@
 
 <style>
 
-	body {background: rgb(186, 255, 160)}
+	body {background: rgb(254, 255, 252)}
 	
 	ul, h1 { 
 		
-		font-family: "Arial";
+		font-family: "Courier";
 		font-style: italic;
-		background: transparent;
-		margin-top: 200px;
+		margin-top: 100px;
 		margin-left:300px;
+		padding-top: 10px;
+    	padding-right: 10px;
+    	padding-bottom: 10px;
+    	padding-left: 10px;
+    	background:pink;
+    	border-radius:30px;
 		}
 		
 
 	img {
-			width:150px;
-			margin-right:20px;
-			margin-top:20px;
+		width:150px;
+		margin-right:20px;
+		margin-top:20px;
+		padding-top: 10px;
+    	padding-right: 10px;
+    	padding-bottom: 10px;
+    	padding-left: 10px;
+  		border-radius: 30px;
 			}
 	
 	li {
 		width:100px;
 		display: in-line: block;
 		float: left;
-		margin-right:20px;
+		margin-right:40px;
+		padding-top: 0px;
+    	padding-right: 10px;
+    	padding-bottom: 10px;
+    	padding-left: 10px;
+    	background:rgb(254, 255, 252);
+    	border-radius:30px;
 		}
 	div { display: block; background: transparent; margin-bottom: 110px;}
 	
-	h1 {
-    	padding-top: 50px;
-    	padding-right: 30px;
-    	padding-bottom: 50px;
-    	padding-left: 80px;
-
-	}
-
+	
+	img { 
+		background: red; /* For browsers that do not support gradients */
+  		background: -webkit-linear-gradient(pink, yellow, pink); /* For Safari 5.1 to 6.0 */
+  		background: -o-linear-gradient(pink, yellow, pink); /* For Opera 11.1 to 12.0 */
+  		background: -moz-linear-gradient(pink, yellow, pink); /* For Firefox 3.6 to 15 */
+  		background: linear-gradient(pink, yellow, pink); /* Standard syntax */	
+		width: 200px; height: 200px; 
+		transition: 1s all; 
+		margin-right:20px;
+		margin-top:20px;
+		padding-top: 10px;
+    	padding-right: 10px;
+    	padding-bottom: 10px;
+    	padding-left: 10px;
+			}
+			.blueDiv { background: transparent; }
+			.grow { transform: scale(.3);
+			background: transparent; }
+		
+	
+	
 </style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 <body>
 	
-	<h1> Flores</h1>
+	<h1> Ewe Know Ewe Know</h1>
 	
 	
+
 	<div>	
 		<ul> 
-			<li> All </li>
-			<li> Books </li>
-			<li> Exhibitions </li>
-			<li> Identities </li>
-			<li> Print </li>
-			<li> Selected </li>
-			<li> Signage Web </li> 
+			<li> Favorite Foods </li>
+			<li> Favorite Pens </li>
+			<li> Favorite Hillsides </li>
+			<li> Contact </li>
 		</ul>
 	</div>
 	
-	<div>
-		<img src="http://66.media.tumblr.com/6667da0358667514832eb5752c17222c/tumblr_n0n7u98Av51qh150vo1_1280.jpg">
-		<img src="http://pokingsmot.net/wp-content/uploads/2015/04/by-guy-billout-b.-1941.jpg">
-		<img src="http://www.dextercattleintexas.com/images/New/Calf%20in%20Red%20Flowers%20Rightt.jpg">
-		<img src="http://static.oprah.com/images/200904/omag/200904-omag-beck-say-enough-600x411.jpg">
-		<img src="http://www.sakura-do.com/assets/images/photos/meiji/C_005_crop.jpg">
-		<img src="http://www.sothebys.com/content/dam/sothebys-pages/auction-sales-slides/2015/01/N09370_500_4A.jpg">
+	<div class="box grow">
+		<img src="https://uphilldowndale.files.wordpress.com/2013/01/cold-nose-sheep-1.jpg">
+		<img src="https://lovetoknit.files.wordpress.com/2009/06/sheep-in-snow.jpg">
+		<img src="http://s3.freefoto.com/images/01/44/01_44_32_web.jpg">
+		<img src="http://www.beechengroveflock.com/communities/6/004/011/234/746/images/4592165945.jpg">
+		<img src="https://i.ytimg.com/vi/BkhX-N2loJE/maxresdefault.jpg">
 	</div>
+	<script>
+			$(".box").hover(function() {
+				$(this).toggleClass("grow");
+			});
+		</script>
 	
-	<div>
-	<iframe src=​"https:​/​/​www.tumblr.com/​dashboard/​iframe?​tumblelogName=euo&​pid=83740483612&​src=http%3A%2F%2Fisagueye.com%2Fpost%2F83740483612%2Fguy-billout&​is_mobile=false" width=​"0" height=​"0" frameborder=​"0" scrolling=​"no" name=​"desktop-logged-in-controls" class=​"tmblr-iframe tmblr-iframe--desktop-logged-in-controls iframe-controls--desktop" style=​"width:​ 435px;​ height:​ 24px;​">​…​</iframe>​
-	</div>
 	</body>
 	
 </html>
