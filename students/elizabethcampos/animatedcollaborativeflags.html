@@ -239,6 +239,29 @@ div {overflow: hidden; }
 	
 	div div:hover { border-radius: 50%; }
 	
+	.animate {
+			 animation-name: buffalo;
+			 animation-duration: 4s;
+			 animation-iteration-count: infinite;
+			 animation-direction: alternate;
+			 animation-timing-function: ease-out;
+			 animation-fill-mode: forwards;
+			 animation-delay: 0s;
+
+			}
+			
+		@-webkit-keyframes buffalo {
+		  0%   { background: black; }
+		  50%  { background: blue;}
+		  100% { background: orange; }
+		}
+
+		@keyframes buffalo {
+		  0%   { background: black; }
+		  50%  { background: blue;}
+		  100% { background: orange; }
+		}
+	
 	
 </style>
 
@@ -285,14 +308,10 @@ div {overflow: hidden; }
 			$(".firstflagbackground").click(function() {
 				$(this).toggleClass("grow");
 			});
-	</script>
-	<script>
 			$(".benhaorotatedSquare1").click(function() {
 				$(this).toggleClass("grow");
 			});
-	</script>
-	<script>
-			$(".benhaocircle2").click(function() {
+			$(".buffalo").click(function() {
 				$(this).toggleClass("animate");
 			});
 			
