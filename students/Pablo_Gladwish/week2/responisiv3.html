@@ -1,0 +1,51 @@
+<html>
+
+<head>
+	<title>responsive? 2</title>
+
+
+			<style>
+			
+			div{ overflow:hidden;}
+
+			
+	
+
+			.eye {width:100px; height:100px; border-radius:50%; background:yellow; float:left; margin-left:30px; margin-bottom:20px;
+			margin-top:70px;}
+			
+			.pupil {width:20px; height:100px; border-radius:50%; background:#FF97CE; position:relative; left:40px;}
+			
+			.box {width:100px; height:100px; overflow:hidden;margin-top:120px; float:left;margin-LEFT:30PX;}
+			
+			.meow { width:70px; height:100px; background:#FF97CE; position:relative; top:-50px; border-radius:50%;}
+			
+			.CONTAINER {background:black; border-radius:20px; width:420px; height: 230px;}
+			
+			@media (max-width: 900px) { .pupil { position:relative; left:40px; transition: 1s;}
+			
+			@media (max-width: 600px) { .pupil { position:relative; left:20px; transition: 1s;}
+			
+			@media (max-width: 500px)  { .pupil { position:relative; left:40px; transition: 1s;}
+			
+			
+			</style>
+
+</head>
+
+
+<body>
+<div class="container">
+<div class="eye">
+<div class="pupil"></div>
+</div>
+<div class="box"><div class="meow"></div></div>
+<div class="eye">
+<div class="pupil"></div>
+</div>
+</div>
+
+
+</body>
+
+</html>

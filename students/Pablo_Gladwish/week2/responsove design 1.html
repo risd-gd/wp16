@@ -9,22 +9,38 @@ transition:all .5s; text-align:justify; list-style:none;}
 
 .hidden {display:NONE;}
 
+body {background:linear-gradient(#FB00FF, #0309C5); }
 
-.new { padding-left:30px; font-family:arial; font-size: 100pt; float:none; 
+.new { padding-left:30px; font-family:arial; font-weight: 900; font-size: 100pt; float:none; 
 transition:all .5s; text-align:justify; list-style:none; color: red;}
 
+button {outline:#FB00FF dotted thick;background:blue;
+ color: white;
+ position: absolute;
+    top: 15px;
+    left: 50%;
+    margin-right: -50%;
+cursor:pointer;
+border:none;
+ padding: 5px 10px 5px 10px;
+ }
+
+#fixedfoot {display:table-cell;vertical-align:center; position:fixed; bottom:10px; left:0%; right:0%;
+	background:blue; z-index:2; overflow:hidden;  min-height:50px;}
+    
 
 	@media (min-width: 120px) { li { color: blue; }
 				
-	@media (max-width: 656px) { li { color: #7E00FF;  font-style: oblique;}
+	@media (max-width: 687px) { li { color: #7E00FF;  font-style: oblique;}
 				
-	@media (max-width: 590px) { li { color: #FF00E7;  font-style: oblique;  
-	-webkit-transform: skewX(-20deg); transition: .25s }
+	@media (max-width: 600px) { li { color: #FF00E7;  font-style: oblique;  
+	-webkit-transform: skewX(-20deg); }
+	@media (max-width: 590px) { li { color: white;  font-style: oblique;  
+	-webkit-transform: skewX(-10deg); }
 
 ul {list-style-type:none}
 
-			
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
 
 </style>
 
@@ -34,14 +50,12 @@ ul {list-style-type:none}
 <UL>
 <li>HI HOW</li>
 <li>ARE YOU</li>
-
-<li class="new hidden">HI<br >HOW</li>
-<li class="new HIDDEN">ARE<br >YOU</li>
-
-
-		<script>	$( "li" ).replaceWith( "li".new"" ); </script>
-
 </UL>
+
+<div id="fixedfoot">
+	<button type="submit" formtarget="_top"> I'm Fine
+	</button>
+</div>
 
 
 </body>
