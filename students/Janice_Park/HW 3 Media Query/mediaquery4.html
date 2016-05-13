@@ -1,0 +1,86 @@
+<html>
+	<head>
+		<title>Media Query 4</title>
+		<style>
+
+/* div applies to all tags that has div in it...so just put a "." in front of everything unless you want to change it globally!
+
+there will always be margine, so if you want to get rid of it, you margin: 0
+position: relative is when you just want to nudge the position a little bit */
+
+	div {
+		transition: 1s all; 
+	}
+	
+	h1 {
+		font-size: 500%;
+		font-family: verdana;
+	}
+	
+	.dot{
+		background: #ADD8E6;
+		width: 25%;
+		height: 30%;
+		border-radius: 50%;
+		position: absolute;
+		left: 8px;
+		top: -88px
+		float: left;
+	}
+	
+	.dot2{
+		background: #FF4500;
+		width: 25%;
+		height: 30%;
+		border-radius: 50%;
+		position: absolute;
+		left: 308px;
+		top: -88px
+		float: left;
+	}
+	
+	.dot3{
+		background: #FFD700;
+		width: 25%;
+		height: 30%;
+		border-radius: 50%;
+		position: absolute;
+		left: 608px;
+		top: -88px
+		float: right;
+	}
+						
+			
+		div:hover { 
+				-webkit-transform:translateY(116%);
+				transform:translateY(216%);
+				background: #3498DB;
+				opacity: .6;
+		    }
+			.buttondown {}
+			
+		</style>
+		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"</script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	
+	</head>
+	
+	<body>
+		<h1> Click to bounce the balls! </h1>
+
+			<div class="dot"></div>	
+			<div class="dot"></div>
+			<div class="dot2"></div>
+			<div class="dot2"></div>
+			<div class="dot3"></div>
+			<div class="dot3"></div>
+			
+
+	</body>
+
+
+
+
+</html> 

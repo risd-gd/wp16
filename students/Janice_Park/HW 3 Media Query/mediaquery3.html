@@ -1,0 +1,148 @@
+<html>
+	<head>
+		<title>Media Query 3</title>
+		<style>
+
+/* div applies to all tags that has div in it...so just put a "." in front of everything unless you want to change it globally!
+
+there will always be margine, so if you want to get rid of it, you margin: 0
+position: relative is when you just want to nudge the position a little bit */
+
+	div {
+	transition: 1s all; 
+	}
+	
+
+	.flag {width : 800px; height: 500px;
+		background:	#FF4500;
+		position: relative;
+		margin-bottom: 20px;
+		overflow: hidden;
+		}
+	
+	.dot{
+		background: #ADD8E6;
+		width: 300PX;
+		height: 300PX;
+		border-radius: 50%;
+		position: absolute;
+		left: 8px;
+		top: -88px
+	}
+	#strcontainer1{
+		transform: rotate(-45deg);
+		position: absolute;
+		top: 10px;
+		left: 90px;	
+		overflow: hidden;
+		margin-left:10px;
+	}
+
+	.fullstr{
+		background: #fff;
+		width: 90px;
+		height: 20px;
+		margin-bottom: 30px;
+		overflow: hidden;
+		margin-left:10px;
+	}
+	.square{
+		background: #fff;
+		width: 150px;
+		height: 150px;
+		margin-bottom: 50px;
+		overflow: hidden;
+		margin-left:10px;
+	}
+
+		.rotate {
+			transform: rotate(90deg);
+		}
+		
+		.enlarge {
+			width: 500px;
+			height: auto;
+			}
+		
+		.shrink {
+			width: 100px;
+			height: 100px;
+			}
+			
+		
+		.rotate45 {
+			transform: rotate (45deg);
+			}
+			
+		.translate {
+			transform: translate(160px,100px);
+			}
+		
+		.swivel {
+		 transform: rotateX(150deg);
+			}
+			
+		div:hover { 
+				-webkit-transform:translateY(116%);
+				transform:translateY(116%);
+				background: #3498DB;
+				opacity: .6;
+		    }
+			.buttondown {}
+			
+		</style>
+		
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"</script>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	
+	</head>
+	
+	<body>
+		
+
+			<div class="dot"></div>
+			<div id="strcontainer1">
+				<div class="square" id="nav"></div>
+				<div class="fullstr"></div>
+				<div class="fullstr"></div>
+				<div class="square"></div>
+				<div class="fullstr"></div>
+				<div class="fullstr"></div>
+				
+			</div>
+		</div>
+	
+	<div class="dot"></div>
+			<div id="strcontainer1">
+				<div class="square" id="nav"></div>
+				<div class="fullstr"></div>
+				<div class="fullstr"></div>
+				<div class="square"></div>
+				<div class="fullstr"></div>
+				<div class="fullstr"></div>
+				
+			</div>
+		</div>
+	
+		<script>
+			
+			$(".square").click(function(){
+				$(this).toggleClass("rotate");
+			});
+			
+			$(".fullstr").click(function(){
+				$(this).toggleClass("swivel");
+			});
+			
+			$("dot").click(function(){
+				$(this).toggleClass("translate");
+			});
+		</script>
+
+	</body>
+
+
+
+
+</html> 

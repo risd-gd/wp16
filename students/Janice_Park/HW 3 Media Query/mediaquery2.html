@@ -1,0 +1,178 @@
+<html>
+<head>
+	<title>MediaQuery2	</title>
+	<style type="text/css">
+	
+		body{
+			font-family: Helvetica, sans-serif;
+			margin: 400px 80px;
+			font-weight: 700;
+			font-size: 15px; 
+			transition: all 1s;  
+		}
+
+		header{
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			padding: 20px 80px;
+			box-sizing: border-box;
+			background: white;
+		}
+
+		h1{
+			font-size: 5em;
+			float: left;
+			margin: 0;
+		}
+
+		.tophead{
+			overflow: hidden;
+		}
+
+		nav ul{
+			list-style: none;
+			padding: 0;
+		}
+
+		nav ul li{
+			margin-right: 1.3em;
+			font-weight: bold;
+			font-size: 1.3em;
+		}
+
+		nav ul li:last-child{
+			margin-right: 0;
+		}
+
+		main{
+			margin-top: 115px;
+		}
+
+		.MonkeyItems{
+			display: inline;
+			margin-left: -2em;
+			overflow: hidden;
+		
+		}
+
+		.item {
+			width: 50%;
+			box-sizing: border-box;
+			padding-left: 1em;
+			float: left;
+			margin-bottom: 3em;
+			display: inline;
+			
+		}
+
+		.item img{
+			width: 80%;
+		}
+
+		.caption{
+			text-align: left;
+			margin-top: 1em;
+			
+		}
+
+		.address{
+			float: left;
+			width: 50%;
+		}
+		
+		.enlarge {
+			width: 1000px;
+			height: auto;
+		}
+				
+	</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+</head>
+<body>
+<header>
+
+	
+	<div class="tophead">
+		<h1>Hello Monkey</h1>	
+	</div>
+
+	<nav>
+		<ul>
+			<li>Back </li>
+			<li>Food </li>
+			<li>Interesting Facts </li>
+			<li>Predators </li>
+			<li>Habitat </li>
+			<li>Forward </li>
+			<li>Pictures </li>
+		</ul>
+	</nav>
+</header>
+
+<main>
+	
+	<div class="MonkeyItems">
+	
+
+		<div class="item">
+			<div class="MonkeyItems">
+				<img src="https://images.robertharding.com/preview/RM/RH/VERTICAL/817-175635.jpg">
+			</div>
+			<div class="caption">Captain Monkey</div>
+		</div>
+
+		<div class="item">
+			<div class="MonkeyItems">
+				<img src="http://thewondrous.com/wp-content/uploads/2015/04/pics-of-funny-monkeys.jpg">
+			</div>
+			<div class="caption">Cute Monkey</div>
+		</div>
+
+		<div class="item">
+			<div class="MonkeyItems">
+				<img src="http://i.dailymail.co.uk/i/pix/2016/01/13/17/302145B400000578-3397868-image-m-55_1452705519765.jpg">
+			</div>
+			<div class="caption">Baby Monkey</div>
+		</div>
+		
+		<div class="item">
+			<div class="MonkeyItems">
+				<img src="http://www.graphics99.com/wp-content/uploads/2012/06/i-saw-many-up-and-downs-of-life.jpg">
+			</div>
+			<div class="caption">Wise Monkey</div>
+		</div>
+
+		<div class="item">
+			<div class="MonkeyItems">
+				<img src="http://i.ndtvimg.com/i/2015-03/monkey-650-generic-thinkstock_650x400_41427714356.jpg">
+			</div>
+			<div class="caption">Monkey sit</div>
+		</div>
+
+	</div>
+</main>
+		<script> 			
+			
+			$(".MonkeyItems").click(function() {
+				$(this).toggleClass("enlarge");
+			});
+		
+			$(".item").click(function() {
+				$(this).toggleClass("enlarge");
+			});
+			
+			$(".caption").click(function() {
+				$(this).toggleClass("enlarge");
+			});
+			
+			$(".Item img").click(function() {
+				$(this).toggleClass("enlarge");
+			});
+ 
+		</script>
+</body>
+</html>
