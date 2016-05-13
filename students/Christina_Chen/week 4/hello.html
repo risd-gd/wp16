@@ -1,0 +1,55 @@
+<html>
+
+	<head>
+	
+		<link href='https://fonts.googleapis.com/css?family=Parisienne' rel='stylesheet' type='text/css'>
+		
+		<style>
+		
+			.hello {
+				font-size:370px;
+				font-family: 'Parisienne', cursive;
+				float:top;
+				margin-left:50px;
+				transition:all 1s;
+				}
+			
+			.adele {
+				visibility:hidden;
+				transform:scale(.6);
+				font-size:100px;
+				font-family: 'Parisienne', cursive;
+				margin-top:-200px;
+				margin-left:-100px;
+				}
+			
+			@media (max-width:900px) {
+				.adele {
+				transition:all 1s;	
+				visibility:visible;
+					}
+				
+				.hello {
+				display:none;	
+					}
+				}
+		
+		</style>
+	
+	</head>
+	
+	<body>
+		
+		<div class="hello">
+			<p>Hello</p>
+		</div>
+		
+		<div class="adele">
+			<p>It's me.
+			<img src="adele.jpg">
+			</p>
+		</div>
+	
+	</body>
+
+</html>
