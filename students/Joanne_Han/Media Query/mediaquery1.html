@@ -1,0 +1,74 @@
+<style>
+	
+		.square2{
+			height: 300px;
+			width: 300px;
+			
+			background: red;
+		 	position: absolute;
+  			top: 40%;
+  			lefT: 40%;
+  			margin: 20px;
+  			transition: all 2s;
+  			z-index: 2;
+  			float: left;
+  			}
+  			
+  			
+  		.square { 	height: 300px;
+			width: 300px;
+			opacity: .7;
+			background: rgba(5, 208, 222, 0.21);
+		 	position: absolute;
+  			top: 40%;
+  			lefT: 40%;
+  			margin: 10px;
+  			transition: all 2s;
+  			z-index: 1;
+  			float: left;
+  			}
+  			
+  			
+  		
+  			
+  			
+  			
+
+  		.back{
+  			height: 100vw;
+  			width:100vw;
+  			background: white;
+  			transition: all 2s;
+  			}
+  			
+  			@media (max-width: 2000px) {
+  			{transition: all 1s;}
+  			.square2 {transform: rotate(90deg);
+  					background: white; opacity: .5;}
+  			.square {transform: rotate(90deg); opacity: .5;}
+  			 .back {background:-webkit-linear-gradient(#7878CA, rgba(255, 165, 0, 0.45));}
+  			 
+  			 }
+  			
+  			@media (max-width: 600px) {
+  			 .square2 {transform: rotate(240deg);
+  			 		background: pink; opacity: .5;}
+  			 .square {transform: rotate(365deg); opacity: .5; }
+  			 .back{background: -webkit-linear-gradient(#54B7E2, #FFFAB3);}
+  			 {transition: all 2 s;}
+  			 }
+  		</style>
+	</head>
+	
+	<body>
+		<div class= "square2"></div>
+		
+		<div class= "square2"></div>
+
+		<div class= "square"></div>
+		<div class= "square"></div>
+		<div class ="back"></div>
+	</body>
+	
+	
+</html>
