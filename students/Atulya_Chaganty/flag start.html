@@ -90,6 +90,111 @@
  				z-index: 10; 
  				} 
  		}
+ 		.atulyagear {
+				height: 200px;
+				width: 200px;
+				background: orange;	
+				border-radius:200px;
+				z-index: 10px;
+				border: 7px dashed white;	
+			}
+			.stripesmiddle {
+				height: 150px;
+				width:15px;
+				background:white;
+				border-radius:20px;
+
+				position: absolute;
+				top:100px;
+				left:140px;
+				border-radius:20px;
+				z-index: 15;	
+				transform: rotate(-45deg);			
+			}
+			.stripesright{
+				height: 150px;
+				width:15px;
+				background:white;
+				border-radius:20px;
+
+				position: absolute;
+				top:80px;
+				left:160px;
+				border-radius:20px;
+				z-index: 15;	
+				transform: rotate(-45deg);			
+			}
+			.stripesleft{
+				height: 150px;
+				width:15px;
+				background:white;
+				border-radius:20px;
+
+				position: absolute;
+				top:120px;
+				left:120px;
+				border-radius:20px;
+				z-index: 15;	
+				transform: rotate(-45deg);			
+			}
+			
+			.shape2alec {
+				height:400px;
+				width:600px;
+				background:white;
+				position:absolute;
+				top:100px;
+				left:100px;
+				border-radius:1px;
+				}
+			
+			.rotalec {
+				height:90px;
+				width:150px;
+				background:white;
+
+				position:absolute;
+				top:185px;
+				left:501px;
+
+				-webkit-transform:rotate(45deg);
+			}
+			
+			.rotalec2 {
+				height:90px;
+				width:510px;
+				background:white;
+
+				position:absolute;
+				top:250px;
+				left:150px;
+
+				-webkit-transform:rotate(360deg);
+			}
+			
+			.rotalec3 {
+				height:90px;
+				width:810px;
+				background:white;
+
+				position:absolute;
+				top:250px;
+				left:20px;
+
+				-webkit-transform:rotate(275deg);
+			}
+			
+			.rotalec4 {
+				height:90px;
+				width:150px;
+				background:white;
+
+				position:absolute;
+				top:316px;
+				left:161.5px;
+
+				-webkit-transform:rotate(225deg);
+			}
 	
 			.blackDiv {background: black}
 
@@ -125,10 +230,18 @@
 		</div>
 
 		<div class="flag lightgreen">
+			<div class="atulyagear"></div>
+			<div class="stripesmiddle"></div>
+			<div class="stripesright"></div>
+			<div class="stripesleft"></div>
 			
 		</div>
 
 		<div class="flag lightyellow">
+			<div class="rotalec"></div>
+			<div class="rotalec2"></div>
+			<div class="rotalec3"></div>
+			<div class="rotalec4"></div>
 				
 		</div>
 
@@ -204,6 +317,18 @@
 			});
 
 			$(".pink").click(function(){
+				$(this).toggleClass("blackDiv");
+			});
+			$(".rotalec").click(function(){
+				$(this).toggleClass("blackDiv");
+			});
+			$(".rotalec2").click(function(){
+				$(this).toggleClass("blackDiv");
+			});
+			$(".rotalec3").click(function(){
+				$(this).toggleClass("blackDiv");
+			});
+			$(".rotalec4").click(function(){
 				$(this).toggleClass("blackDiv");
 			});
 
