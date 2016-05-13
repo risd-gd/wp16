@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title> Mediaquery 4 </title>
+		<style>
+	
+			body {
+				background: maroon;
+				}
+			.background {
+				pointer-events: none;
+				height: 100%;
+				width: 100%;
+				}
+				
+			
+			.background span {
+				transform: translate3d(-50%, -50%, 0px);
+				transition: all 1s;
+				text-transform: uppercase;
+				font-family: helvetica;
+				line-height: 180px;
+				font-weight: 900;
+				font-size: 200px;
+				height: 200px;
+				position: fixed;
+				color: rgba(80, 2, 2, 0.1);
+				left: 50%;
+				top: 50%;
+				
+				}
+			
+			@media (max-width:900px) {
+				.background span {
+					transform: translate3d(-50%, -50%, 100px);
+					transition: all 1s;
+					text-transform: uppercase;
+					font-family: helvetica;
+					line-height: 180px;
+					font-weight: 900;
+					font-size: 200px;
+					height: 200px;
+					position: fixed;
+					color: rgba(80, 2, 2, 0.7);
+					left: 50%;
+					top: 50%;
+					}
+			
+			
+			@media (max-width:600px) {
+				.background span {
+					transform: translate3d(-50%, -50%, 100px);
+					transition: all 4s;
+					text-transform: uppercase;
+					font-family: helvetica;
+					line-height: 200px;
+					font-weight: 90;
+					font-size: 50px;
+					height: 200px;
+					position: fixed;
+					color: rgba(183, 48, 48, 0.8);
+					left: 50%;
+					top: 50%;
+					}
+			
+
+
+			</style>
+			
+		
+			
+	</head>
+	
+	<body>
+	
+		<div class="background">
+			<span>MEAT</span>
+			
+		</div>
+
+	
+	</body>
+	
+
+</html>

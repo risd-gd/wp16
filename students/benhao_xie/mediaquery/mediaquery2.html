@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title> Mediaquery 2 </title>
+		
+		<style>
+			
+			body {
+				
+				background: pink;
+				}
+			
+			div { 
+				width:50%;
+				height:50vw;
+				margin:20% auto;
+				background:maroon;
+				opacity:.3;
+				border-radius:50%;
+				transition:all 1s;
+				
+				}
+		
+			@media (max-width:900px) {
+				div {
+					width:30%;
+					height:30vw;
+					transition:all 1s;
+					opacity:.5;
+					background: red;
+					border-radius:0%;
+					}
+				
+				}
+				
+			@media (max-width:600px) {
+				div {
+					width:300px;
+					height:300px;
+					float:left;
+					margin:100px;
+					transition:all 1s;
+					opacity:.7;
+					background:salmon;
+					border-radius:50%;
+					}
+				}	
+		
+		
+		</style>
+		
+	
+	</head>
+	
+	<body>
+	
+		<div></div>
+
+	 	
+	</body>
+	
+</html>
