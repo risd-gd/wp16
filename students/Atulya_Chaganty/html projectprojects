@@ -1,0 +1,32 @@
+<html>
+	<head> 
+		<title> html project projects </title>
+		<style type="text/css">
+			
+		</style>
+	</head>
+	<body>
+		<h1>Project Projects</h1>
+			<ul>
+				<li>All </li>
+				<li>Books </li>
+				<li>Exhibitions  </li>
+				<li>Identites </li> 
+				<li>Print </li>
+				<li>Selecteds </li>
+				<li>Signage </li>
+				<li>Web </li>
+			</ul>
+		
+		 <h2> Grid/list </h2>
+
+		
+		<img src="https://sunrisepackaginggroup.files.wordpress.com/2012/10/tgif-cat21.jpg?w=474"> </img>
+
+		<img src="http://www.slappytickle.com/wp-content/uploads/2012/07/tgif.jpg"> </img>
+
+		<div class="image"></div>
+		
+</body>
+
+</html>
