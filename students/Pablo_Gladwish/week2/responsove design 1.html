@@ -1,0 +1,50 @@
+<html>
+
+
+<head>	<title>responsive</title>
+<style>
+
+li { padding-left:30px; font-family:arial; font-size: 100pt; float:none; 
+transition:all .5s; text-align:justify; list-style:none;}
+
+.hidden {display:NONE;}
+
+
+.new { padding-left:30px; font-family:arial; font-size: 100pt; float:none; 
+transition:all .5s; text-align:justify; list-style:none; color: red;}
+
+
+	@media (min-width: 120px) { li { color: blue; }
+				
+	@media (max-width: 656px) { li { color: #7E00FF;  font-style: oblique;}
+				
+	@media (max-width: 590px) { li { color: #FF00E7;  font-style: oblique;  
+	-webkit-transform: skewX(-20deg); transition: .25s }
+
+ul {list-style-type:none}
+
+			
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</style>
+
+</head>
+
+<body>
+<UL>
+<li>HI HOW</li>
+<li>ARE YOU</li>
+
+<li class="new hidden">HI<br >HOW</li>
+<li class="new HIDDEN">ARE<br >YOU</li>
+
+
+		<script>	$( "li" ).replaceWith( "li".new"" ); </script>
+
+</UL>
+
+
+</body>
+
+
+</html>
