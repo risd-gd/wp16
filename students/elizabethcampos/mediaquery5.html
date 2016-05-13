@@ -1,0 +1,117 @@
+<html>
+	<head>
+		<title>mediaquery5</title>
+	</head>
+
+<style>
+
+	body {background: rgb(254, 255, 252)}
+	
+	ul, h1 { 
+		font-family: "Brush Script";
+		font-style: italic;
+		margin-top: 200px;
+		margin-left:250px;
+		margin-right:150px;
+		padding-top: 50px;
+    	padding-right: 50px;
+    	padding-bottom: 50px;
+    	padding-left: 50px;
+    	background:yellow;
+    	border-radius:3px;
+    	
+		}
+		
+
+	img {
+		width:150px;
+		margin-right:20px;
+		margin-top:20px;
+		padding-top: 10px;
+    	padding-right: 10px;
+    	padding-bottom: 10px;
+    	padding-left: 10px;
+  		border-radius: 3px;
+			}
+	
+	li {
+		width:20px; height:200px;
+		display: in-line: block;
+		float: left;
+		margin-right:40px;
+		padding-top: 0px;
+    	padding-right: 10px;
+    	padding-bottom: 10px;
+    	padding-left: 10px;
+    	background:rgb(255, 31, 73);
+    	border-radius:3px;
+		}
+	div { display: block; background: transparent; margin-bottom: 110px;}
+	
+	
+	img { 
+		background: red; /* For browsers that do not support gradients */
+  		background: -webkit-linear-gradient(rgb(255, 31, 73), yellow, rgb(255, 31, 73)); /* For Safari 5.1 to 6.0 */
+  		background: -o-linear-gradient(rgb(255, 31, 73), yellow, rgb(255, 31, 73)); /* For Opera 11.1 to 12.0 */
+  		background: -moz-linear-gradient(rgb(255, 31, 73), yellow, rgb(255, 31, 73)); /* For Firefox 3.6 to 15 */
+  		background: linear-gradient(rgb(255, 31, 73), yellow, rgb(255, 31, 73)); /* Standard syntax */	
+		width: 200px; height: 200px; 
+		transition: 1s all; 
+		margin-right:20px;
+		margin-top:20px;
+		padding-top: 10px;
+    	padding-right: 10px;
+    	padding-bottom: 10px;
+    	padding-left: 10px;
+			}
+			
+			.grow { transform: scale(1.6);
+			background: transparent; }
+			
+			.griw { transform: scale(1.1);
+			background: transparent; }
+		
+	
+	
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<body>
+	
+	<h1> sun day</h1>
+	
+	
+
+	<div class="box grow">	
+		<ul> 
+			<li> sol </li>
+			<li> roj </li>
+			<li> zon </li>
+			<li> dia </li>
+		</ul>
+	</div>
+	
+	<div class="box griw">
+		<img src="https://lagill6.files.wordpress.com/2011/08/sunlight-on-water-a.jpg">
+		<img src="http://img08.deviantart.net/6483/i/2012/164/e/6/stock__sunlight_on_water_by_nid311-d53ddti.jpg">
+		<img src="http://www.thehomespun.com/wp-content/uploads/2012/10/Waterdam-light-on-water1.jpg">
+		
+	</div>
+	<script>
+			$(".box").hover(function() {
+				$(this).toggleClass("grow");
+			});
+	</script>
+	
+	<script>
+			$(".box").click(function() {
+				$(this).toggleClass("griw");
+			});
+	</script>
+	
+	</body>
+	
+</html>
+
+

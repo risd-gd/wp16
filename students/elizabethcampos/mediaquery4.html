@@ -1,0 +1,100 @@
+<html>
+	<head>
+		<title>mediaquery4</title>
+	</head>
+
+<style>
+
+	body {background: black}
+	
+	ul, h1, p, li { 
+		
+		font-family: "webdings";
+		font-style: bold;
+		text-transform:uppercase;
+		background: white;
+		margin-top: 50px;
+		margin-left:50px;
+		border-radius:200%;
+		}
+		
+
+	img {
+			width:500px;
+			margin-right:10px;
+			margin-top:10px;
+			
+			}
+	
+	li {
+		width:100px;
+		display: in-line: block;
+		float: left;
+		margin-right:20px;
+		}
+	div { display: block; background: white; margin-bottom: 110px;}
+	
+	h1 {float:right;
+    	padding-top: 50px;
+    	padding-right: 30px;
+    	padding-bottom: 50px;
+    	padding-left: 80px;
+
+	}
+	
+	p { margin-left:300px;
+		margin-right:200px;
+		margin-top:100px;
+		}
+
+
+	.grow { transform: scale(.3);
+			background: transparent; }
+		
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+<body>
+	
+	<h1> Sequin</h1>
+	
+	
+	<div>	
+		<ul> 
+			<li> This </li>
+			<li> That </li>
+			<li> The </li>
+			<li> Other </li>
+			
+		</ul>
+	</div>
+	
+<div>	
+	<p>
+	Which is your favorite
+	</p>
+</div>
+
+	<div class="box grow">
+		<ul>
+		<img src="http://previews.123rf.com/images/chiffanna/chiffanna1408/chiffanna140800091/30703420-Small-multicolored-sequins-as-background--Stock-Photo-glitter.jpg">
+		<img src="http://picture-cdn.wheretoget.it/udz538-i.jpg">
+		<img src="http://3.bp.blogspot.com/-rAcBzgXRIEo/U5cOSaz6q6I/AAAAAAAAB3Y/AWYmHC-qCaY/s1600/026.JPG">
+		<img src="http://previews.123rf.com/images/alliedcomputergraphics/alliedcomputergraphics1204/alliedcomputergraphics120400145/13099819-Sequins-Seamless-Texture-Tile-Stock-Photo-sequin.jpg">
+		<img src="http://cdn.shopify.com/s/files/1/0192/3600/products/Royal_Blue_AB_Swatch_Sequin_6_1024x1024.jpg?v=1352414001">
+		<img src="http://images.fashionbom.com/product-images/650-650/burgundy-sequin-fabric.jpg">	
+		</ul>
+	</div>
+	
+
+	<script>
+			$(".box").click(function() {
+				$(this).toggleClass("grow");
+			});
+		</script>
+	
+	</body>
+	
+</html>
