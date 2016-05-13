@@ -2,9 +2,13 @@
 <html>
 <head>
 	<title>MOMAs</title>
+<link href='https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans|Roboto|Lato|Slabo+27px|Oswald|Roboto+Condensed|Source+Sans+Pro|Montserrat|Raleway|Lora|PT+Sans|Droid+Sans|Open+Sans+Condensed:300|Roboto+Slab|Ubuntu|Droid+Serif|Arimo|Merriweather|PT+Sans+Narrow|Noto+Sans|Titillium+Web|PT+Serif|Playfair+Display|Indie+Flower|Alegreya+Sans' rel='stylesheet' type='text/css'>
+
 	<style type="text/css">
+	
+		
 		body{
-			font-family: Helvetica, Arial, sans-serif;
+			font-family: Helvetica, sans-serif;
 			margin: 0 80px;
 			font-weight: 1000;
 			font-size: 15px;
@@ -41,14 +45,14 @@
 			color: lightgray;
 		}
 		
-		a:hover:not(.active) {
-    	background-color: #111;
-    	}
     	
 		a.active{
 			color: gray;
 		}
-
+		
+		.subnav:hover{
+			color: black;
+		}
 		header{
 			position: fixed;
 			bottom: 0;
@@ -72,9 +76,11 @@
 			font-weight: bold;
 		}
 		.subnav{
-			font-size: 1em;
+			font-family: 'PT Sans', sans-serif;
+			font-size: 1.1em;
 			float: right;
 			color: lightgray;
+			position:float;
 		}
 
 		.tophead{
@@ -129,14 +135,14 @@
 		}
 
 		.item {
-			width: 80%;
+			width: 100%;
 			box-sizing: border-box;
 			float: center;
 			margin-bottom: 3em;
 		}
 
 		.projectImage{
-			max-height: 500px;
+			max-height: 600px;
 			overflow: hidden;
 			float: center;
 
@@ -158,20 +164,44 @@
 		}
 
 		.info{
+			font-family: 'PT Sans', sans-serif;
 			float: left;
 			width: 30%;
 			bottom: 250px;
 			color: lightgray;
-			font-size: 1em;
+			font-size: 1.1em;
 		}
 
 		.socialLinks{
 			float: left;
 			width: 35%;
 			bottom:250px;
+			font-size:1.1em;
+			font-family: 'Roboto Slab', serif;
+		}
+		
+		ul{
+		list-style-type: none;
+		}
+		
+		.info li:hover{
+			color:yellow;
+		}
+		
+		.info li:nth-child(2):hover {
+			color:yellow;
 		}
 
+		.subnav li:first-child:hover{
+			color:yellow;
+		} 
+		
+		.subnav li:nth-child(2):hover{
+			color:yellow;
+		}
 	</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
 </head>
 <body>
 <header>
@@ -199,16 +229,13 @@
 		</div>
 
 
-
-	<li><div class="title">
+	<div class="title">
 	From the Collection: 1960-1969
-	</div></li>
+	</div><br>
 	<div class="box"></div>
-	<li><div class="subtitle">
+	<div class="subtitle">
 	Through Sunday, March 12, 2017 
-	</div></li>
-	
-
+	</div>
 
 		
 
@@ -216,10 +243,11 @@
 
 <footer>
 	<div class="info">
-		Floor 4, Painting and Sculpture II Galleries<br>
-		<br>
-		<br>
-		Buy Museum admission tickets<br>
+		<ul>
+			<li>Floor 4, Painting and Sculpture II Galleries</li>
+			<br>
+			<li>Buy Museum admission tickets</li>
+		</ul>
 		<div class="box"></div><div class="box"></div><div class="box"></div>
 	</div>
 
@@ -233,9 +261,19 @@ This exhibition contains over 350 works. However, MoMA's collection holds over 7
 	</div>
 
 	<div class="subnav">
-		Related class: Radical Practice: Art of the 1960s <br> <br>
-		Related class: Political Printmaking: The 1960s and Today <br> <br>
-		View the exhibition checklist
+		<ul>
+			<li>Related class: Radical Practice: Art of the 1960s</li>
+			<br>
+			<br>
+			<li>Related class: Political Printmaking: The 1960s and Today</li>
+			<br> 
+			<br>
+			<li>View the exhibition checklist</li>
+		</ul>
+			<div class="box"></div><div class="box"></div><div class="box"></div>
+			<div class="box"></div><div class="box"></div><div class="box"></div>
+			<div class="box"></div><div class="box"></div><div class="box"></div>
+		</div>
 	</div>
 
 </footer>
