@@ -1,0 +1,88 @@
+<html>
+<head>
+<title> Web2</title>
+<style type="text/css">
+
+* {padding: 0; margin:0;}
+body {font-family: sans-serif;}
+a {text-decoration:non; color: lightpink;}
+li {list-style-type: none;}
+
+header {
+	width: 100%;
+	height: 50px;
+	margin:auto;
+	border-bottom: 1px solid #EEE;}
+	
+#brand {
+	float: left;
+	line-height: 50px;
+	color: turquoise;
+	font-size: 25px;
+	font-weight: bold;
+	}
+	
+nav {width: 100%; text-align:center;}
+nav a {
+	display:block; 
+	padding:15px 0;
+	border-bottom:1px solid white;
+	color: white;
+	}
+nav a:hover {background: lavender; color: #c5ad74;}
+nav li:last-child a {border-bottom:none;}
+
+.menu {
+	width:240px;
+	height:100%;
+	position:absolute;
+	background: -webkit-linear-gradient(aliceblue, turquoise);
+	left:-240px;
+	transition: all .3s ease-in-out;
+	}
+	
+.menu-icon {
+	padding: 10px 20px;
+	background:turquoise;
+	color:white;
+	cursor:pointer;
+	float:right;
+	}
+
+#menuToggle {display:none;}
+
+#menuToggle:checked ~ .menu {position:absolute; left:0;}
+
+
+</style>
+</head>
+
+
+<body>
+
+<input type="checkbox" id="menuToggle">
+<label for="menuToggle" class="menu-icon">&#9776;</label>
+
+<header>
+<div id= "brand"> Da Eun's Web </div>
+</header>
+
+<nav class="menu">
+	<ul>
+		<li><a href="#">HOME</a></li>
+		<li><a href="#">ABOUT</a></li>
+		<li><a href="#">WORK</a></li>
+		<li><a href="#">INSPIRATION</a></li>
+		<li><a href="#">WORK</a></li>
+		<li><a href="#">WORK</a></li>
+	</ul>
+	<div class="menu"></div>	<div class="menu"></div>
+	<div class="menu"></div>
+	<div class="menu"></div>
+	<div class="menu"></div>
+	<div class="menu"></div>
+
+
+
+</body>
+</html>
