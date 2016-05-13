@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+
+<html>
+<!--
+    make landing page with words on a path, like "from, to" but on a squiggle path, maybe moving?
+    instructions!! simple instructions, is ok if they get lost!
+    make dots visual language match the language of the arrow+lines
+    make one sided arrow, left to right
+    paint brush
+    colored when onclick    
+-->
+    <head>
+        <meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+        <title>
+        from, to
+        </title>
+        <link href="popup.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="drawing.css">
+        <link rel="stylesheet" type="text/css" href="print.css" media="print">
+
+        <script src="paper-full.js"></script>
+        
+        <script type="text/paperscript" canvas="myCanvas">
+            tool.fixedDistance = 120;
+            var path;
+            var strokeEnds = 6;
+             // Define two points which we will be using to construct
+            // the path and to position the gradient color:
+            var topLeft = view.center - [80, 80];
+            var bottomRight = view.center + [80, 80];
+             // Create the gradient, passing it an array of colors to be converted
+            // to evenly distributed color stops:
+            var gradient = new Gradient(['#FFAEA6', '#FF99FD']);
+            // Have the gradient color run between the topLeft and
+            // bottomRight points we defined earlier:
+            var gradientColor = new Color(gradient, topLeft, bottomRight);
+            // Create a rectangle shaped path between
+            // the topLeft and bottomRight points:
+            var path = new Path();
+            function onMouseDown(event) {
+                path = new Path();
+                path.fillColor = gradientColor;
+             
+            
+            }
+
+            var lastPoint;
+            function onMouseDrag(event) {
+                // If this is the first drag event,
+                // add the strokes at the start:
+                if(event.count == 1) {
+                    addStrokes(event.middlePoint, event.delta * -1);
+                } else {
+                    var step = event.delta / 2;
+                    step.angle += 90;
+
+                    var top = event.middlePoint + step;
+                    var bottom = event.middlePoint - step;
+                    //path.strokeColor = gradient;
+                    path.add(top);
+                    path.insert(0, bottom);
+                }
+                path.smooth();
+
+                lastPoint = event.middlePoint;
+            }
+
+            function onMouseUp(event) {
+                var delta = event.point - lastPoint;
+                delta.length = tool.maxDistance;
+                addStrokes(event.point, delta);
+                path.closed = true;
+                path.smooth();
+                
+            }
+
+            function addStrokes(point, delta) {
+                var step = delta.rotate(90);
+                var strokePoints = strokeEnds * 2 + 1;
+                point -= step / 2;
+                step /= strokePoints - 1;
+                for(var i = 0; i < strokePoints; i++) {
+                    var strokePoint = point + step * i;
+                    var offset = delta * (Math.random() * 0.3 + 0.1);
+                    if(i % 2) {
+                        offset *= -1;
+                    }
+                    strokePoint += offset;
+                    path.insert(0, strokePoint);
+                }
+                
+                
+            }
+        </script>   
+
+        <script type=text/javascript>
+            $(document).ready(function(){
+                $("#printbutton").hide();
+                $("#myCanvas").click(function(){
+                    $("#printbutton").show();
+                })
+            });                          
+                                     
+        </script>
+        <script type=text/javascript>
+            $(document).ready(function(){
+            $(".container").on({
+                mousedown: function(){
+            $(".container").css("cursor", "url(brush2-11.png), auto"); 
+           }
+           })
+           });
+    
+    </script>
+       
+<!--
+    <link media="screen" rel="stylesheet" href="popup.css" />
+        <script src="jquery.colorbox-min.js" type="text/javascript"></script>
+
+<script type="text/javascript">   
+$(document).ready(function(e){
+    $(".popup").load("popup.html",function(){alert("loaded")});
+});
+$(funtion(){
+  $(".popup").bind(".popup",function(e){
+    
+    $.colorbox({opacity:0.3, href:"popup.html"})
+});
+  });    
+</script>
+-->
+    
+    
+    </head>
+
+    <body>
+        
+    
+        <div class = "outside">
+            <button id="printbutton" type="button" onclick= print()></button>
+        </div>
+        
+        
+        <div class = "container">
+            
+
+            <canvas id="myCanvas"></canvas>
+            <script language="JavaScript" type="text/javascript" >
+                
+                var paths = [];    
+                //specify random images below. You can have as many as you wish
+                paths.push("squiggle-07.png");
+                paths.push("squiggle-14.png");
+                paths.push("squiggle-18.png");
+//                    myimages[5]="text-10.png";
+//                    myimages[6]="text-11.png";
+//                    myimages[7]="text-12.png";
+//                    myimages[8]="text-13.png";
+//                    myimages[9]="text-14.png";
+//                    myimages[10]="text-15.png";
+                
+                var dots = []; 
+                //specify random images below. You can have as many as you wish
+                dots.push("dots-08.png");
+                dots.push("dots-15.png");
+                dots.push("dots-19.png");
+//                    myimages[5]="dots5.png";
+//                    myimages[6]="dots10.png";
+                
+                var num_images = dots.length;
+               
+                function getRandomIndex(numberOfImages) {
+                    // math.random() -->
+                    // 0 ... 0.9999...
+                    //
+                    
+                    // 0 ... numberOfImages * 0.9999..
+                    
+                    // we want the following:
+                    //
+                    // ( 0...numberOfImages ]
+                    // 0 1 2 ... numberOfImages-1
+                    return Math.floor(Math.random()*numberOfImages);
+                }
+                
+                
+                function setDots(index, dots){ 
+                    //        document.write('<p>'+myimages[ry]+'</p>');
+                    document.write('<center class="image"><img src="' + dots[index] + '"></img></center>');
+    
+                    // <p>This is text1.</p>
+                    // '<img src="' + 'img/hi.jpg' + '"></img>'
+                }
+     
+                function setPath(index, paths){ 
+                    //        document.write('<p>'+myimages[ry]+'</p>');
+                    document.write('<center class="paths"><img src="' + paths[index] + '"></img></center>');
+    
+                }
+     
+                var randomIndex = getRandomIndex(num_images);  
+                
+                setDots(randomIndex, dots);
+                setPath(randomIndex, paths);
+            </script>
+        
+        
+        
+        </div>
+        
+        
+    </body>
+    
+    
+</html>

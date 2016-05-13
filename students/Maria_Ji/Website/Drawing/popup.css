@@ -1,0 +1,25 @@
+
+
+
+.from {
+    position: absolute;
+    width: 1500px;
+    margin-left: -180px;
+    margin-top: 150px;
+    transform: rotate(-5deg);
+}
+
+.to {
+    position:absolute;
+    width: 600px;
+    margin-left: 1100px;
+    margin-top:300px;
+}
+
+svg {
+    
+}
+
+#Layer_1 {
+    transform: scale(.6,.6);
+}

@@ -1,0 +1,25 @@
+#myCanvas{
+    
+    opacity: 1;
+    z-index: 0;
+}
+
+#printbutton{
+    
+    opacity: 0;
+}
+
+.image{
+    
+    opacity:0;
+}
+
+.paths{
+    opacity:1;
+    z-index: 2;
+}
+
+.outside_container{
+    
+    opacity: 0;
+}
