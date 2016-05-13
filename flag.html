@@ -31,7 +31,19 @@
 				left:125px;
 				border-radius: 50px;
 				z-index:5;}
-			
+				
+			.innercircle2Small {
+				height:50px;
+				width:50px;
+				background: pink;
+
+				position: absolute;
+				top:50px;
+				left:175px;
+				border-radius: 50px;
+				z-index:5;
+				transition: 1s all}
+				
 			.darksalmon {
 				background: FFCC99;}
 	
@@ -46,6 +58,18 @@
 				left:125;
 				border-radius: 50px;
 				z-index:5;}
+				
+			.innercircle3Small {
+				height:50px;
+				width:50px;
+				background: pink;
+
+				position: absolute;
+				top:105px;
+				left:175px;
+				border-radius: 50px;
+				z-index:5;
+				transition: 1s all}
 	
 			.innercircle4 {
 				height:50px;
@@ -57,6 +81,18 @@
 				left:125px;
 				border-radius: 50px;
 				z-index:5;}
+				
+			.innercircle4Small {
+				height:50px;
+				width:50px;
+				background: pink;
+
+				position: absolute;
+				top:160px;
+				left:175px;
+				border-radius: 50px;
+				z-index:5;
+				transition: 1s all}
 			
 			.lemon2 { border-radius: 50%;
 				width: 202px; height: 433px;
@@ -95,16 +131,30 @@
 				}
 			
 			.pinktop {
-				background: white;
+				background: pink;
 				position: absolute;
 				border: none;
 				left: 80px;
-				top: 75px;
-				width: 100px;
-				height: 100px;
+				top: 55px;
+				width: 150px;
+				height: 150px;
 				border-radius: 10px;
 				z-index:25;
 				-webkit-transform:rotate(45deg);
+				transition: 1s all
+				}
+			.pinktop-rotate {
+				background: white;
+				position: absolute;
+				border: none;
+				left: 300px;
+				top: 120px;
+				width: 20px;
+				height: 20px;
+				border-radius: 5px;
+				z-index:25;
+				-webkit-transform:rotate(90deg);
+				transition: 1s all;
 				}
 
 			.yellow {
@@ -118,6 +168,7 @@
 				border-radius: 250px;
 				overflow: hidden;
 				z-index:20;}
+			
 			.aliceblue {
 				background: aliceblue; }
 			.nudge {
@@ -134,23 +185,50 @@
 				border-radius:.5px;
 				transform:rotate(190deg);
 				z-index:0;
-			}
-		
-		.blackrectangleblackborder {
-		position: absolute;
-		background: white;
-		top:50px;
-		margin-left:0px;
-		width: 450px; height: 70px;
+					}
+			.blackrectangleblackborder {
+				position: absolute;
+				background: white;
+				top:50px;
+				margin-left:0px;
+				width:800px; height: 70px;
 	
-		
-		transform:rotate(200deg);
-		z-index:20;
-		}
-		.beue {
-		background: #CC9999;
-		}
+				transform:rotate(200deg);
+				z-index:20;
+				}
+			.blackrectangleblackborder-rot {
+				position: absolute;
+				background: purple;
+				top:50px;
+				margin-left:0px;
+				width: 800px; height: 70px;
+				transition: 1s all;
+				transform:rotate(90deg);
+				z-index:20;
+					}
+			.beue {
+				background: #CC9999;
+					}
+			.pink {
+				width: 400px; height: 250px;
+				background: pink; margin:20px;
+				position: relative;
+				overflow: hidden;
+				transition: 1s all
+					}
+			.triangle {
+			
+				border-left: 50px solid transparent;
+				border-right: 50px solid transparent;
+				border-bottom: 100px solid red;
+					
+				opacity: .15;
+				float:left;
+				border-radius:100%;
+				z-index:10;
+				}
 		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	</head>
 	
 	<body>
@@ -163,6 +241,27 @@
 			<div class="innercircle3"></div>
 			<div class="innercircle4"></div> 
 		</div>
+		<script>
+			$(".flag").click(function() {
+				$(this).toggleClass("pink");
+			});
+		</script>
+		<script>
+			$(".innercircle2").click(function() {
+				$(this).toggleClass("innercircle2Small");
+			});
+		</script>
+		<script>
+			$(".innercircle3").click(function() {
+				$(this).toggleClass("innercircle3Small");
+			});
+		</script>
+		<script>
+			$(".innercircle4").click(function() {
+				$(this).toggleClass("innercircle4Small");
+			});
+		</script>
+
 		<div class="flag">
 			<div class="lemon lemon2"> </div>
 			<div class="lemon3 lemon2"> </div>
@@ -173,16 +272,37 @@
 			<div class = "pinktop"> </div>
 			<div class = "yellow"> </div>
 			
-		</div>
+		
+		<script>
+			$(".pinktop").click(function() {
+				$(this).toggleClass("pinktop-rotate");
+			});
+		</script>
+		<script>
+			$(".pinktop-rotate").click(function() {
+				$(this).toggleClass("pinktop");
+			});
+		</script>
+			</div>
 		<div class="flag"> 
 			
 			
 			<div class = "yellow "> </div>
 			<div class = "redrectangleblackborder "> </div>
+			<script>
+			$(".pinktop-rotate").click(function() {
+				$(this).toggleClass("pinktop");
+			});
+		</script>
 		</div>
 		<div class="flag beue"> 
 			
 			<div class = "blackrectangleblackborder"> </div>
+			<script>
+			$(".blackrectangleblackborder").click(function() {
+				$(this).toggleClass("blackrectangleblackborder-rot");
+			});
+		</script>
 		</div>
 	
 	</body>
