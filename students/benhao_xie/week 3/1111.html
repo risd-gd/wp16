@@ -1,0 +1,43 @@
+<html>
+	<head>
+		<title>ha</title>
+		<style>
+			
+			div{
+				width:100px;
+				height:100px;
+				
+				background: lightblue;
+				transition: 2s all;
+			
+			}
+			
+			div:hover { 
+				background:blue;
+				margin-top:100px;
+				transform: rotate (90deg);
+				width: 200px;
+				}
+			
+			.blueDiv
+			.grow {transform: scale (1.2);
+				background:blue;}
+		
+		</style>
+	</head>
+	
+	<body>
+	
+		<div class="box" id="nav"></div>
+		<div class="box"></div>
+		<div class="box"></div>
+		
+		
+		<script>
+			$(".box").click (function){
+				$(this). toggleClass("blueDiv")
+				});
+		</script>
+	</body>
+	
+</html>

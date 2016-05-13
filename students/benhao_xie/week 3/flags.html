@@ -145,17 +145,9 @@
 				position: relative;
 				}
 			
-			.flag3span { 
-				width: 600px; 
-				height: 400px;
-				background:solid pink;
-				opacity:.7;
-				margin:20px;
-				position: relative;
-				}
-			
+
 			.span {
-				display: none;
+				background:pink;
 				}
 	
 			.lemon2 { 
@@ -328,21 +320,16 @@
 		</script>
 		
 		<div class="flag3"> 
-			
-				<div class="lemon2">
-					<div class="lemon lemon2">
-						<div class="f3tri1"></div>
-					</div>
+			<div class="lemon2">
+				<div class="lemon lemon2">
+					<div class="f3tri1"></div>
 				</div>
-				<div class= "flag3span"><span></span></div>
+			</div>
 		</div>
 		
 		<script>
 			$( "flag3" ).click(function() {
- 				$("flag3span").fadeIn( 3000, function() {
-   					$( "span" ).fadeIn( 100 );
-  			});
-  				return false;
+ 				$(this).toggleClass("span");
 			});
 		</script>
 		
