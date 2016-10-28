@@ -1,0 +1,206 @@
+<html>
+				<head>
+<style>
+
+*{cursor:none}
+
+	body{background-color:#fcefef;
+	overflow-x:hidden;}
+	
+	p {font-family: 'Space Mono', monospace;
+	margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    color:#0000ff
+    }
+    
+	#mysidenav{position:fixed;
+	top:105px;}
+	
+	.sidenav {
+    height: 140px; 
+    width: 0; 
+    position: fixed; 
+    z-index: 999;
+    left: 0;
+    background-color: #bcbcbc; 
+    overflow-x: hidden; 
+    padding-top: 30px; 
+	transition: 0.5s;}
+	
+	#projnav{position:fixed;
+	top:20em;}
+	
+    
+    .sidenav a {
+    font-family: 'Space Mono', monospace;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #0000ff;
+    display: block;
+    transition: 0.3s;
+    border-right:black;
+    border-bottom:black;
+    border-left:white;
+    border-top:white;
+    border-style:solid;}
+    
+    .sidenav a:hover{text-decoration: underline;}
+    
+    .sidenav .closebtn {
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    font-size: 18px;
+    margin-left: 50px;
+    padding:1px;}
+	
+	@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 8px;}}
+
+	.u{text-decoration: underline;}
+	
+	.txtright {text-align:right;}
+	
+	.fltright {float:right;}
+	
+	.work {height:auto; max-width:850px; width:100%;padding:2vw;
+	margin-left: 5vw; }
+	
+	@font-face {font-family: 'Space Mono', monospace;}
+	
+	#contact{transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    position:Fixed;
+    margin:0;
+    top:8em;
+    left:-1em;
+    z-index:999;
+    }
+    
+    #projects{transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    position:Fixed;
+    margin:0;
+    top:24em;
+    left:-1em;
+    z-index:999;
+    }
+    
+    #contact:hover{text-decoration: underline;}
+    
+    #projects:hover{text-decoration: underline;}
+	
+	
+	#header-fixed { position:fixed; top:0px; width:80vw;
+	background:none; z-index:99999; overflow:hidden; margin-left:10vw; margin-right:10vw; color:#000;}
+	
+	h1 {color:#0000ff;
+	font-family: 'Space Mono', monospace;  display:inline; text-align-last: right; margin:0; width:50vw;
+	 background:none;}
+	
+	#myimg {
+ 	position: absolute;
+ 	top:-20vw;
+ 	left:-20vw;
+  	width:5%;
+  	height:5%;
+  	z-index: 999999999999999;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);}
+    
+
+	#content {width:80vw; background:white; 
+	position:relative;
+	top:20vh;
+	margin-left:10vw;
+	}
+</style>
+
+ <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+ 
+ <script>function openNav1() {
+    document.getElementById("mysidenav").style.width = "200px";
+}</script>
+
+<script>function closeNav1() {
+    document.getElementById("mysidenav").style.width = "0";
+}</script>
+
+ <script>function openNav(projnav) {
+    document.getElementById("projnav").style.width = "200px";
+}</script>
+
+<script>function closeNav(projnav) {
+    document.getElementById("projnav").style.width = "0";
+}</script>
+	
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	
+<title>Pablo-Gladwish</title>
+				</head>
+				
+				<body>
+				
+				<div id="header-fixed"><h1>Pablo</h1>
+		<h1 class="txtright fltright">Gutierrez-Gladwish</h1>
+				</div>
+				
+				<p id="CONTACT" onclick="openNav1(mysidenav)" onclick="openNav1(mysidenav)">CONTACT</p>
+
+				
+				<div id="mysidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav1(mysidenav)">&times;</a>
+  <a href="mailto:pgutierr@risd.edu">pgutierr@risd.edu</a>
+  <a href="https://goo.gl/maps/8dTGGiuZq8s">2 college st #690<br>Providence RI</a>
+  <a href="https://www.behance.net/pgutierr3fb9">Behance</a>
+   				</div>
+  				
+  				<p id="projects" onclick="openNav(projnav)">PROJECTS</P>
+  				<div id="projnav" class="sidenav">
+  				<a href="javascript:void(0)" class="closebtn" onclick="closeNav(projnav)">&times;</a>
+  <a href="mailto:pgutierr@risd.edu">pgutierr@risd.edu</a>
+  <a href="https://goo.gl/maps/8dTGGiuZq8s">2 college st #690<br>Providence RI</a>
+  <a href="https://www.behance.net/pgutierr3fb9">Behance</a>
+   				</div>
+  				</div>
+				
+				
+				<div id="content">
+				<p class="u"><br>ReBrandings: Anti-Fur Campaign</p>
+				<img class="work" src="IMG_6603.jpg"/>
+				<p>Mailing list ephemera</p>
+				<img class="work" src="IMG_6604.jpg"/>
+				<img class="work" src="IMG_6606.jpg"/>
+				<img class="work" src="IMG_6607.jpg"/>
+				<img class="work" src="IMG_6608.jpg"/>
+				<img class="work" src="IMG_6610.jpg"/>
+				<img class="work" src="IMG_6611.jpg"/>
+				<img class="work" src="IMG_6612.jpg"/>
+				
+				</div>
+
+
+
+				
+  	<div id="sketch"></div>
+  	<img src="giphy.gif" class="follow" id="myimg"/>
+				
+				
+	
+	<script>$(document).on('mousemove', function(e){
+    $('#myimg').css({
+       left:  e.pageX,
+       top:   e.pageY 
+    });
+}); </script>
+
+
+
+
+
+	</body>
+</html>
